@@ -1,5 +1,5 @@
 <template>
-  <v-tooltip location="end" max-width="300">
+  <v-tooltip location="end" max-width="400">
     <span v-html="description"></span>
     <template v-slot:activator="{ props }">
       <div v-bind="props" class="d-flex flex-column align-center">

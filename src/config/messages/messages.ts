@@ -197,12 +197,14 @@ export const messages = {
     skillPoints: 'Points de Compétences',
     originPoints: 'Points d\'Historiques',
     potentialPoints: 'Points de Potentiels',
+    legaciesPoints: 'Points d\'Héritage',
     origins: 'Historiques',
     potentials: 'Potentiels',
     concept: 'Concept',
     culture: 'Culture',
     cult: 'Culte',
     clan: 'Clan',
+    legacies: 'Héritages',
     characterName: 'Nom',
     saveCharacter: 'Sauvegarder',
     loadCharacter: 'Charger',
@@ -250,10 +252,11 @@ export const messages = {
     introduction: {
       whatIsIt: 'Qu\'est-ce que sait ?',
       whatIsItText1:
-  'Ceci est un éditeur de personnage pour Katharsys, le système de règles ' +
+  'Ceci est un éditeur de personnage pour Katharsys et Artéfacts, le système de règles ' +
   'utilisé par le jeu de rôle Degenesis. Vous pouvez utiliser ce site pour créer de nouveaux personnages ainsi que ' +
   'consulter et modifier ceux que vous avez créés précédemment. Pour chaque personnage, vous pouvez consulter un aperçu ' +
-  'de la feuille de personnage. Cette feuille de personnage peut également être exportée sous forme de fichier PDF imprimable.',
+  'de la feuille de personnage. Cette feuille de personnage peut également être exportée sous forme de fichier PDF imprimable.' +
+  'Le texte a été traduit des pdf et du site par Katsu. Il peut y avoir des différences entre la traduction d\'Edge et celle de Katsu.',
 whatIsItText2:
   'Tous vos personnages, ainsi que toutes les modifications qui leur sont apportées, sont sauvegardés dans le stockage local de votre navigateur. ' +
   'Cela signifie qu\'à chaque fois que vous visitez cette page avec le même navigateur, vous pourrez voir vos ' +
@@ -266,7 +269,8 @@ whatIsItText2:
 whatIsItText3:
   'Diskordanz (Développeur originel du site) : « Le code source de cette page est disponible sur {0}. L\'intention est de rendre cette application ' +
   'accessible à toute personne souhaitant l\'exécuter elle-même. Je veux éviter une situation similaire à celle du ' +
-  'générateur officiel, qui a précédemment été indisponible pendant de longues périodes. » La communauté française remerci Diskordanz pour son travail'
+  'générateur officiel, qui a précédemment été indisponible pendant de longues périodes. » La communauté française remerci Diskordanz pour son travail.' +
+  'Nous remercions également Azora pour l\'hébergement de ce character generator français. Cela nous permet de l\'avoir à moindre coût. Grand merci à lui !'
     }
   }
 }

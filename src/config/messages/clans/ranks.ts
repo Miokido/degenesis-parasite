@@ -194,76 +194,76 @@ export const clanRanks = {
     	
 		// Clanistes Description
 // Clanistes
-'hunterGatherers-scoutDescription': 'Jeunes, rapides et de petite taille, ils s’introduisent dans un monde de canalisations et de couloirs. ' +
-  'Ils sautent par-dessus les débris comme s’ils n’existaient pas. Ils observent et signalent tout mouvement ennemi.<br/><br/>' +
+'hunterGatherers-scoutDescription': 'Jeunes et agiles, ces individus de petite stature se faufilent à travers un dédale de tunnels et de passages étroits. ' +
+  'Les obstacles jonchant leur chemin ne les ralentissent pas. Ils observent les mouvements adverses et transmettent ces informations au Clan.<br/><br/>' +
   'CONDITION : -<br/>' +
-  'EFFET : l’Éclaireur observe l’ennemi et sécurise les frontières du Clan. Il obtient +1D à tous les jets d’attaque quand il défend le Clan.<br/>' +
+  'EFFET : l\'Éclaireur surveille les ennemis et veille sur les limites territoriales du Clan. Il bénéficie de +1D à tous les jets d\'attaque lorsqu\'il protège le Clan.<br/>' +
   'ÉQUIPEMENT : masse primitive ; fronde ; si Niveau technologique >2, révolver simple',
 
-'hunterGatherers-hunterDescription': 'Ils chassent le cerf ou le bétail sauvage, les traquent jusqu’à ce qu’ils s’épuisent, puis les abattent d’un coup de lance. ' +
-  'Ils errent parfois dans les étendues sauvages pendant plusieurs jours, à suivre des traces ou bien à patienter. ' +
-  'Leur clan attend toujours avec grande impatience qu’ils reviennent avec leurs proies.<br/><br/>' +
+'hunterGatherers-hunterDescription': 'Ils pistaient chevreuils et ruminants sauvages sur de longues distances, attendant leur épuisement avant de porter le coup fatal. ' +
+  'Des expéditions de plusieurs jours dans les terres désolées, à suivre les traces ou à guetter patiemment. ' +
+  'Le retour du Chasseur, gibier en main, est toujours célébré avec ferveur par les siens.<br/><br/>' +
   'CONDITION : PHY+VIGUEUR 4 ; AGI+ARMES À PROJECTILES 6 ; INS+SURVIE 6<br/>' +
-  'EFFET : sur le territoire de son Clan, le Chasseur obtient +2D quand il part en quête de proies. ' +
-  'Le Chasseur possède une connaissance remarquable de son environnement (+2D à AGI+FURTIVITÉ).<br/>' +
+  'EFFET : sur les terres de son Clan, le Chasseur gagne +2D lors de ses expéditions de chasse. ' +
+  'Sa maîtrise de l\'environnement naturel est remarquable (+2D à AGI+FURTIVITÉ).<br/>' +
   'ÉQUIPEMENT : pièges ; lance ; arc ou, si Niveau technologique >3, fusil de chasse',
 
-'hunterGatherers-gathererDescription': 'Ils connaissent leur territoire, savent quelles plantes portent des fruits à une saison particulière, et comment les cuire. ' +
-  'En règle générale, ils ont aussi la charge des enfants du clan.<br/><br/>' +
+'hunterGatherers-gathererDescription': 'Chaque saison, ils savent quelles plantes fructifient et comment les préparer. ' +
+  'Ils assurent également, le plus souvent, la garde et l\'éducation des plus jeunes membres du clan.<br/><br/>' +
   'CONDITION : CHA+NÉGOCIATION 4 ; CHA+CONSIDÉRATION 6 ; INS+ORIENTATION 6<br/>' +
-  'EFFET : le Cueilleur connaît la terre, ses fruits et ses cycles de production (+2D quand il cherche des baies et des racines) ' +
-  'et sait quand il faut s’approvisionner auprès des marchands. Les Cueilleurs maintiennent de bonnes relations avec les autres Clans et préservent ainsi la paix.<br/>' +
+  'EFFET : le Cueilleur maîtrise le territoire, ses ressources végétales et ses rythmes naturels (+2D pour la recherche de baies et de racines) ' +
+  'et sait identifier le bon moment pour commercer avec les marchands itinérants. Leurs aptitudes diplomatiques apaisent les tensions entre Clans voisins.<br/>' +
   'ÉQUIPEMENT : cartes en cuir ordinaires (+1D à INS+ORIENTATION)',
 
-'hunterGatherers-tribalWarriorDescription': 'Les gendos errent parmi les ruines, prêts à tout pour tuer quelques enfants du clan. ' +
-  'Les hors-la-loi et les clans convoitent chaque racine dans la soupe du clan voisin. ' +
-  'Les Guerriers se dressent entre leur clan et un monde de malveillance. ' +
-  'Autrefois, la recherche de nourriture représentait tout pour eux. Aujourd’hui, leur vie tourne entièrement autour de la guerre.<br/><br/>' +
+'hunterGatherers-tribalWarriorDescription': 'Les gendos rôdent parmi les décombres, animés d\'une volonté de détruire les plus faibles du clan adverse. ' +
+  'Hors-la-loi et clans rivaux s\'arrachent chaque ressource de subsistance. ' +
+  'Les Guerriers constituent le rempart entre les leurs et un monde hostile. ' +
+  'Autrefois préoccupés avant tout par la survie alimentaire, ils consacrent désormais leur existence entière au métier des armes.<br/><br/>' +
   'CONDITION : PHY+CORPS À CORPS 8 ; AGI+ARMES À PROJECTILES 6 ; PHY+LUTTE 7 ou si Niveau technologique >2 AGI+ARTISANAT 7 ; RENOMMÉE 3<br/>' +
-  'EFFET : au sein d’un Clan guerrier, le Guerrier Tribal obtient +2 AUTORITÉ. ' +
-  'Les Cueilleurs et les Chasseurs le nourrissent ; son travail consiste à s’entraîner quotidiennement contre les autres guerriers du Clan. ' +
-  'À un niveau technologique supérieur, il tient le rôle de technicien et de maître d’armes.<br/>' +
+  'EFFET : au sein d\'un Clan guerrier, le Guerrier Tribal gagne +2 AUTORITÉ. ' +
+  'Nourri par Cueilleurs et Chasseurs, il s\'entraîne quotidiennement au combat avec ses frères d\'armes. ' +
+  'À un niveau technologique supérieur, il endosse les fonctions de technicien et d\'instructeur militaire.<br/>' +
   'ÉQUIPEMENT : épée ou autre arme de Corps à corps ; à un Niveau technologique >3, fusil automatique ou à pompe',
 
-'hunterGatherers-shamanDescription': 'La violence fait partie intégrante de la nature, cela va de soi. Cependant, il existe des personnes qui ne sont pas faites pour cela. ' +
-  'Elles préfèrent sonder les profondeurs de l’âme humaine et identifier les motifs dans les nuages ou dans une pile d’ossements. ' +
-  'Leur sensibilité éveille le chaman en elles. À partir d’herbes et de graisse animale, elles préparent des baumes qui guérissent les blessures rapidement ou qui réveillent la virilité. ' +
-  'Elles sont le cœur même de leur clan.<br/><br/>' +
+'hunterGatherers-shamanDescription': 'La brutalité du monde est une évidence. Mais certains individus ne sont pas façonnés pour y participer. ' +
+  'Ils préfèrent explorer les tréfonds de la condition humaine, déceler des signes dans les nuages ou dans un amoncellement d\'os. ' +
+  'Cette sensibilité particulière éveille en eux le don chamanique. Ils élaborent, à partir de plantes et de matières animales, des remèdes qui accélèrent la guérison ou restaurent la vigueur. ' +
+  'Ils constituent l\'âme profonde du clan.<br/><br/>' +
   'CONDITION : CHA+NÉGOCIATION 7 ; INT+LÉGENDES 8 ; INS+EMPATHIE 7 ; SECRETS 3<br/>' +
-  'EFFET : le Chaman lutte contre le sort pour l’avenir de son Clan. ' +
-  'Il bénit les talismans, capture les esprits ancestraux et les forces divines dans des tatouages (conférant +1D à PSY+FOI), ' +
-  'et prépare spirituellement les guerriers à leur mort au combat. ' +
-  'À un Niveau technologique >2, le Chaman se transforme en Sage, chargé de conserver et de faire appliquer les lois du Clan (+2D à INT+LÉGENDES).<br/>' +
-  'ÉQUIPEMENT : colliers d’os ; talismans ; pierres divinatoires ; à un Niveau technologique >2, livres de loi, contrats, marque du Clan sur du fer ou de la pierre',
+  'EFFET : le Chaman affronte le destin pour préserver son Clan. ' +
+  'Il sanctifie les talismans, emprisonne les esprits ancestraux et les puissances divines dans des tatouages (conférant +1D à PSY+FOI), ' +
+  'et prépare rituellement les guerriers à l\'éventualité de la mort. ' +
+  'À un Niveau technologique >2, le Chaman devient Sage, garant de la mémoire juridique et de l\'application des règles claniques (+2D à INT+LÉGENDES).<br/>' +
+  'ÉQUIPEMENT : colliers d\'os ; talismans ; pierres divinatoires ; à un Niveau technologique >2, livres de loi, contrats, marque du Clan sur du fer ou de la pierre',
 
-'hunterGatherers-championDescription': 'Il mena son clan à la bataille des dizaines de fois, il remporta chaque combat et duel par la force et par la ruse. ' +
-  'Guerrier exalté, il est l’archétype vivant de la force et du contrôle de soi. ' +
-  'Et s’il venait à quitter le clan pour rejoindre le Père de toute chose, ses enfants et ses petits-enfants déposeraient devant lui des sacrifices et se souviendraient de ses exploits.<br/><br/>' +
+'hunterGatherers-championDescription': 'Des dizaines de batailles à la tête du clan, chaque confrontation remportée par la puissance physique et l\'intelligence tactique. ' +
+  'Figure guerrière vénérée, il incarne la force et la maîtrise de soi dans leur expression la plus pure. ' +
+  'S\'il devait rejoindre le Père de toute chose, ses descendants lui offriraient des offrandes et perpétueraient le souvenir de ses hauts faits.<br/><br/>' +
   'CONDITION : PHY+FORCE 8 ou CHA+ART 8 ; Compétence de Combat (PHY+LUTTE, PHY+CORPS À CORPS ou AGI+ARMES À PROJECTILES) ou de Technologie (INT+TECHNOLOGIE, INT+SCIENCE ou INT+CONNAISSANCE DES ARTEFACTS) 10 ; RENOMMÉE 6<br/>' +
-  'EFFET : seules la force brute et la ruse comptent dans les Clans primitifs. ' +
-  'Ceux qui excellent et confèrent la victoire au Clan deviennent des Champions dont on se souviendra à jamais. ' +
-  'Le Chaman loue la force légendaire du Champion et ses Guerriers Tribaux aspirent à lui ressembler. ' +
-  'Dans les communautés plus avancées (Niveau technologique >2), les ingénieurs et les artistes peuvent également atteindre cette reconnaissance ultime, et mener le clan en donnant l’exemple. ' +
-  'Mais qu’il soit cultivé ou primitif, le Champion a accès à toutes les ressources du Clan.<br/>' +
+  'EFFET : dans les Clans primitifs, seules la puissance et l\'astuce déterminent le rang. ' +
+  'Ceux qui excellent et font pencher la balance vers la victoire accèdent au statut de Champion, gravé dans la mémoire collective. ' +
+  'Le Chaman exalte la valeur légendaire du Champion, et les Guerriers Tribaux aspirent à marcher dans ses traces. ' +
+  'Dans les communautés plus développées (Niveau technologique >2), ingénieurs et artistes peuvent également atteindre cette reconnaissance suprême et guider le clan par l\'exemple. ' +
+  'Primitif ou érudit, le Champion dispose sans restriction des ressources du Clan.<br/>' +
   'ÉQUIPEMENT : -',
 
-    'hunterGatherers-chieftainDescription': 'Le sentier de la guerre mène jusqu’au sommet aussi assurément que les voies de l’union. ' +
-  'Guerrier, il surpassa tous les autres, capable de mettre à terre le plus fort de ses adversaires d’un seul coup. ' +
-  'Chaman, il démontra sa sagesse et sa prévoyance, et il ouvrit aussi le clan au monde des esprits et de la foi. ' +
-  'Désormais chef de son clan, il lui faut mener les siens. Personne ne remettra ouvertement ses décisions en question.<br/><br/>' +
+'hunterGatherers-chieftainDescription': 'La voie des armes mène au sommet avec autant de certitude que les alliances matrimoniales. ' +
+  'En tant que guerrier, il surpassa ses pairs, capable de terrasser le plus redoutable de ses adversaires d\'un seul coup. ' +
+  'En tant que chaman, il fit la preuve de sa sagesse et de sa clairvoyance, ouvrant le clan aux dimensions spirituelles et religieuses. ' +
+  'Désormais à la tête de son clan, il lui appartient de conduire les siens. Nul ne s\'opposera publiquement à ses décisions.<br/><br/>' +
   'CONDITION : Le Chef actuel doit laisser sa place ; AUTORITÉ 5 ; ALLIÉS 5 ; RESSOURCES 3<br/>' +
-  'EFFET : jadis simple guerrier ou chef spirituel, le Chef poursuivra sa voie en tant qu’incarnation solitaire de l’autorité. ' +
-  'Il mène des campagnes ou renforce les relations entre voisins et développe le village.<br/>' +
-  'ÉQUIPEMENT : l’arme préférée du Clan, améliorée une fois ; le symbole de son règne est une coiffe, un masque, un casque ou une armure et une chevalière',
+  'EFFET : ancien guerrier ou guide spirituel, le Chef continue son parcours en tant que seule incarnation du pouvoir. ' +
+  'Il dirige des campagnes militaires ou consolide les liens avec les voisins tout en développant l\'établissement.<br/>' +
+  'ÉQUIPEMENT : l\'arme préférée du Clan, améliorée une fois ; le symbole de son règne est une coiffe, un masque, un casque ou une armure et une chevalière',
 
-    'hunterGatherers-founderDescription': 'Il fut toujours doté d’une grande vision d’ensemble. Grâce à la ruse et à la diplomatie, les autres se rangèrent de son côté et, une tribu éclatée après l’autre, toutes le rejoignirent. ' +
-  'Il ramassa les morceaux et en réunit la majorité : un nouveau clan vit le jour. ' +
-  'Pour les membres du clan, il est un père, un frère, un prêtre et un chef.<br/><br/>' +
+'hunterGatherers-founderDescription': 'Sa capacité à envisager l\'avenir dans sa globalité le distingua toujours. Par l\'ingéniosité et la diplomatie, il rallia d\'autres à sa cause et, clan dispersé après clan dispersé, tous finirent par le rejoindre. ' +
+  'Il rassembla les fragments épars et en assembla la majeure partie : un nouveau clan émergea. ' +
+  'Pour ses membres, il est à la fois père, frère, prêtre et chef.<br/><br/>' +
   'CONDITION : a unifié les familles pour former un Clan. CHA+COMMANDEMENT 10 ; CHA+CONSIDÉRATION 10 ou PSY+DOMINATION 10 ; AUTORITÉ 6<br/>' +
-  'EFFET : que ce soit par les armes ou par la diplomatie, le Fondateur a unifié plusieurs Clans, créé un melting-pot et formé une alliance durable. ' +
-  'Un nouveau Clan est né. Le Fondateur détient ainsi un pouvoir qui l’oppose aux Cultes établis. ' +
-  'Il est très demandé ; tout le monde l’aborde, y compris les diplomates et les assassins. ' +
-  'La moindre de ses décisions peut faire trembler des fondations établies depuis des siècles.<br/>' +
+  'EFFET : par les armes ou la négociation, le Fondateur a fédéré plusieurs Clans, créé une fusion culturelle et tissé une alliance durable. ' +
+  'Un nouveau Clan est né. Le Fondateur exerce ainsi une influence qui le place en opposition aux Cultes en place. ' +
+  'Tout le monde cherche à l\'approcher, qu\'il s\'agisse de diplomates ou d\'assassins. ' +
+  'Chacune de ses décisions peut ébranler des équilibres établis depuis des générations.<br/>' +
   'ÉQUIPEMENT : le symbole de son règne est une arme spéciale ou un objet sacré.',
-  }
+}
 }

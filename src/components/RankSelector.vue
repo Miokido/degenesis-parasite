@@ -4,7 +4,7 @@
   </div>
   <v-divider class="mb-4"></v-divider>
 
-  <v-tooltip location="top" v-for="rank in ranks()" v-bind:key="rank.name" max-width="300">
+  <v-tooltip location="top" v-for="rank in ranks()" v-bind:key="rank.name" max-width="500">
     <template v-slot:activator="{ props }">
       <div
         v-bind="props"

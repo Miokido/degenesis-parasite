@@ -11,7 +11,11 @@
             labelNarrow: count >= 6
           }"
         >
-          <div class="wrap">
+          <div class="wrap" v-if="type == 'potentials' || type == 'legacies'">
+            <span :class="{mainLabel: props.altLabel, 'text-decoration-line-through': !active}" :style="{fontSize: type == 'potentials' ? 'small' : 'inherit'}">{{ props.altLabel ? props.altLabel : props.label }}</span>
+            <span v-if="props.label != ''" class="altLabel text-grey-darken-1 text-caption">{{ props.label }}</span>
+          </div>
+          <div class="wrap" v-else>
             <span :class="{mainLabel: props.altLabel, 'text-decoration-line-through': !active}">{{ props.label }}</span>
             <span v-if="props.altLabel != ''" class="altLabel text-grey-darken-1 text-caption">{{ props.altLabel }}</span>
           </div>

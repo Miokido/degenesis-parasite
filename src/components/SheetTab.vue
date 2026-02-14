@@ -19,6 +19,16 @@
       <div class="elevation-10">
         <div id="sheet" class="bg-white">
           <v-container>
+            <v-row class="row mb-4">
+              <v-col class="d-flex justify-center">
+                <div class="logo">
+                  <img src="@/assets/degenesis.svg" type="image/svg+xml" />
+                  <div class="appName label text-uppercase d-flex justify-center">
+                    {{ appName }}
+                  </div>
+                </div>
+              </v-col>
+            </v-row>
             <v-row class="row">
               <v-col class="coreDataBlock pt-8">
                 <SheetText
@@ -34,12 +44,16 @@
                 ></SheetText>
                 <SheetText class="mb-1" :title="$t('messages.experience')" text=""></SheetText>
               </v-col>
-              <v-col class="d-flex justify-center">
-                <div class="logo">
-                  <img src="@/assets/degenesis.svg" type="image/svg+xml" />
-                  <div class="appName label text-uppercase d-flex justify-center">
-                    {{ appName }}
-                  </div>
+              <v-col class="coreDataBlock pt-8">
+                <SheetText
+                    class="mb-1"
+                    :text="$t('messages.legacies').toUpperCase()"
+                  ></SheetText>
+                <div v-for="{ potential, value } in legacies()" :key="potential">
+                  <SheetText
+                    class="mb-1"
+                    :text="potential"
+                  ></SheetText>
                 </div>
               </v-col>
               <v-col class="coreDataBlock pt-8">
@@ -380,7 +394,17 @@ const potentials = () => {
   return Array.from(store.potentials.entries())
     .filter((x) => x[1] > 0)
     .map(([p, v]) => {
-      const label = store.displayTranslatedLabels ? i18n.t(`potentials.${p.name}`) : englishName(p)
+      const label = i18n.t(`potentials.${p.name}`)
+      return { potential: label, value: v }
+    })
+    .sort((p1, p2) => p1.potential.localeCompare(p2.potential))
+    .slice(0, 6)
+}
+const legacies = () => {
+  return Array.from(store.legacies.entries())
+    .filter((x) => x[1] > 0)
+    .map(([p, v]) => {
+      const label = i18n.t(`legacies.${p.name}`)
       return { potential: label, value: v }
     })
     .sort((p1, p2) => p1.potential.localeCompare(p2.potential))

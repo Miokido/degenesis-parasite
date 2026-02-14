@@ -209,7 +209,7 @@
                     <v-col cols="12" sm="4" lg="3" xl="2">
                       <PointMeter
                         :active="store.editorMode != EditorMode.Free"
-                        :title="$t('messages.legacyPoints')"
+                        :title="$t('messages.legaciesPoints')"
                         :value="store.spentPoints.legacies"
                         :max="availablePoints.legacies"
                       ></PointMeter>

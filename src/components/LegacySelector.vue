@@ -29,7 +29,7 @@
           :display-max="store.editorMode != EditorMode.Free"
           @mouseenter="store.setHighlighted(...requirements(legacy))"
           @mouseleave="store.unsetHighlighted(...requirements(legacy))"
-          type="legacy"
+          type="legacies"
         >
         </ValueSelector>
       </v-col>

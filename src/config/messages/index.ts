@@ -6,6 +6,7 @@ import { ranks } from "./ranks";
 import { potentials } from "./potentials";
 import { clanNames } from "./clans/names";
 import { clanRanks } from "./clans/ranks";
+import { legacies } from "./legacies";
 
 export default {
   de: {
@@ -34,5 +35,6 @@ export default {
     sheet: sheet.fr,
     potentials: potentials.fr,
     clans: clanNames.fr,
+    legacies: legacies.fr
   }
 }
