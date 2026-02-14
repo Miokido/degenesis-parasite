@@ -273,8 +273,8 @@ whatIsItText2:
 whatIsItText3:
   'Diskordanz (Développeur originel du site) : « Le code source de cette page est disponible sur {0}. L\'intention est de rendre cette application ' +
   'accessible à toute personne souhaitant l\'exécuter elle-même. Je veux éviter une situation similaire à celle du ' +
-  'générateur officiel, qui a précédemment été indisponible pendant de longues périodes. » La communauté française remerci Diskordanz pour son travail.' +
-  'Nous remercions également Azora pour l\'hébergement de ce character generator français. Cela nous permet de l\'avoir à moindre coût. Grand merci à lui !'
+  'générateur officiel, qui a précédemment été indisponible pendant de longues périodes. » La communauté française remercie Diskordanz pour son travail.' +
+  'Nous remercions également Azora pour l\'hébergement de ce character generator français. Cela nous permet de l\'avoir à moindre coût. Grand merci à lui ! Merci également à Miokido pour le développement.'
     }
   }
 }

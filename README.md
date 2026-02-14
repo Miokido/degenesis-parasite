@@ -41,6 +41,8 @@ _Parasite_ is a community creation for the tabletop role playing game [Degenesis
 
 _Parasite_ is a french fork of the _Noret_ project by [Diskordanz][diskordanz].
 
+Translation by Katsu.
+
 [degenesis]: https://degenesis.com
 [smv]: https://www.sixmorevodka.com
 [diskordanz]: https://github.com/diskordanz
