@@ -3,9 +3,12 @@ import { Cults } from './cults/cults'
 import { Concept, Culture } from './model'
 import { Attributes as A, Origins, Skills as S, Skills } from './properties'
 
-const AppName = 'Noret'
-const AppTagLine = 'cryogenic vaults'
-const SourceCodeRepo = 'https://gitlab.com/diskordanz/noret'
+const possiblesTagLines = ['2148 WAS A VERY GOOD YEAR.', 'ARGYRE DID NOTHING WRONG!', 'TRIGLAW MALWARE DETECTED', '7 CORRESPONDERS', '8 EST LE NOMBRE DU CRÉATEUR', '12 EST LE NOMBRE DU CHACAL', '16 EST LE NOMBRE DE L\'ÉTRANGER', '51° 1\' 37.938\'\' N ; 9° 56\' 55.8564\'\' E', 'AMORCE ∞ STREAM', 'DESTINATION FINALE : BAÏKONOUR', 'OCTUS N\'EST PAS TOMBÉ POUR RIEN', 'BEAUCOUP DE RELIGIONS ONT BESOIN DE BEAUCOUP DE DIABLES', 'LE PIAST EST INTRONISÉ POUR L\'ÉTERNITÉ', 'LE CLUSTER PARLE', 'PER ASPERA AD ASTRA', 'C H E R N O B O G', 'T R I S Z Y K L I O N', 'IL N\'Y A PAS DE DORMEURS PARMI LES ANABAPTISTES', 'MARKURANT VIT !!!', 'IRIDIUM / CHROMIUM / PROMETHIUM / BISMUTH', 'Vous connaissez la procédure, agent MacGrath ?', 'Le Temps est un amant vilain', 'PROJET TANNHÄUSER', 'PROJET FREE SPIRIT', 'PROJET TRIGLAW', 'PROJET ASPERA', 'CE QU\'IL Y A NORET RESTE À NORET', 'Qui est la Sorcière en Haillons ?', 'Des mèmes dans des mèmes dans des mèmes.', 'Souvenez-vous de Gilgamesh ?', 'RENDEZ-MOI MON TESTAMENT !!!', 'CAR JE SUIS LA VIE ET JE SUIS LA MORT', 'La mort est le chemin vers l\'émerveillement']
+
+const AppName = 'PARASITE'
+const AppTagLine = possiblesTagLines[Math.floor(Math.random() * possiblesTagLines.length)]
+const SourceCodeRepo = 'https://github.com/Miokido/degenesis-parasite'
+const SourceCodeGitlab = 'https://gitlab.com/diskordanz/noret'
 
 const Cultures = {
   Borca: new Culture(
@@ -75,6 +78,7 @@ export default {
   appName: AppName,
   appTagLine: AppTagLine,
   sourceCodeRepo: SourceCodeRepo,
+  sourceCodeGitlab: SourceCodeGitlab,
   // password, just used for primitive access control to the beta
   password: import.meta.env.VITE_BETA_PASSWORD,
   availablePoints: {

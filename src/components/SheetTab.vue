@@ -19,16 +19,6 @@
       <div class="elevation-10">
         <div id="sheet" class="bg-white">
           <v-container>
-            <v-row class="row mb-4">
-              <v-col class="d-flex justify-center">
-                <div class="logo">
-                  <img src="@/assets/degenesis.svg" type="image/svg+xml" />
-                  <div class="appName label text-uppercase d-flex justify-center">
-                    {{ appName }}
-                  </div>
-                </div>
-              </v-col>
-            </v-row>
             <v-row class="row">
               <v-col class="coreDataBlock pt-8">
                 <SheetText
@@ -73,6 +63,14 @@
                   :text="store.weight"
                 ></SheetText>
                 <SheetText class="mb-1" :title="$t('messages.dinars')" text=""></SheetText>
+              </v-col>
+              <v-col class="d-flex justify-center align-center">
+                <div class="logo">
+                  <img src="@/assets/degenesis.svg" type="image/svg+xml" />
+                  <div class="appName label text-uppercase d-flex justify-center">
+                    {{ appName }}
+                  </div>
+                </div>
               </v-col>
             </v-row>
             <v-row class="row mb-2">

@@ -170,19 +170,19 @@
         <v-card-text>
           <div class="logo d-flex justify-center mt-3 mb-6">
             <div>
-              <v-img src="/logo_red.svg" alt="Logo" />
-              <div class="appName label text-uppercase mt-3">{{ appTagLine }}</div>
+              <v-img src="/degenesis_red.png" alt="Logo" />
+              <div class="appName label text-uppercase mt-3" style="font-size: 2em;">{{ appTagLine }}</div>
             </div>
           </div>
-          <v-form @submit="checkPassword" class="passwordForm">
+          <v-form @submit="checkPassword" class="passwordForm" style="width: 100%;">
             <v-text-field
               :error="showPasswordWarning"
-              label="Password"
+              :label="$t('messages.password')"
               v-model="password"
               type="password"
             ></v-text-field>
             <div class="d-flex justify-center">
-              <v-btn type="submit">Enter</v-btn>
+              <v-btn type="submit">{{ $t('messages.enter') }}</v-btn>
             </div>
           </v-form>
         </v-card-text>

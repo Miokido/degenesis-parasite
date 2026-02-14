@@ -112,6 +112,8 @@ export const messages = {
     concept: 'Concept',
     culture: 'Culture',
     cult: 'Cult',
+    password: 'Password',
+    enter: 'Enter',
     clan: 'Clan',
     characterName: 'Name',
     saveCharacter: 'Save',
@@ -209,6 +211,8 @@ export const messages = {
     saveCharacter: 'Sauvegarder',
     loadCharacter: 'Charger',
     deleteCharacter: 'Supprimer',
+    password: 'Mot de passe',
+    enter: 'Entrer',
     confirmCharacterDeletion: 'Supprimer définitivement le personnage "{name}"?',
     characterSheet: 'feuille de personnage',
     generateSheet: 'Générer un PDF',
@@ -250,7 +254,7 @@ export const messages = {
     createRenamedCopy: 'Faire une copie',
     welcome: 'Bienvenue à Parasite !',
     introduction: {
-      whatIsIt: 'Qu\'est-ce que sait ?',
+      whatIsIt: '<p>Qu\'est-ce que c\'est ? </p><a href="./midona.gif"  style="color: white;">MIDONA DID NOTHING WRONG</a>',
       whatIsItText1:
   'Ceci est un éditeur de personnage pour Katharsys et Artéfacts, le système de règles ' +
   'utilisé par le jeu de rôle Degenesis. Vous pouvez utiliser ce site pour créer de nouveaux personnages ainsi que ' +

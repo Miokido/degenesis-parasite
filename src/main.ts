@@ -7,7 +7,7 @@ import { createPinia, setMapStoreSuffix } from 'pinia'
 import { aliases, mdi } from "vuetify/iconsets/mdi-svg";
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
+  locale: 'fr',
   fallbackWarn: false,
   messages
 })
