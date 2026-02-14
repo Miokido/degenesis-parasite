@@ -1,0 +1,402 @@
+export const culturesConceptsCults = {
+  de: {
+    // Cultures
+    borca: 'Borca',
+    franka: 'Franka',
+    pollen: 'Pollen',
+    balkhan: 'Balkhan',
+    hybrispania: 'Hybrispania',
+    purgare: 'Purgare',
+    africa: 'Africa',
+
+    borcaDescription: 'Die Borcaner leben inmitten der Ruinen einer verlorenen Größe, beherrscht von einer tyrannischen Stadt, die durch Gewalt Ordnung schafft. Während einige sich den Kulten der Zivilisation unterwerfen, verweigern andere dies und müssen unter die Erde fliehen. <br/> Durch Jahrzehnte brutalen Überlebens gehärtet, tauchen diese verstoßenen Borcaner nun aus der Tiefe auf, bereit, mit Gewalt ein ihnen geraubtes Erbe zurückzuerobern.',
+
+    frankaDescription: 'Das frankanische Volk ist zerrissen zwischen Unterwerfung und Widerstand. Im Herzen Frankas verwandelt ein Nebel aus Pheromonen Menschen und Insekten in einen gehorsamen Bienenstock und löscht individuelle Willen aus. <br/> Doch nicht alle geben nach: An den Küsten gedeihen freie frankanische Städte und ein Widerstand organisiert sich gegen diese Herrschaft. Die Frankaner leben so einen tiefen Riss zwischen Verlust der Menschlichkeit und Kampf um ihre Freiheit.',
+
+    pollenDescription: 'Die Polleniten leben zwischen Zerstörung und Wiedergeburt. Ihr Land ist von Sporenfeldern und monströsen Kreaturen verwüstet, wo Oasen und Städte kurz entstehen und wieder zusammenbrechen. Sie verteidigen diese flüchtigen Zufluchtsorte erbittert, wissend, dass sie zum Verschwinden verurteilt sind. <br/> Immer wieder entwurzelt, ziehen die Polleniten erneut durch die Tundren, ihre wenigen Habseligkeiten hinter sich herziehend, auf der Suche nach einem neuen vorübergehenden Zuhause.',
+
+    balkhanDescription: 'Die Balkhaner sind so extrem wie ihr Land, geformt durch brutales Klima und urtümliche Kräfte. Stolz, leidenschaftlich und kriegerisch leben sie ohne Kompromisse, schwankend zwischen Gastfreundschaft und Gewalt. <br/> Vereint gegen äußere Bedrohungen, aber durch innere Rivalitäten ständig gespalten, bauen und zerstören sie Bündnisse je nach Stimmung.',
+
+    hybrispaniaDescription: 'Die Hybrispaniolen leben in einem permanenten Dschungelkrieg, geprägt von Widerstand und Opferbereitschaft. Zwischen der Herrschaft der neolibyschen Konsuln und der Jagd der Geißler kämpfen sie erbarmungslos um Freiheit und Rückeroberung. <br/> Die gesamte Gesellschaft ist auf den Kampf ausgerichtet: Martyrium, Gewalt und Vorbereitung auf den Tod bilden ihre Kultur.',
+
+    purgareDescription: 'Die Purganer sind ein Volk des Glaubens, geschmiedet durch Überzeugung und Prüfung, lebend zwischen Paradies und Verdammnis. Ihr Land ist geteilt in einen fruchtbaren, angestammten Osten und einen vom Feuer und Gift verwüsteten Westen. <br/> An der Seite der Wiedertäufer stellen sie sich Dämonen direkt aus der Hölle, überzeugt, dass die Menschheit ihre Würdigkeit in einem finalen Kampf beweisen muss.',
+
+    africaDescription: 'Die Afrikaner tragen noch die brennende Erinnerung an vergangene Unterdrückung, doch Afrika ist heute frei, vereint und blühend. Ihr Kontinent wimmelt von Leben, heldenhaften Geschichten und wiedergewonnener Macht, während die Natur selbst durch Psychovoren verwandelt wurde. <br/> Nun unter dem Symbol des Löwen vereint, bilden die Afrikaner eine einzigartige Kraft und Kultur: Neolibyer als Herz, Geißler als Klauen, Anubier als Seele.',
+
+    // Concepts
+    adventurer: 'Der Abenteurer',
+    creator: 'Der Schöpfer',
+    mentor: 'Der Mentor',
+    martyr: 'Der Märtyrer',
+    ruler: 'Der Herrscher',
+    seeker: 'Der Sucher',
+    healer: 'Der Heiler',
+    traditionalist: 'Der Traditionalist',
+    mediator: 'Der Vermittler',
+    hermit: 'Der Eremit',
+    heretic: 'Der Ketzer',
+    conqueror: 'Der Eroberer',
+    abomination: 'Der Absonderliche',
+    destroyer: 'Der Zerstörer',
+    chosen: 'Der Auserwählte',
+    defiler: 'Der Störer',
+    protector: 'Der Bewahrer',
+    visionary: 'Der Visionär',
+    zealot: 'Der Fanatiker',
+    disciple: 'Der Schüler',
+    righteous: 'Der Rechtschaffene',
+    traveler: 'Der Wanderer',
+
+    adventurerDescription: 'Der Abenteurer wird von Wahnsinn, Waghalsigkeit und dem Drang getrieben, seine eigenen physischen und mentalen Grenzen auszuloten. Er stellt sich ständig Situationen, die seine Fähigkeiten übersteigen. Überlebt er, gewinnt er Erfahrung und sucht neue Antriebe. <br/> Der Abenteurer bleibt nie lange am selben Ort, denn es gibt so viel zu entdecken: Ruinen zu erforschen, Durchgänge zu nehmen, Clans zu erspähen. Er begrüßt die Angst wie eine Freundin; ohne sie wäre das Leben fade. Nichts ist schlimmer als Langeweile und Routine.',
+
+    creatorDescription: 'Alles zerfällt. Die Menschen sterben. Nur ihre Bauten und Erfindungen, das Wissen eines ganzen Lebens, überdauern. Die Schöpfer wollen ein Vermächtnis hinterlassen und verhindern, dass ihr Name vergessen wird. <br/> Der Schöpfer arbeitet unermüdlich, präzise und sucht die größten Herausforderungen, um seinen Wert zu beweisen. Er errichtet Monolithen, baut Schutzwälle für Dörfer, schweißt Leitungen für Bewässerungssysteme oder widmet sein Leben dem Erwecken des Flux. Sein einziges Ziel: aus all seinen Taten ein gewaltiges Denkmal seines eigenen Ruhms zu schaffen.',
+
+    mentorDescription: 'Lehren und Lernen haben die Menschheit über die Tiere erhoben. Der Mentor setzt diese Tradition fort und teilt sein Wissen mit seinen Schülern. Er weckt ihre Neugier und gibt sein Wissen weiter. <br/> Eines Tages werden sie seine Arbeit fortsetzen und der Kreislauf geht weiter. Gleichgültigkeit gegenüber den Wundern der Welt, Sturheit und Dummheit sind die Plagen der Menschheit. Der Mentor verachtet jene, die davon befallen sind.',
+
+    martyrDescription: 'Der Märtyrer widmet sein Leben der Selbstaufopferung und dem Verzicht auf sich selbst. Er schöpft Kraft und Macht aus dem Schutz der Schwachen, stürzt sich als Erster in die Schlacht und verdoppelt seine Anstrengungen, wenn alle anderen aufgeben. Er leidet für die anderen. <br/> Der Märtyrer weiß, dass seine einsamen Taten mehr inspirieren als feurige Reden. Seine Prinzipien sind in Stein gemeißelt. Sie sind sein Schild, seine Rüstung und seine Waffe zugleich und zeugen von seinem außergewöhnlichen Willen und seiner Treue.',
+
+    rulerDescription: 'Kontrolle ist der einzige Weg, sein Ziel zu erreichen. Die meisten Menschen sind hirnlose Kakerlaken, die gezähmt werden müssen. Aufgaben müssen verteilt, Befehle gebrüllt werden. Lässt man auch nur einmal die Zügel locker, versinkt die Welt im Chaos. <br/> Der Herrscher muss seine Herde ohne Widerspruch führen, die richtigen Entscheidungen treffen und selbst Hand anlegen, wenn die Leute seine Weisheit nicht erkennen. Nichts ist für ihn schrecklicher, als Verantwortung und Macht abzugeben.',
+
+    seekerDescription: 'Woher kommen wir und wohin gehen wir? Der Sucher ist besessen von Leben und Tod, will die Geheimnisse der Welt bis auf die Knochen sezieren, Fragen stellen, die noch nie gestellt wurden, und sie beantworten. <br/> Was steckt hinter Phänomen 2^16? Woher kommen die Asteroiden? Was ist die Natur des Bygone? War es wirklich der erste Einschlag? Der Sucher jagt Antworten in den Labyrinthen der Vergangenheit und den Laboren der Gegenwart, doch die Zeit drängt.',
+
+    healerDescription: 'Der Heiler sieht die Welt zerfallen und widmet sein Leben der Wiederherstellung. Ob physische Wunde, unfruchtbarer Boden, zerstörter Geist oder kaputte Gegenstände – für ihn ist es eine Mission, die Ordnung wiederherzustellen. <br/> Er legt Schienen an, bewässert Böden, repariert alte Boote. Alles geschieht sorgfältig, damit der Verfall nicht am nächsten Tag alles zunichtemacht. Solange Hoffnung besteht, gibt der Heiler nie auf.',
+
+    traditionalistDescription: 'Ordnung ist Sicherheit. Sie trennt die Menschen von den großen Affen und verhindert, dass die Menschheit ziellos umherirrt und zur Beute der Gendos wird. Wer den Traditionen treu bleibt, die Familie ehrt und entsprechend handelt, vertreibt das Chaos aus der Welt. <br/> Anarchie ist den Traditionalisten ein Gräuel. Sie bitten die Menschen, sich der Vergangenheit zuzuwenden, wenn die Fragen der Gegenwart schwer zu ertragen sind. Der Traditionalist klammert sich an jahrhundertealte Regeln, ohne sie je anzupassen. Veränderung erschüttert ihn zu sehr.',
+
+    mediatorDescription: 'Wenn wir alle dieselbe Sprache sprächen, gäbe es keine Streitigkeiten und Missverständnisse mehr. Der Vermittler sieht sich als Sprecher aller Gemeinschaften, sucht Frieden in Harmonie, bittet und besänftigt. <br/> Er versteht die Beweggründe aller Seiten, versucht Streitparteien zu vereinen und gegenseitiges Verständnis zu schaffen. Schreien und Fluchen gehören nicht zu seinen Gewohnheiten. Vernunft steht stets über den Gefühlen.',
+
+    hermitDescription: 'Die Menschen plappern ständig, sodass unsere Gedanken im Ozean der Dummheiten untergehen, die uns umgibt. Der Eremit sucht keine Gesellschaft. Er hasst alle. Er will nicht kommunizieren und interessiert sich nicht für andere. <br/> In einer Gruppe hält er sich immer abseits, um sich vor dem Lärm der Welt zu schützen. Allein zu leben ist so viel angenehmer. Keine Verantwortung gegenüber irgendjemandem: Er ist glücklich, auf sich gestellt zu sein.',
+
+    hereticDescription: 'Gesetze, Religionen und Traditionen: alles muss auf den Prüfstand. Der Ketzer sucht die Schwachstellen im System und versucht, den Glauben des Nächsten zu untergraben. Rebellionen, Aufstände und Unruhen sind sein Markenzeichen. <br/> Er will Stagnation und Traditionen zerstören, die kostbare Zivilisation an ihren eigenen Idealen zerschellen sehen. Er sät Zweifel und freut sich daran. Je mehr Menschen vom System abweichen, desto mehr Jünger erntet er.',
+
+    conquerorDescription: 'Der Eroberer existiert nur zwischen zwei Polen gegensätzlicher Kräfte. Für ihn ist jede Schlacht ein Machtkampf, jede Entscheidung ein Zug im Spiel des Lebens. Der Sieg ist alles, was zählt; nur Verlierer reden von Moral. <br/> Der Eroberer schöpft Kraft aus der Größe seines Egos; sein maßloser Stolz treibt ihn zu großen Taten. Bescheidenheit hält er für falsch und eitel und prahlt mit all seinen Erfolgen.',
+
+    abominationDescription: 'Manche Menschen haben zu viele Schrecken gesehen. Etwas in ihnen ist zerbrochen, ihre Gedanken nehmen seltsame Wendungen. Niemand will in ihrer Nähe sein. Ihr Verhalten stört; die Menschen zittern und fühlen sich unwohl in ihrer Gegenwart. <br/> Die Angst, die sie einflößt, nährt und verstört sie zugleich. Sie liebt es, in ihren Fantasien zu versinken und das Feuer der Furcht in den Augen ihrer Gegner lodern zu sehen. Wenn die anderen erkennen, dass sie jede zivilisierte Emotion wie Mitgefühl oder Verantwortung verloren hat, sehen sie nur noch ein wildes Tier, das sie anstarrt.',
+
+    destroyerDescription: 'Um Platz für Neues zu schaffen, muss alles Alte vernichtet werden. Der Zerstörer folgt diesem Grundsatz wörtlich und lässt seiner Raserei freien Lauf. Jeder ist ein Feind und ein Leben reicht nicht, um sie alle zu vernichten. <br/> Er jagt seine Gegner bis ans Ende der Welt, kämpft sie, rottet sie aus. Selbst wenn er vorgibt, für eine edle Sache zu handeln, tut er es nur für sich selbst.',
+
+    chosenDescription: 'Die Menschen strömen herbei, um ihn zu sehen, in seinem Glanz zu baden. Alle haben immer seinen Worten gelauscht. Alle seine Reden schienen Weisheit zu atmen. Das blieb nicht ohne Folgen: Er sieht sich als Lösung aller Probleme. <br/> Der Auserwählte ist das Schwert, das den gordischen Knoten durchtrennt, der Messias, auf den die Gemeinde wartete. Seine Anwesenheit inspiriert die Menschen – zum Guten wie zum Schlechten.',
+
+    defilerDescription: 'Der Störer ist die verkörperte Eifersucht. Warum sollen andere immer mehr haben als er? Warum sollen sie glücklicher, schöner, stärker sein? Der Störer erträgt das Glück anderer nicht. <br/> Wenn er sie in den Dreck zieht, Wellen schlägt, Liebende dazu bringt, sich an die Kehle zu gehen, erfüllt er sein Schicksal. Er herrscht über alle, die sich benachteiligt fühlen und anderen die Schuld geben.',
+
+    protectorDescription: 'Die Welt ist voller Schätze, großer und kleiner, und sie alle müssen geschützt werden. Der Bewahrer stellt sich wie ein Wall vor seine Schutzbefohlenen, seien es Menschen oder Gegenstände. <br/> Er will alles bewahren: Artefakte, kulturelle Werke oder menschliches Leben. Was auch immer sein Schützling ist, er verteidigt es bis zum Tod.',
+
+    visionaryDescription: 'Wenn das Wissen endlich aus der Vergangenheit auftaucht und in den Vordergrund der Realität tritt, hat der Visionär es schon gesehen. Er sieht den Lauf der Zukunft, denkt Jahrzehnte voraus, brandmarkt die Skeptiker und bittet die Menschen, vernünftig zu sein. <br/> Er hofft, den Weg in eine bessere Zukunft zu ebnen. Die Evolution der Menschheit hängt von seinem Intellekt und seinen Visionen ab.',
+
+    zealotDescription: 'Der Glaube des Fanatikers versetzt Berge. Er arbeitet und leidet jenseits menschlichen Verständnisses, kennt keine Grenzen. Er schöpft seine Macht aus der Hingabe an seinen Herrn. <br/> Er würde für seine Religion, seinen Kult und seine Ideologie sterben. Jeden Tag beweist er seinen Wert für seine Sache. Der Wahnsinn verzehrt ihn und er entflammt die Geister um sich herum, bis nur noch Asche im Wind wirbelt und blinder Glaube bleibt.',
+
+    discipleDescription: 'Das Wissen ist wie ein Ozean, auf dem der Schüler sein Leben lang segeln wird. Er folgt den großen Lehrern, sucht vergessene Bibliotheken, getrieben von unstillbarer Neugier. <br/> Sein Wissen ist gewaltig, doch er will immer mehr. Er vereint mehrere Wege und Spezialisierungen in sich, kann sich aber nie für einen entscheiden.',
+
+    righteousDescription: 'Handeln und Gewissen sind untrennbar, und das Gewissen des Rechtschaffenen ist rein. Er hat eine extrem klare Weltsicht und sein Umfeld hält ihn für arrogant. Er lässt keine Gelegenheit aus, seine Vorstellung von Tugend in die Tat umzusetzen. <br/> Als Hüter theologischer oder gesetzlicher Fragen richtet er über alles und jeden – jede Handlung, jede Person, jedes Gefühl. Alles ist entweder gut oder böse. Niemals hinterfragt er sich selbst.',
+
+    travelerDescription: 'Der Wanderer muss die Welt bereisen, um sich selbst und die zu entdecken, die sie bewohnen. Er sammelt Eindrücke und Erfahrungen wie andere Gendoschädel sammeln, teilt sie aber nicht nur für sich. <br/> Er verbreitet gute und schlechte Nachrichten, verbindet entlegene Länder mit Metropolen, knüpft Bande zwischen Clans und Kulten. Er hält es nirgends lange aus und brennt darauf, wieder aufzubrechen.',
+
+    // Cults
+    spitalians: 'Spitalier',
+    chroniclers: 'Chronisten',
+    hellvetics: 'Hellvetiker',
+    judges: 'Richter',
+    clanners: 'Sipplinge',
+    scrappers: 'Schrotter',
+    neolibyans: 'Neolibyer',
+    scourgers: 'Geißler',
+    anubians: 'Anubier',
+    jehammedans: 'Jehammedaner',
+    apocalyptics: 'Apokalyptiker',
+    anabaptists: 'Wiedertäufer',
+    palers: 'Bleicher',
+
+    spitaliansDescription: 'Die Spitalier sind der letzte Wall der Menschheit gegen die Bygone und ihre Schrecken. Strenge Ärzte und gnadenlose Krieger erforschen Sporenfelder, sezieren Monster und entwickeln Gifte, Waffen und Fungizide gegen die Sepsis. <br/> Sie erzwingen extreme sanitäre Disziplin, verhören jeden, der vorgibt, der Menschheit zu dienen, und dulden keine Spur von Korruption. Für sie ist Mitleid ein Luxus, den sich die Welt nicht mehr leisten kann.',
+
+    chroniclersDescription: 'Die Chronisten sind die Erben der Streamer und Hüter des verlorenen Wissens des einst allgegenwärtigen Stream. Sie durchstreifen die Welt auf der Suche nach Artefakten und Servern, bereiten den Tag vor, an dem der Stream wieder aktiviert wird und die Menschheit leiten wird. <br/> Seltsam und gefürchtet, halb Mensch halb Technik, beobachten, sammeln und manipulieren sie die Welt mit Maschinen, Licht und elektrisierenden Kräften.',
+
+    hellveticsDescription: 'Die Hellvetiker, Erben der Schweizer Armee, haben die Hölle der Alpen überlebt und ihre alpine Festung gefestigt. Disziplinierte und unerbittliche Soldaten kontrollieren die Pässe und verteidigen ihr Territorium mit Präzision und Strenge. <br/> Doch die Welt verändert sich um sie herum: Anomalien, monströse Kreaturen und Aufstände in den Kantonen zwingen sie, aus den Bergen herauszukommen, zu beobachten, zu lernen und zuzuschlagen.',
+
+    judgesDescription: 'Die Richter haben in den Ödlanden Recht und Ordnung durchgesetzt, Gesetzlose und wilde Clans mit Härte und Gewalt niedergeschlagen. In der Stadt Justitian gründeten sie das Protektorat, eine sichere, aber streng kontrollierte Welt. <br/> Heute kehren die Ruinen zum Leben zurück, die Clans werden stärker, und die Richter müssen lernen, nicht nur den Codex, sondern auch die unberechenbaren Gesetze der Ödlande zu beherrschen, um zu überleben.',
+
+    clannersDescription: 'Die Sipplinge machen über 90 % der Menschheit aus, vereint durch neue Bande, die das Individuum durch die Gruppe ersetzen. Manche wandten sich blutrünstigen Kulten und Wildheit zu, andere bewahrten Traditionen, Moral und Technologie. <br/> Nomaden, Sesshafte oder Barbaren – würden sie sich alle vereinen, mit Speeren und Gewehren bewaffnet, könnte nichts sie aufhalten.',
+
+    scrappersDescription: 'Die Schrotter leben für die Ruinen, graben unermüdlich nach den technischen Überresten der Alten. Gehärtet durch Staub, Kälte und Hunger kennen sie jeden Winkel der verwüsteten Welt und überleben besser als jeder andere außerhalb der Städte. <br/> Wenn sie in die Stadt zurückkehren, verkaufen sie ihre Funde an die Chronisten, bevor der Ruf der Ruinen – ihr wahres Zuhause – sie wieder hinauszieht.',
+
+    neolibyansDescription: 'Die Neolibyer sind globale Kapitalisten, Entdecker und Händler ersten Ranges. Meister des Handels und der Diplomatie nutzen sie Routen, Ressourcen und Territorien kühn aus, verkaufen alles – von Waffen bis Gewürzen – und profitieren sogar von Widerständen. <br/> Abenteurer und Jäger kartografieren die Welt und hetzen Monster, überzeugt, dass kein Hindernis unüberwindbar ist und alles zur Gewinnquelle werden kann.',
+
+    scourgersDescription: 'Die Geißler, stolze afrikanische Krieger, verachten die Neolibyer und folgen dem Weg ihrer Ahnen in strenger Hierarchie. Durch Psychovoren mit sich und den Geistern der Welt verbunden, beraten und schützen sie ihr Volk in Afrika als Klauen des Löwen, während sie bei den Raben zu Todesbringern werden. <br/> Strategen und gefürchtete Jäger führen sie die Schlacht mit Disziplin und Kraft, versklaven Feinde, um die Schulden der Neolibyer zu begleichen.',
+
+    anubiansDescription: 'Die Anubier sehen sich als auserwähltes Volk, die Seele Afrikas, gezeichnet durch sieben Kreise, die ihre Wandlung zum perfekten Ka symbolisieren. Zwischen uralten Riten und Beherrschung der Psychovoren leiten sie ihr Volk und entwickeln Wissen und Kräfte – manche zur Heilung, andere zum Kampf gegen die Aberrationen, die die Welle stören.',
+
+    jehammedansDescription: 'Das Leben eines Jehammedaners ist von Geburt an vorgezeichnet: die Familie ehren und den Lehren Jehammeds folgen, des letzten Propheten, der die drei abrahamitischen Religionen vereinte. Die Ismaelis bearbeiten das Land und träumen von Ruhm, die Isaakis trainieren für den Kampf, um ihren Wert zu beweisen. <br/> Die Frauen haben traditionell die Rolle der Hausfrau, sind aber das wahre Fundament des Jehammed-Kults. Die Hagari gebären die zukünftigen Ismaelis, die Saraeli die heiligen Isaakis, pflegen Rüstungen und Kleidung und bewahren die Lehren des letzten Propheten.',
+
+    apocalypticsDescription: 'Die Apokalyptiker leben im Exzess und in völliger Freiheit, bilden Schwärme, in denen jeder Laster gefeiert wird. Jeder hat seine Rolle: Diebe, Prostituierte, Kämpfer, während die Krähe führt und mit dem apokalyptischen Tarot die Zukunft vorhersagt. <br/> Sie leben im Jetzt, feiern alle Emotionen und kämpfen ständig gegen Gesetz und Chaos.',
+
+    anabaptistsDescription: 'Die Wiedertäufer folgen neognostischen Lehren und kämpfen gegen die Fäulnis der Welt und die seelenlosen Heere des Demiurgen. Sie nehmen alle auf, die mehr wollen als überleben, und vereinen das Volk unter dem gebrochenen Kreuz. <br/> Die Asketen bauen und pflegen die Erde, die Orgiastiker kämpfen mit heiligem Öl, Schwertern und Flammenwerfern. Die letzte Schlacht um die Menschheit findet hier und jetzt statt, angeführt von den Wiedertäufern.',
+
+    palersDescription: 'Die Bleichen leben seit Jahrhunderten in der Dunkelheit und warten auf das Erwachen der Göttlichen, um die Oberfläche zu beherrschen. Durch das Leben unter der Erde zu blassen, empfindsamen Kreaturen geworden, kennen sie keine Moral gegenüber Menschen. <br/> Geführt von ihren Demagogen, Meistern der stimmlichen Manipulation, schlagen sie durch Angst, Verlangen oder Schmerz zu. Während Hunger sie zum Herauskommen und Plündern zwingt, öffnen die Erwecker Bunker um Bunker und starten einen kolossalen, für sie selbst noch unvorstellbaren Plan.'
+  },
+
+  en: {
+    // Cultures
+    borca: 'Borca',
+    franka: 'Franka',
+    pollen: 'Pollen',
+    balkhan: 'Balkhan',
+    hybrispania: 'Hybrispania',
+    purgare: 'Purgare',
+    africa: 'Africa',
+
+    borcaDescription: 'The Borcans live among the ruins of a lost greatness, dominated by a tyrannical city that imposes order through violence. While some submit to cults of civilization, others refuse and are forced to flee underground. <br/>Hardened by decades of brutal survival, these outcast Borcans now emerge from the depths, ready to reclaim by force a heritage that was stolen from them.',
+
+    frankaDescription: 'The Frankan people are torn between submission and resistance. At the heart of Franka, a mist of pheromones turns humans and insects into an obedient hive, erasing individual wills. <br/>Yet not everyone yields: on the coasts, free Frankan cities thrive and a Resistance organizes to fight this domination. The Frankans thus live a deep fracture, between loss of humanity and fight for their freedom.',
+
+    pollenDescription: 'The Pollenites live between destruction and rebirth. Their land is ravaged by spore fields and monstrous creatures, where oases and cities emerge briefly before collapsing. They defend these ephemeral refuges fiercely, knowing they are doomed to disappear. <br/>Constantly uprooted, the Pollenites take to the road again across the tundras, pulling their meager possessions, in search of a new temporary home.',
+
+    balkhanDescription: 'The Balkhans are as extreme as their land, shaped by brutal climate and primal forces. Proud, passionate and warlike, they live without compromise, oscillating between hospitality and violence. <br/>United against external threats but perpetually divided by internal rivalries, they build and destroy alliances according to their emotions.',
+
+    hybrispaniaDescription: 'The Hybrispanians live in a jungle in permanent war, shaped by resistance and sacrifice. Caught between Neolibyan Consuls domination and Scourgers hunt, they fight mercilessly for freedom and reconquest. <br/>The entire society is geared toward combat: martyrdom, violence and preparation for death form their culture. Supported by mysterious gods trading future visions for souls, the Hybrispanians survive at the ultimate price.',
+
+    purgareDescription: 'The Purgans are a people of faith, forged by conviction and trial, living between paradise and damnation. Their land is split between a fertile ancestral east and a west ravaged by flames and poisons. <br/>Alongside the Anabaptists, they face demons straight out of hell, convinced that humanity must prove its worth in a final battle. For the Purgans, holy war is a duty, and salvation is earned in fire and belief.',
+
+    africaDescription: 'Africans still carry the burning memory of past oppression, yet Africa is now free, united and flourishing. Their continent teems with life, heroic tales and regained power, while nature itself has been transformed by Psychovores. <br/>Now gathered under the Lion symbol, Africans form a unique force and culture: Neolibyans at the heart, Scourgers the claws, Anubians the soul.',
+
+    // Concepts
+    adventurer: 'Adventurer',
+    creator: 'Creator',
+    mentor: 'Mentor',
+    martyr: 'Martyr',
+    ruler: 'Ruler',
+    seeker: 'Seeker',
+    healer: 'Healer',
+    traditionalist: 'Traditionalist',
+    mediator: 'Mediator',
+    hermit: 'Hermit',
+    heretic: 'Heretic',
+    conqueror: 'Conqueror',
+    abomination: 'Abomination',
+    destroyer: 'Destroyer',
+    chosen: 'Chosen',
+    defiler: 'Defiler',
+    protector: 'Protector',
+    visionary: 'Visionary',
+    zealot: 'Zealot',
+    disciple: 'Disciple',
+    righteous: 'Righteous',
+    traveler: 'Traveler',
+
+    adventurerDescription: 'The Adventurer is driven by madness, recklessness, and the quest to push their own physical and mental limits. They constantly face situations beyond their abilities. If they survive, they gain experience and seek new motivations. <br/>The Adventurer never stays long in one place because there is so much to discover elsewhere: ruins to explore, passages to take, clans to spot. They welcome fear as a friend; without it, life would be dull. Nothing is worse than boredom and routine.',
+
+    creatorDescription: 'Everything collapses. Humans die. Only their buildings and inventions, the knowledge of a lifetime, survive. Creators want to leave a legacy and prevent their name from being forgotten. <br/>The Creator works tirelessly, with precision, seeking the greatest challenges to prove their worth. They erect monoliths, build defensive walls for villages, weld pipes for irrigation systems, or dedicate their life to awakening the Flux. Their sole purpose is to turn all their achievements into a massive monument to their own glory.',
+
+    mentorDescription: 'Teaching and learning have elevated humanity above animals. The Mentor perpetuates this tradition and shares their knowledge with disciples. They awaken curiosity and pass on wisdom. <br/>One day, the disciples will carry on their work and the cycle will continue. Indifference to the wonders of the world, stubbornness, and stupidity are humanity’s plagues. The Mentor despises those afflicted by them.',
+
+    martyrDescription: 'The Martyr dedicates their life to self-denial and self-sacrifice. They draw strength and power from protecting the weak, throwing themselves first into battle and redoubling efforts when everyone else gives up. They suffer for others. <br/>The Martyr knows solitary actions inspire more than fiery speeches. Their principles are carved in stone, serving as shield, armor, and weapon, testifying to their extraordinary will and loyalty.',
+
+    rulerDescription: 'Control is the only way to achieve their goal. Most people are brainless cockroaches that need taming. Tasks must be assigned, orders shouted. If control slips even once, the world falls into chaos. <br/>The Ruler must lead their herd without question, make the right choices, and take charge when people fail to recognize their wisdom. Nothing terrifies them more than delegating responsibility and power.',
+
+    seekerDescription: 'Where do we come from and where are we going? The Seeker is obsessed with life and death, wanting to dissect the world’s mysteries to the bone, ask questions no one has asked before, and answer them. <br/>What lies behind Bygone 2^16? Where do the asteroids come from? What is the nature of the Primer? Was it really the first impact? The Seeker hunts answers in the labyrinths of the past and present laboratories, but time is running out.',
+
+    healerDescription: 'The Healer sees the world disintegrating and devotes their life to repairing it. Whether physical wounds, barren soil, ravaged minds, or broken objects, restoring order is their mission. <br/>They apply splints, water soils, repair old boats. Everything is done carefully to prevent decay from forcing a restart the next day. As long as there is hope, the Healer never gives up.',
+
+    traditionalistDescription: 'Order is safety. It separates humans from great apes and prevents humanity from wandering aimlessly and becoming prey to gendos. Those faithful to traditions, honoring family and acting accordingly, drive chaos from the world. <br/>Anarchy is anathema to Traditionalists. They urge people to turn to the past when present questions become unbearable. The Traditionalist clings to age-old rules without adapting them, no matter what happens.',
+
+    mediatorDescription: 'If we all spoke the same language, there would be no quarrels or misunderstandings. The Mediator sees themselves as spokesperson for all communities, seeking peace through harmony, pleading and pacifying. <br/>They understand everyone’s motivations, try to bring conflicting parties together, and foster mutual understanding. Shouting and swearing are not their habits. Reason always prevails over emotion.',
+
+    hermitDescription: 'People constantly chatter, drowning our thoughts in an ocean of nonsense. The Hermit seeks no company. They hate everyone. They want no communication and care nothing for others. <br/>In a group, they stay apart to shield themselves from the world’s noise. Living alone is far more pleasant. No responsibility to anyone: they are happy being left to themselves.',
+
+    hereticDescription: 'Laws, religions, traditions: everything can and must be scrutinized. The Heretic seeks flaws in the system and works to undermine others’ faith. Rebellions, revolts, and riots are their trademark. <br/>They want to shatter stagnation and tradition, watch precious civilization crash against its own ideals. They sow doubt and rejoice in it. The more people stray from the system, the more disciples they gain.',
+
+    conquerorDescription: 'The Conqueror exists only between opposing poles of power. For them, every battle is a power struggle; every decision a move in life’s game. Victory is all that matters; only losers talk of morality. <br/>The Conqueror draws strength from the size of their ego; their boundless pride drives them to great deeds. They consider modesty false and vain, boasting of all their successes.',
+
+    abominationDescription: 'Some people have seen too many horrors. Something broke inside them, their thoughts take strange turns. No one wants to be near them. Their behavior disturbs; people tremble and feel uneasy in their presence. <br/>The fear they inspire both feeds and unsettles them. They love losing themselves in fantasies and seeing fear burn in their enemies’ eyes. When others realize they lack civilized emotions like compassion or responsibility, they see only a feral beast staring back.',
+
+    destroyerDescription: 'To make way for the new, everything old must be annihilated. The Destroyer follows this principle literally and unleashes their madness. Everyone is an enemy, and one life won’t suffice to destroy them all. <br/>They hunt adversaries across the world, fight them, eradicate them. Even if they claim a noble cause, they act only for themselves. When everything is razed and new shoots appear, they have long moved on.',
+
+    chosenDescription: 'People flock to see them, to bask in their glory. Everyone has always drunk their words. Their speeches seemed steeped in wisdom. This had consequences: they see themselves as the solution to all problems. <br/>The Chosen is the sword that cuts the Gordian knot, the Messiah the congregation awaited. Their presence inspires people, for better or worse. Those who despise them are, in their eyes, ignorant.',
+
+    defilerDescription: 'The Defiler is jealousy incarnate. Why should others always have more than them? Why should others be happier, more beautiful, stronger? The Defiler cannot bear others’ happiness. <br/>When they drag others through the mud, make waves, incite lovers to tear at each other’s throats, they fulfill their destiny. They rule over all who feel wronged and blame others for it.',
+
+    protectorDescription: 'The world is full of treasures, great and small, and they all must be protected. The Protector stands like a bulwark before their charges, be they humans or objects. <br/>They want to preserve everything: artifacts, cultural works, or human life. Whatever their devotion’s object, they will defend it to the death.',
+
+    visionaryDescription: 'When knowledge finally emerges from the past into reality’s foreground, the Visionary has already seen it. They see the future’s course, think decades ahead, denounce skeptics, and urge people to be reasonable. <br/>They hope to pave the way for a better future. Humanity’s evolution depends on their intellect and visions.',
+
+    zealotDescription: 'The Zealot’s faith moves mountains. They work and suffer beyond human understanding, knowing no limits. They draw power from devotion to their Lord. <br/>They would die for their religion, cult, and ideology. Every day they prove their worth to their cause. Madness consumes them, and they ignite those around them until only ashes swirl in the wind and blinding faith remains.',
+
+    discipleDescription: 'Knowledge is an ocean on which the Disciple will sail their whole life. They follow great teachers, seek forgotten libraries, driven by insatiable curiosity. <br/>Their knowledge is vast, yet they want more. They unite multiple paths and specializations but never manage to choose one.',
+
+    righteousDescription: 'Action and conscience are inseparable, and the Righteous’s conscience is pure. They have an extremely clear worldview and their entourage finds them arrogant. They never miss a chance to put their vision of virtue into practice. <br/>As guardian of theological or legislative questions, they judge everyone, every action, every person, every emotion. Everything is either good or evil. They never question themselves.',
+
+    travelerDescription: 'The Traveler must roam the world to evolve by discovering it and those who inhabit it. They accumulate impressions and experiences as others collect gendo skulls, but they do not keep them to themselves. <br/>They spread good and bad news, connect remote lands to metropolises, link clans and cults. They cannot stay still and burn to hit the road again.',
+
+    // Cults
+    spitalians: 'Spitalians',
+    chroniclers: 'Chroniclers',
+    hellvetics: 'Hellvetics',
+    judges: 'Judges',
+    clanners: 'Clanners',
+    scrappers: 'Scrappers',
+    neolibyans: 'Neolibyans',
+    scourgers: 'Scourgers',
+    anubians: 'Anubians',
+    jehammedans: 'Jehammedans',
+    apocalyptics: 'Apocalyptics',
+    anabaptists: 'Anabaptists',
+    palers: 'Palers',
+
+    spitaliansDescription: 'The Spitalians are humanity’s last bulwark against the Bygone and its horrors. Austere physicians and ruthless warriors, they explore spore fields, dissect monsters, and develop poisons, weapons, and fungicides to fight Sepsis. <br/>They enforce extreme sanitary discipline, interrogate anyone claiming to serve humanity, and tolerate no trace of corruption. For them, pity is a luxury the world can no longer afford.',
+
+    chroniclersDescription: 'The Chroniclers are the heirs of the Streamers and guardians of the lost knowledge of the once-universal Stream. They roam the world retrieving artifacts and servers, preparing the day the Stream will be reactivated to guide humanity. <br/>Strange and feared, half-human half-technology, they observe, collect, and manipulate the world with machines, light, and electrifying powers.',
+
+    hellveticsDescription: 'The Hellvetics, heirs of the Swiss army, survived the hell of the Alps and consolidated their alpine fortress. Disciplined and implacable soldiers, they control passes and defend their territory with precision and rigor. <br/>But the world changes around them: abnormal phenomena, monstrous creatures, and revolts in the cantons force them out of their mountains to observe, learn, and strike.',
+
+    judgesDescription: 'The Judges imposed law in the wastelands, striking outlaws and wild clans with rigor and violence. In the city of Justitian, they founded the Protectorate, a safe but strictly controlled world. <br/>Today, ruins regain life, clans grow stronger, and the Judges must master not only the Codex but also the unpredictable laws of the wastelands to survive.',
+
+    clannersDescription: 'Clanners make up over 90% of humanity, united by new bonds replacing the individual with the group. Some turned to bloodthirsty cults and savagery, others preserved traditions, morality, and technology. <br/>Nomadic, sedentary, or barbaric—if they all united, armed with spears and rifles, nothing could stop them.',
+
+    scrappersDescription: 'Scrappers live for the ruins, relentlessly digging for the ancients’ technical remnants. Hardened by dust, cold, and hunger, they know every corner of the devastated world and survive better than anyone outside cities. <br/>When they return to town, they sell their finds to Chroniclers before the call of the ruins—their true home—draws them back out.',
+
+    neolibyansDescription: 'Neolibyans are global capitalists, explorers, and peerless traders. Masters of commerce and diplomacy, they boldly exploit routes, resources, and territories, selling everything from weapons to spices and profiting even from resistance. <br/>Adventurers and hunters, they map the world and track monsters, convinced no obstacle is insurmountable and everything can become profit.',
+
+    scourgersDescription: 'The Scourgers, proud African warriors, despise Neolibyans and follow their ancestors’ path in strict hierarchy. Linked to each other and the world’s spirits through Psychovores, they advise and protect their people in Africa as the Lion’s claws, becoming death-bringers among the Ravens. <br/>Strategists and fearsome hunters, they lead battle with discipline and power, enslaving enemies to settle Neolibyans’ debts.',
+
+    anubiansDescription: 'Anubians consider themselves the chosen people, Africa’s soul, marked by seven Circles symbolizing their transformation toward perfect Ka. Between ancestral rites and mastery of Psychovores, they guide their people and develop knowledge and powers—some in healing, others in combat against aberrations disturbing the Wave.',
+
+    jehammedansDescription: 'A Jehammedan’s life is mapped from birth: honor the family and follow Jehammed’s teachings, the last prophet who fused the three Abrahamic religions. Ismaelis work the land dreaming of glory, while Isaakis train for combat to prove their worth. <br/>Women traditionally hold the homemaker role yet are the true pillar of Jehammed’s cult. Hagari bear future Ismaelis, Saraeli bear sacred Isaakis, maintain armor and clothing, and preserve the Last Prophet’s teachings.',
+
+    apocalypticsDescription: 'Apocalyptics live in excess and total freedom, forming Swarms where every vice is celebrated. Each has a role: thieves, prostitutes, fighters, while the Raven leads and predicts the future with the Apocalyptic Tarot. <br/>They live in the present, exalt all emotions, and face enemies in constant conflict between law and chaos.',
+
+    anabaptistsDescription: 'Anabaptists follow neo-gnostic teachings and fight the world’s rot and the Demiurge’s soulless armies. They welcome all who want more than survival, uniting the people under the broken cross. <br/>Ascetics cultivate and heal the land, while Orgiastics fight with sacred oils, swords, and flamethrowers. The final battle for humanity unfolds here and now, led by the Anabaptists.',
+
+    palersDescription: 'Palers have lived in darkness for centuries, awaiting the awakening of the divine to rule the surface. Transformed by subterranean life into pale, sensitive creatures, they feel no morality toward humans. <br/>Guided by Demagogues, masters of vocal manipulation, they strike through fear, desire, or pain. As hunger forces them out to pillage, the Awakeners open bunkers one by one, launching a colossal plan still inconceivable to them.'
+  },
+  fr: {
+    // Cultures
+    borca: 'Borca',
+    franka: 'Franka',
+    pollen: 'Pollen',
+    balkhan: 'Balkhan',
+    hybrispania: 'Hybrispanie',
+    purgare: 'Purgare',
+    africa: 'Afrika',
+
+    borcaDescription: 'Les Borcans vivent parmi les ruines d\'une grandeur disparue, dominés par une cité tyrannique qui impose l\'ordre par la violence. Tandis que certains se soumettent à des cultes de la civilisation, d\'autres refusent et sont contraints de fuir sous terre. <br/>Endurcis par des décennies de survie brutale, ces Borcans rejetés émergent aujourd\'hui des profondeurs, prêts à reprendre par la force un héritage qu\'on leur a arraché.',
+
+    frankaDescription: 'Le peuple frankéen est déchiré entre soumission et résistance. Au cœur de Franka, une brume de phéromones transforme humains et insectes en une ruche obéissante, effaçant les volontés individuelles. <br/>Pourtant, tous ne cèdent pas : sur les côtes, des cités frankéennes libres prospèrent et une Résistance s\'organise pour lutter contre cette domination. Les Frankéens vivent ainsi une fracture profonde, entre perte d\'humanité et combat pour leur liberté.',
+
+    pollenDescription: 'Les Pollenais vivent entre destruction et renaissance. Leur terre est ravagée par des champs de spores et des créatures monstrueuses, où oasis et cités émergent brièvement avant de s\'effondrer. Ils défendent ces refuges éphémères avec acharnement, sachant qu\'ils sont condamnés à disparaître. <br/>Sans cesse déracinés, les Pollenais reprennent la route à travers les toundras, tirant leurs maigres possessions, à la recherche d\'un nouveau foyer provisoire.',
+
+    balkhanDescription: 'Les Balkhans sont un peuple aussi extrême que leur terre, façonné par un climat brutal et des forces primordiales. Fiers, passionnés et guerriers, ils vivent sans compromis, oscillant entre hospitalité et violence. <br/>Unis face aux menaces extérieures mais perpétuellement divisés par des rivalités internes, ils bâtissent et détruisent leurs alliances au gré des émotions.',
+
+    hybrispaniaDescription: 'Les Hybrispagnols vivent dans une jungle en guerre permanente, façonnés par la résistance et le sacrifice. Pris entre la domination des Consuls néolibyens et la traque des Fléaux, ils se battent sans pitié pour la liberté et la reconquête. <br/>Toute la société est tournée vers le combat : le martyre, la violence et la préparation à la mort fondent leur culture. Soutenus par des dieux mystérieux, qui troquent des visions du futur contre des âmes, les Hybrispagnols survivent au prix ultime.',
+
+    purgareDescription: 'Les Purgans sont un peuple de foi, forgé par la conviction et l\'épreuve, vivant entre paradis et damnation. Leur terre est scindée entre un est fertile et ancestral, et un ouest ravagé par les flammes et les poisons. <br/>Aux côtés des Anabaptistes, ils affrontent des démons tout droit sortis des enfers, convaincus que l\'humanité doit prouver sa valeur dans un combat final. Pour les Purgans, la guerre sainte est un devoir, et le salut se gagne dans le feu et la croyance.',
+
+    africaDescription: 'Les Afrikains portent encore la mémoire brûlante de l\'oppression passée, malgré une Afrique aujourd\'hui libre, unie et florissante. Leur continent regorge de vie, de récits héroïques et de puissance retrouvée, tandis que la nature elle-même s\'est transformée sous l\'influence des Psychovores, altérant terres et peuples. <br/>Désormais rassemblés sous le symbole du Lion, les Afrikains forment une force et une culture unique : les Néolibyens en sont le cœur, les Fléaux les griffes, et les Anubiens l\'âme.',
+
+    // Concepts
+    adventurer: "L'Aventurier",
+    creator: "Le Créateur",
+    mentor: "Le Mentor",
+    martyr: "Le Martyr",
+    ruler: "Le Chef",
+    seeker: "Le Chercheur",
+    healer: "Le Soigneur",
+    traditionalist: "Le Traditionnaliste",
+    mediator: "Le Médiateur",
+    hermit: "L'Ermite",
+    heretic: "L'Hérétique",
+    conqueror: "Le Conquérant",
+    abomination: "L'Abomination",
+    destroyer: "Le Destructeur",
+    chosen: "L'Élu",
+    defiler: "Le Profanateur",
+    protector: "Le Protecteur",
+    visionary: "Le Visionnaire",
+    zealot: "Le Fanatique",
+    disciple: "Le Disciple",
+    righteous: "Le Vertueux",
+    traveler: "Le Voyageur",
+
+    adventurerDescription: "L'Aventurier est mû par la folie, la témérité et la quête de ses propres limites physiques et mentales. Il affronte sans cesse des situations qui dépassent ses capacités. S'il survit, il gagne de l'expérience et cherche de nouvelles motivations. <br/>L'Aventurier ne reste jamais longtemps au même endroit parce qu'il y a tant de choses à découvrir ailleurs : des ruines à explorer, des passages à emprunter, des clans à repérer. Il accueille la peur comme une amie ; sans elle, la vie serait bien fade. Rien n'est pire que l'ennui et la routine.",
+
+    creatorDescription: "Tout s'écroule. Les humains meurent. Seuls survivent leurs bâtiments et leurs inventions, le savoir de toute une vie. Les Créateurs veulent laisser un héritage et éviter que leur nom soit oublié. <br/>Le Créateur travaille sans relâche, avec précision, et cherche les plus grands défis pour prouver sa valeur. Il érige des monolithes, construit des murailles défensives pour des villages, soude des conduits pour les systèmes d'irrigation, ou consacre sa vie au réveil du Flux. Le seul but du Créateur, c'est de faire de l'ensemble de ses exploits un immense monument à sa propre gloire.",
+
+    mentorDescription: "L'enseignement et l'apprentissage ont élevé l'humanité au-dessus des animaux. Le Mentor perpétue cette tradition et partage son savoir avec ses disciples. Il développe leur curiosité et leur transmet son savoir. <br/>Un jour, ils reprendront son travail et le cycle se poursuivra. L'indifférence aux merveilles du monde, l'obstination et la stupidité sont les fléaux de l'humanité. Le Mentor méprise ceux qui en sont affligés.",
+
+    martyrDescription: "Le Martyr consacre sa vie à l'abnégation et à l'abandon de soi. Il tire sa force et sa puissance de la protection des faibles, en se jetant le premier dans la bataille, en redoublant d'efforts quand tous les autres ont abandonné. Il souffre pour les autres. <br/>Le Martyr sait que ses actions solitaires sont plus galvanisantes qu'un discours enflammé. Ses principes sont gravés dans le marbre. Ils constituent son bouclier, son armure et son arme à la fois, témoignant de sa volonté et de sa fidélité hors du commun. En tant que parangon, il se sent invulnérable. Rien ne peut le faire céder.",
+
+    rulerDescription: "Le concept peut se traduire par le Souverain ou le Seigneur en allemand. Contrôler est le seul moyen d'atteindre son but. La plupart des gens sont des cafards écervelés qui ont besoin d'être dressés. Il faut répartir les tâches, crier des ordres. Si vous relâchez les rênes ne serait-ce qu'une seule fois, le monde sombre dans le chaos. <br/>Le Souverain doit mener son troupeau sans jamais être remis en question, faire les bons choix, et prendre les choses en main si les gens ne reconnaissent pas sa sagesse. Rien n'est plus effrayant pour lui que de déléguer ses responsabilités et son pouvoir.",
+
+    seekerDescription: "D'où venons-nous et où allons-nous ? Le Chercheur est obnubilé par la vie et la mort, il veut élucider les mystères du monde, les disséquer jusqu'à l'os, poser des questions que personne n'a jamais posées avant lui, et y répondre. <br/>Qu'y a-t-il derrière le phénomène 2 puissance 16 ? D'où viennent les astéroïdes ? Quelle est la nature de l'Amorce ? Était-ce vraiment le premier impact ? Le Chercheur traque les réponses dans les méandres du passé et dans les laboratoires du présent, mais le temps presse.",
+
+    healerDescription: "Le concept peut se traduire par le Guérisseur en allemand. Le Soigneur voit le monde se désagréger et consacre sa vie à y remédier. Qu'il s'agisse d'une blessure physique, d'un sol stérile, d'un esprit ravagé ou d'objets brisés, le Soigneur considère que restaurer l'ordre est sa mission. <br/>Il pose des attelles, arrose les sols, répare les vieux bateaux. Tout est exécuté avec soin pour éviter que la décadence ne l'oblige à tout recommencer le lendemain. Tant qu'il y a de l'espoir, le Soigneur ne renonce jamais.",
+
+    traditionalistDescription: "L'ordre, c'est la sécurité. C'est ce qui sépare les humains des grands singes, ce qui évite à l'humanité d'errer sans but et de devenir la proie des gendos. Ceux qui restent fidèles aux traditions, honorent la famille et agissent en conséquence chassent le chaos du monde. <br/>L'anarchie est l'anathème des Traditionnalistes. Ils implorent les gens de se tourner vers le passé quand les interrogations du présent sont difficiles à supporter. Le Traditionnaliste se raccroche aux règles séculaires, sans jamais les adapter, quoiqu'il advienne. Cela le bouleverserait trop. Il déteste le changement et ne cherche qu'à préserver la continuité.",
+
+    mediatorDescription: "Si nous parlions tous la même langue, il n'y aurait plus de querelles ni d'incompréhensions. Le Médiateur se considère comme le porte-parole de toutes les communautés, cherche la paix dans l'harmonie, implore et pacifie. <br/>Il assimile les motivations des uns et des autres, tente de réunir les parties en conflit, et facilite la compréhension mutuelle. Crier et jurer ne font pas partie de ses habitudes. La raison prend toujours le pas sur les émotions.",
+
+    hermitDescription: "Les gens passent leur temps à bavarder, si bien que nos pensées sont noyées dans l'océan d'inepties qui nous entoure en permanence. L'Ermite ne cherche pas la compagnie d'autrui. Il déteste tout le monde. Il ne veut pas communiquer et ne s'intéresse pas aux autres. <br/>Dans un groupe, il se tient toujours à l'écart pour se préserver du vacarme du monde. Vivre en solitaire est tellement plus plaisant. Pas de responsabilité envers quiconque : il est heureux d'être livré à lui-même. Il ne trouve la paix que dans la solitude absolue.",
+
+    hereticDescription: "Les lois, les religions et les traditions : tout peut et doit être passé au peigne fin. L'Hérétique cherche les failles dans le système et s'efforce de saper la foi de son prochain. Rébellions, révoltes et émeutes sont sa marque de fabrique. <br/>Il veut détruire la stagnation et les traditions, voir la précieuse civilisation se fracasser contre ses propres idéaux. Il sème le doute et s'en réjouit. Plus les gens sont nombreux à dévier du système, plus il récolte de disciples.",
+
+    conquerorDescription: "Le Conquérant n'existe qu'entre deux pôles de forces contraires. Pour lui, chaque bataille est une lutte de pouvoir ; chaque décision une manœuvre dans le jeu de la vie. La victoire est tout ce qui lui importe ; seuls les perdants parlent de morale. <br/>Le Conquérant tire sa force de l'ampleur de son égo ; son orgueil démesuré le pousse à accomplir de grands exploits. Il considère la modestie comme fausse et vaine, et se vante de tous ses succès.",
+
+    abominationDescription: "Le concept peut se traduire par l'Étrange, le Fou du Bus, le mec chelou, le Déviant, le Marginal, l'Abject, le mec Bizarre en allemand. Certaines personnes ont vu trop d'horreurs au cours de leur vie. Quelque chose s'est brisé en elles, leurs pensées prennent un tour étrange. Personne ne veut les côtoyer. Leur comportement dérange ; les gens tremblent, se sentent mal à l'aise à proximité d'elles. <br/>La crainte qu'elle inspire à autrui la nourrit et la perturbe à la fois, paradoxalement. Elle adore se perdre dans ses fantasmes et voir le feu de la peur brûler dans les yeux de ses adversaires. Quand les autres se rendent compte qu'elle est dénuée de toute émotion civilisée, comme la compassion ou la responsabilité, ils ne voient plus qu'une bête féroce en train de les dévisager. La folie a pris racine dans le cerveau de l'Abomination. C'est une bombe à retardement sans mécanisme. Tic-tac.",
+
+    destroyerDescription: "Pour faire place neuve, tout ce qui est vieux doit être anéanti. Le Destructeur suit ce principe à la lettre et laisse libre cours à sa folie. Tout le monde est un ennemi, et une vie ne suffira pas à les détruire tous. <br/>Il traque ses adversaires aux quatre coins du monde, les combat, les éradiquent. Même s'il prétend œuvrer pour une noble cause, il n'agit que dans son propre intérêt. Lorsqu'il a tout rasé et que de nouvelles pousses apparaissent, il a depuis longtemps repris sa route. Il ne regarde jamais en arrière.",
+
+    chosenDescription: "Les gens accourent pour le voir, pour se baigner dans sa gloire. Tout le monde a toujours bu ses paroles. Tous ses discours semblaient empreints de sagesse. Ce ne fut pas sans conséquence : il se considère comme la solution à tous les problèmes. <br/>L'Élu est l'épée tranchant le nœud gordien, le Messie que la congrégation attendait. Sa présence inspire les hommes, pour le meilleur ou pour le pire. À ses yeux, ceux qui le méprisent et le traitent avec dédain sont des ignorants.",
+
+    defilerDescription: "Le Profanateur est une très mauvaise traduction d'Edge. En allemand, on parle plutôt de Trouble-Fête. Le Trouble-Fête est la jalousie incarnée. Pourquoi les autres devraient-ils toujours avoir plus que lui ? Pourquoi devraient-ils être plus heureux, plus beaux, plus forts ? Le Trouble-Fête ne supporte pas le bonheur d'autrui. <br/>Lorsqu'il les traîne dans la boue, quand il fait des vagues, quand il incite des amants à se sauter à la gorge, il accomplit son destin. Il règne sur tous ceux qui se sentent lésés et en rejettent la faute sur autrui.",
+
+    protectorDescription: "Ce concept peut aussi se traduire en allemand par le Gardien ou le Conservateur. Le monde est rempli de trésors, petits et grands, et ils doivent tous être protégés. Le Protecteur se dresse tel un rempart devant ses protégés, qu'il s'agisse d'êtres humains ou d'objets. <br/>Il veut tout préserver : artefacts, œuvres culturelles ou vie humaine. Quel que soit l'objet de son dévouement, il le défendra jusqu'à la mort.",
+
+    visionaryDescription: "Quand le savoir émerge enfin du passé et apparaît au premier plan de la réalité, le Visionnaire l'a déjà vu. Il voit le cours du futur, pense avec des décennies d'avance, dénonce les sceptiques et implore les gens d'être raisonnables. <br/>Il espère paver la voie d'un avenir meilleur. L'évolution de l'humanité dépend de son intellect et de ses visions.",
+
+    zealotDescription: "La foi du Fanatique soulève des montagnes. Il travaille et souffre au-delà de la compréhension humaine, ne connaît aucune limite. Il tire son pouvoir de son dévouement envers son Seigneur. <br/>Il mourrait pour sa religion, son Culte et son idéologie. Il prouve chaque jour sa valeur envers sa cause. La folie le consume, et il enflamme les esprits autour de lui jusqu'à ce qu'il ne reste que des cendres tourbillonnant dans le vent et une foi aveuglante.",
+
+    discipleDescription: "Ce concept peut aussi se traduire en allemand par l'Élève ou l'Étudiant. Le savoir est comme un océan sur lequel le Disciple voguera toute sa vie durant. Il suit les grands professeurs et cherche les bibliothèques oubliées, poussé par une insatiable curiosité. <br/>Ses connaissances sont immenses, mais il en veut toujours plus. Il réunit en lui plusieurs parcours et spécialisations, mais ne parvient jamais à choisir une voie.",
+
+    righteousDescription: "Ce concept peut aussi se traduire en allemand par le Juste. Action et conscience sont inséparables, et la conscience du Vertueux est pure. Il a une vision du monde extrêmement tranchée et son entourage le trouve arrogant. D'ailleurs, il ne laisse passer aucune occasion de mettre en pratique sa vision de la vertu. <br/>En tant que gardien des questions théologiques ou législatives, il juge tout le monde, chaque action, chaque personne, et même chaque émotion. Tout est soit bon, soit mauvais. Jamais il ne se remet en question.",
+
+    travelerDescription: "Le Voyageur doit parcourir le monde pour évoluer en le découvrant, lui et ceux qui l'habitent. Il accumule les impressions et les expériences comme d'autres collectionnent les crânes de gendos, mais il ne les garde pas pour lui. <br/>Il propage les bonnes et les mauvaises nouvelles, relie les terres reculées aux métropoles, établit un lien entre les clans et les Cultes. Il ne tient pas en place et brûle de reprendre la route.",
+
+    // Cults
+    spitalians: 'Spitaliers',
+    chroniclers: 'Chroniqueurs',
+    hellvetics: 'Hellvétiques',
+    judges: 'Juges',
+    clanners: 'Clanistes',
+    scrappers: 'Ferrailleurs',
+    neolibyans: 'Néolybiens',
+    scourgers: 'Fléaux',
+    anubians: 'Anubiens',
+    jehammedans: 'Jehammétants',
+    apocalyptics: 'Apocalyptiques',
+    anabaptists: 'Anabaptistes',
+    palers: 'Blafards',
+
+    spitaliansDescription: 'Les Spitaliers sont le dernier rempart de l\'humanité contre l\'Amorce et ses horreurs. Médecins austères et guerriers impitoyables, ils explorent les champs de spores, dissèquent des monstres et développent poisons, armes et fongicides pour lutter contre la Sepsis. <br/>Ils imposent une discipline sanitaire extrême, interrogent tous ceux qui prétendent servir l\'humanité et ne tolèrent aucune trace de corruption. Pour eux, la pitié est un luxe que le monde ne peut plus se permettre.',
+
+    chroniclersDescription: 'Les Chroniqueurs sont les héritiers des Streamers et les gardiens du savoir perdu du Stream, jadis universel. Ils parcourent le monde pour retrouver artefacts et serveurs, préparant le jour où le Stream sera réactivé et guidera l\'humanité. <br/>Étranges et craints, mi-hommes mi-technologie, ils observent, collectent et manipulent le monde, imposant leur volonté grâce à des machines, de la lumière et des pouvoirs électrisants.',
+
+    hellveticsDescription: 'Les Hellvétiques, héritiers de l\'armée suisse, ont survécu à l\'enfer des Alpes et consolidé leur forteresse alpine. Soldats disciplinés et implacables, ils contrôlent les passages et défendent leur territoire avec précision et rigueur. <br/>Mais le monde change autour d\'eux : phénomènes anormaux, créatures monstrueuses et révoltes dans les cantons les obligent à sortir de leurs montagnes, observer, apprendre et frapper.',
+
+    judgesDescription: 'Les Juges ont imposé la loi dans les terres désolées, frappant les hors-la-loi et les clans sauvages avec rigueur et violence. Dans la ville de Justitienne, ils ont fondé le Protectorat, un monde sûr mais sous contrôle strict. <br/>Aujourd\'hui, les ruines regagnent vie, les clans se renforcent, et les Juges doivent apprendre à maîtriser non seulement le Codex, mais aussi les lois imprévisibles des désolations pour survivre.',
+
+    clannersDescription: 'Les Clanistes sont plus de 90% de l\'humanité, unis par de nouveaux liens qui remplacent l\'individu par le groupe. Certains se sont tournés vers des cultes sanguinaires et la sauvagerie, d\'autres ont conservé traditions, morale et technologies. <br/>Nomades, sédentaires ou barbares, si tous s\'unissaient, armés de lances et de fusils, rien ne pourrait les arrêter.',
+
+    scrappersDescription: 'Les Ferrailleurs vivent pour les ruines, creusant sans relâche à la recherche des vestiges techniques des anciens. Endurcis par la poussière, le froid et la faim, ils connaissent chaque recoin du monde dévasté et survivent mieux que quiconque hors des villes. <br/>Lorsqu\'ils reviennent en ville, ils vendent leurs trouvailles aux Chroniqueurs avant de retrouver rapidement l\'appel des ruines, leur véritable foyer.',
+
+    neolibyansDescription: 'Les Néolybiens sont des capitalistes globaux, explorateurs et négociants hors pair. Maîtres du commerce et de la diplomatie, ils exploitent routes, ressources et territoires avec audace, vendant tout, de l\'armement aux épices, et profitant même des résistances. <br/>Aventuriers et chasseurs, ils cartographient le monde et traquent des monstres, convaincus qu\'aucun obstacle n\'est insurmontable et que tout peut devenir une source de profit.',
+
+    scourgersDescription: 'Les Fléaux, fiers guerriers afrikains, méprisent les Néolibyens et suivent la voie de leurs ancêtres dans une hiérarchie stricte. Reliés entre eux et aux esprits du monde grâce aux Psychovores, ils conseillent et protègent leur peuple en Afrika en tant que griffes du Lion, tandis qu\'ils deviennent des porteurs de mort chez les Corbeaux. <br/>Stratèges et chasseurs redoutables, ils mènent la bataille avec discipline et puissance, réduisant les ennemis en esclavage pour régler les dettes des Néolybiens.',
+
+    anubiansDescription: 'Les Anubiens se considèrent comme le peuple élu, l\'âme de l\'Afrika, marqués par sept Cercles symbolisant leur transformation vers le Ka parfait. Entre rites ancestraux et maîtrise des Psychovores, ils guident leur peuple et développent connaissances et pouvoirs, certains en guérison, d\'autres en combat contre les aberrations qui perturbent l\'Onde.',
+
+    jehammedansDescription: 'La vie d\'un Jehammétant est tracée dès la naissance : honorer la famille et suivre les enseignements de Jehammed, le dernier prophète qui a fusionné les trois religions abrahamiques. Les Ismaelis travaillent la terre en rêvant de gloire, tandis que les Isaakis s\'entraînent pour le combat afin de prouver leur valeur. <br/>Du côté des femmes, elles ont le rôle traditionnel d\'une femme au foyer pourtant les femmes sont le véritable pilier du culte de Jehammed. Les Hagari donnent naissance aux futurs Ismaelis, les Saraeli aux Isaakis sacrés, entretiennent armures et vêtements, et préservent les enseignements du Dernier Prophète.',
+
+    apocalypticsDescription: 'Les Apocalyptiques vivent dans l\'excès et la liberté totale, formant des Nuées où chaque vice est célébré. Chacun a son rôle : voleurs, prostituées, combattants, tandis que la Corneille dirige et prédit l\'avenir avec le Tarot Apocalyptique. <br/>Ils vivent dans le présent, exaltent toutes les émotions et affrontent leurs ennemis dans un conflit constant entre loi et chaos.',
+
+    anabaptistsDescription: 'Les Anabaptistes suivent les enseignements néognostiques et luttent contre la pourriture du monde et les armées du Démiurge, dépourvus d\'âme divine. Ils accueillent tous ceux qui veulent plus que survivre, unissant le peuple sous la croix brisée. <br/>Les Ascétiques cultivent et soignent la terre, tandis que les Orgiastiques combattent avec huiles sacrées, épées et lance-flammes. La bataille finale pour l\'humanité se déroule ici et maintenant, menée par les Anabaptistes.',
+
+    palersDescription: 'Les Blafards vivent depuis des siècles dans l\'obscurité, attendant le réveil des divins pour régner sur la surface. Transformés par la vie souterraine en créatures pâles et sensitives, ils n\'éprouvent aucune morale envers les humains. <br/>Guidés par leurs Démagogues, maîtres de la manipulation vocale, ils frappent par la peur, le désir ou la douleur. Alors que la famine pousse à sortir et à piller, les Éveilleurs ouvrent les bunkers un à un, lançant un plan colossal encore inconcevable pour eux.'
+  }
+};

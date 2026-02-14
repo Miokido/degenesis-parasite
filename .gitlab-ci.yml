@@ -1,0 +1,35 @@
+image: node:18
+
+stages:
+  - test
+  - deploy
+
+voter:
+  stage: test
+  script:
+    - npm ci
+    - npm audit
+    - npm run test:unit
+    - npm run build
+  interruptible: true
+  only:
+    - merge_requests
+
+pages: 
+  stage: deploy
+  script:
+    - echo "${BETA_PASSWORD}"
+    - cat "${BETA_PASSWORD}" > .env.local
+    - npm ci
+    - npm audit
+    - npm run test:unit
+    - npm run build
+    - rm -rf public
+    - mv dist public 
+    # optionally, you can activate gzip support wih the following line:
+    - find public -type f -regex '.*\.\(htm\|html\|txt\|text\|js\|css\)$' -exec gzip -f -k {} \;
+  artifacts:
+    paths:
+      - public # artifact path must be /public for GitLab Pages to pick it up
+  only:
+    - main

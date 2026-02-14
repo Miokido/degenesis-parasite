@@ -1,0 +1,38 @@
+import { culturesConceptsCults } from "./culturesConceptsCults";
+import { messages } from "./messages";
+import { sheet } from "./sheet";
+import { properties } from "./properties";
+import { ranks } from "./ranks";
+import { potentials } from "./potentials";
+import { clanNames } from "./clans/names";
+import { clanRanks } from "./clans/ranks";
+
+export default {
+  de: {
+    messages: messages.de,
+    ...properties.de,
+    culturesConceptsCults: culturesConceptsCults.de,
+    ranks: { ...ranks.de, ...clanRanks.de },
+    sheet: sheet.de,
+    potentials: potentials.de,
+    clans: clanNames.de,
+  },
+  en: {
+    messages: messages.en,
+    ...properties.en,
+    culturesConceptsCults: culturesConceptsCults.en,
+    ranks: { ...ranks.en, ...clanRanks.en },
+    sheet: sheet.en,
+    potentials: potentials.en,
+    clans: clanNames.en,
+  },
+  fr: {
+    messages: messages.fr,
+    ...properties.fr,
+    culturesConceptsCults: culturesConceptsCults.fr,
+    ranks: { ...ranks.fr, ...clanRanks.fr },
+    sheet: sheet.fr,
+    potentials: potentials.fr,
+    clans: clanNames.fr,
+  }
+}

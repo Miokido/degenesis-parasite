@@ -1,0 +1,2136 @@
+export const ranks = {
+  de: {
+    // Spitalians
+    recruit: 'Rekrut',
+    orderly: 'Pfleger',
+    famulancer: 'Famulant',
+    hygienist: 'Hygieniker',
+    fieldMedic: 'Feldarzt',
+    surgeon: 'Chirurg',
+    epigeneticist: 'Epigenetiker',
+    pharmacist: 'Pharmazeutiker',
+    hippocrat: 'Hippokrat',
+    anesthesiologist: 'Anästhesist',
+    villageDoctor: 'Enklavenarzt',
+    registrar: 'Registrar',
+    consultant: 'Konsultant',
+    preservist: 'Preservist',
+    commandoPrime: 'Kommando',
+    provost: 'Obmann',
+    elder: 'Altvorderer',
+
+    // Chroniclers
+    bit: 'Bit',
+    agent: 'Agent',
+    mediator: 'Mittler',
+    streamer: 'Streamer',
+    fragment: 'Fragment',
+    paradigma: 'Paradigma',
+    shutter: 'Shutter',
+    fuse: 'Fuse',
+    scalar: 'Skalar',
+    zero: 'Zero',
+    needle: 'Needle',
+
+    // Hellvetics
+    soldier: 'Soldat',
+    corporal: 'Unteroffizier',
+    sapper: 'Sappeur',
+    grenadier: 'Grenadier',
+    specialDetachement: 'Spezialdetachement',
+    sentinel: 'Festungswächter',
+    radioBeamUnit: 'Richtstrahl-Soldat',
+    medic: 'Sanitäter',
+    genie: 'Genie',
+    forager: 'Fourier',
+    spotter: 'Aufklärer',
+    subaltern: 'Subaltern',
+    fieldOfficer: 'Stabsoffizier',
+    corpsCommander: 'Korpskommandant',
+    infiltrator: 'Infiltrator',
+    p26Squad: 'P-26 Kader',
+
+    // Judges
+    vagrant: 'Vagant',
+    cityJudge: 'Stadtrichter',
+    protector: 'Protektor',
+    executioner: 'Vollstrecker',
+    blackJudge: 'Schwarzer Richter',
+    advocate: 'Advokat',
+    arbiter: 'Schiedsmann',
+    assessor: 'Assessor',
+    commissioner: 'Kommissar',
+    highJudge: 'Hochrichter',
+    senator: 'Senator',
+    supremeJudge: 'Erster Richter',
+
+    // Scrappers
+    mouse: 'Maus',
+    badger: 'Dachs',
+    fox: 'Fuchs',
+    loneWolf: 'Ruinenwolf',
+    caveBear: 'Höhlenbär',
+    mechanist: 'Mechanist',
+    manufacturer: 'Manufakturist',
+    legend: 'Legende',
+    scavenger: 'Plankner',
+    alphaWolf: 'Leitwolf',
+    cartelThug: 'Kartellist',
+    appraiser: 'Schätzer',
+    officer: 'Offizier',
+
+    // Neolibyans
+    apprentice: 'Lehrling',
+    scribe: 'Schreiber',
+    merchant: 'Händler',
+    seafarer: 'Seefahrer',
+    cartographer: 'Kartograph',
+    greatHunter: 'Großer Jäger',
+    magnate: 'Magnat',
+    sheikh: 'Cheikh',
+    raider: 'Plünderer',
+    ambassador: 'Ambassador',
+    waziri: 'Waziri',
+    consul: 'Consul',
+
+    // Scourgers
+    dufu: 'Dufu', 
+    hondo: 'Hondo',
+    damu: 'Damu',
+    chaga: 'Chaga',
+    simba: 'Simba',
+    moyo: 'Moyo',
+    dumisai: 'Dumisai',
+    kifo: 'Kifo',
+
+    // Anubians
+    initiate: 'Initiant',
+    enchanter: 'Zeremonienmeister',
+    embalmer: 'Totenführer',
+    soulSeer: 'Seelenwäger',
+    healer: 'Heiler',
+    hecatean: 'Hekatit',
+    sickle: 'Sichel',
+    ammit: 'Ammit',
+    hogon: 'Hogon',
+
+    // Apocalyptics
+    finch: 'Fink',
+    battleCrow: 'Raubkrähe',
+    magpie: 'Elster',
+    vulture: 'Aasgeier',
+    cuckoo: 'Kuckuck',
+    owl: 'Eule',
+    woodpecker: 'Specht',
+    stork: 'Storch',
+    raven: 'Rabe',
+    tern: 'Seeschwalbe',
+    seagull: 'Möwe',
+    pelican: 'Pelikan',
+    albatross: 'Albatross',
+    hummingbird: 'Kolibri',
+    marabou: 'Marabu',
+    ibis: 'Ibis',
+    toco: 'Toko',
+    buzzard: 'Bussard',
+    phoenix: 'Phoenix',
+
+    // Jehammedans
+    ismaeli: 'Ismaeli',
+    swordOfJehammed: 'Schwert Jehammeds',
+    abrami: 'Abrami',
+    shepherd: 'Hirte',
+    isaaki: 'Isaaki',
+    jehammedsBlessing: 'Jehammeds Segen',
+    iconide: 'Eikonide',
+    iconess: 'Eikonidin',
+    prophet: 'Prophet',
+    oracle: 'Orakel',
+    hagari: 'Hagari',
+    delilah: 'Delila',
+    voiceOfJehammed: 'Stimme Jehammeds',
+    righteousOne: 'Gerechte',
+    saraeli: 'Saraeli',
+    prideOfJehammed: 'Stolz Jehammeds',
+    maculate: 'Befleckte',
+    immaculate: 'Unbefleckte',
+    arianoi: 'Arianoi',
+    bloodOfAries: "Blut Aries'",
+    fatum: 'Fatum',
+
+    // Anabaptists
+    touched: 'Berührter',
+    ascetic: 'Asket',
+    elysian: 'Elysier',
+    orgiastic: 'Orgiast',
+    furor: 'Furor',
+    emissary: 'Emissär',
+    counselor: 'Konzilist',
+    baptist: 'Täufer',
+    sublime: 'Erhabener',
+    acheron: 'Acheron',
+
+    // Palers
+    specter: 'Schemen',
+    solar: 'Solare',
+    aurora: 'Aurora',
+    reviver: 'Erwecker',
+    redeemer: 'Erlöser',
+    phantom: 'Phantom',
+    cyclops: 'Zyklop',
+    aspirant: 'Aspirant',
+    demagogue: 'Demagoge',
+    halo: 'Halo',
+  },
+  fr: {
+    // Spitalians
+    recruit: 'Recrue',
+    orderly: 'Aide-soignant',
+    famulancer: 'Famulancier',
+    hygienist: 'Hygiéniste',
+    fieldMedic: 'Médecin de Terrain',
+    surgeon: 'Chirurgien',
+    epigeneticist: 'Épigénéticien',
+    pharmacist: 'Pharmacien',
+    hippocrat: 'Hippocrate',
+    anesthesiologist: 'Anésthésiste',
+    villageDoctor: 'Médecin de Village',
+    registrar: 'Registrar',
+    consultant: 'Consultant',
+    preservist: 'Préserviste',
+    commandoPrime: 'Commando Prime',
+    provost: 'Provost',
+    elder: 'Ancien',
+
+// Spitalians
+recruitDescription: 'Jeunes et intelligents, ils captent très tôt l’attention des Spitaliers qui leur enfilent une combinaison appropriée pour les envoyer à l’Appendix effectuer les basses besognes. ' +
+  'Une fois leur quart de service terminé, ils se plongent dans les textes d’antan, et plus particulièrement les livres d’orthographe, dans le but d’en apprendre la langue écrite. ' +
+  'Quiconque ne la pratique pas couramment au bout de deux semestres est renvoyé pour manquement à son devoir. « La stupidité est une maladie que nous-mêmes ne pouvons soigner. » ' +
+  'La pression est énorme, les yeux injectés de sang témoignent de longues nuits passées à étudier, et les corps portent les marques de l’épuisement. ' +
+  'Beaucoup craquent et s’effondrent : on désigne cette faiblesse comme « l’apraxie », ou fainéantise absentéiste. Cette accusation grave ne peut être sanctionnée que par l’exil. ' +
+  'Seul un groupe restreint de personnes endurcies parviendront jusqu’aux examens au bout de quatre semestres.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : -<br/>' +
+  'ÉQUIPEMENT : le Manuel (livre illustré sur les rudiments de la médecine ; confère +1D à INT+Médecine tant que la valeur de Médecine est inférieure ou égale à 2) ; tablier en cuir',
+
+orderlyDescription: 'Ils savent lire et écrire, peuvent comprendre des livres médicaux simples, maîtrisent la gestion du triage de patients. ' +
+  'Ils changent bandages et pansements, ouvrent les cloques purulentes et posent des attelles sur les membres brisés. ' +
+  'Il s’écoulera énormément de temps avant qu’ils ne puissent quitter les infirmeries pour le Cor, bien qu’ils soient sur la bonne voie.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 4 ; PHY+VIGUEUR 4<br/>' +
+  'EFFET : survit à d’innombrables infections au sein de l’Appendix qui finissent par renforcer son système immunitaire ; il obtient un bonus perpétuel de +1D à tous les jets contre les maladies.<br/>' +
+  'ÉQUIPEMENT : combinaison de Spitalier',
+
+famulancerDescription: 'Au garde-à-vous devant les huit Spécialistes, ils saluent d’un geste vif sous la bannière des Spitaliers qui flotte au vent. ' +
+  'Ils viennent d’obtenir le rang de Famulancier : ce sont désormais des étudiants en médecine. ' +
+  'Ils peuvent circuler librement dans le Spital, passer leurs journées et leurs nuits dans les bibliothèques et proposer leur aide aux différents services. ' +
+  'Quiconque ne parvient pas à y obtenir des responsabilités ou ne part pas à l’aventure hors du Spital se retrouvera affecté à un peloton, armé d’un dilacérateur et d’un fusil fongicide.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 4 ; INT+MÉDECINE 6 ; INT+SCIENCE 4<br/>' +
+  'EFFET : est apprécié au sein du Protectorat où il peut manger gratuitement. Si un Famulancier ne choisit pas rapidement une spécialisation médicale, le registre l’enverra au combat ou prêter main-forte aux alliés des Spitaliers.<br/>' +
+  'ÉQUIPEMENT : dilacérateur avec mollusk (+1 autre accessoire) ; fusil à fongicide',
+
+hygienistDescription: 'Qu’il s’agisse de germes ou de la Sepsie, en fin de compte, toute forme de contamination représente un danger pour l’être humain et la terre qu’il habite. ' +
+  'Les Hygiénistes supervisent le respect des règles de pureté. Ils vérifient et valident l’hygiène des pièces et de la nourriture. ' +
+  'Ils entretiennent les portes de sécurité du Spital et les bassins de désinfection à Justitienne. ' +
+  'Ils sont présents partout, à passer des bandelettes réactives aux bureaux de laboratoires, à mesurer le taux de contagion de germes et de spores, à prendre d’assaut les champs de spores et à chasser les Léperos. ' +
+  'Ils conseillent et châtient.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 6 ; INT+TECHNOLOGIE 4 ; ALLIÉS 4 ; AUTORITÉ 4<br/>' +
+  'EFFET : peut ordonner une exsporiation n’importe où dans le Protectorat. Les Juges présents sont soumis à ses directives. Il peut certifier des récoltes ou suspendre la certification.<br/>' +
+  'ÉQUIPEMENT : combinaison d’Hygiéniste ; grenade de gaz chloré ; grenade SP 4016',
+
+fieldMedicDescription: 'Service dédaigné au sein du Spital, les Médecins de Terrain servent côte à côte avec les Famulanciers, rampant dans la boue pour aller rafistoler les blessés. ' +
+  'Dans le Spital, ils représentent le premier contact des malades, qu’ils diagnostiquent et à qui ils annoncent le coût du traitement nécessaire. ' +
+  'Ils disposent de connaissances médicales étendues.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 8 ; RENOMMÉE 2 ; RESSOURCES 2 ; RÉSEAU 2<br/>' +
+  'EFFET : bénéficie d’un libre accès aux hôpitaux publics et de l’ex-sporiation gratuite. ' +
+  '+1 ALLIÉS pour chaque Spitalier sauvé au cours d’une mission de combat ; +1 RÉSEAU pour les membres d’autres Cultes. ' +
+  'Lors des tests d’aptitude, le Médecin de terrain est souvent aidé par ceux qu’il a sauvés au cours d’une mission.<br/>' +
+  'ÉQUIPEMENT : trousse de terrain',
+
+surgeonDescription: 'Toute opération complexe impossible à mener par un Médecin de Terrain est du domaine des Chirurgiens. ' +
+  'Ils maîtrisent le scalpel et connaissent l’anatomie humaine comme personne.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 8 ; AGI+DEXTÉRITÉ 6 ; CHA+COMMANDEMENT 4 ; RENOMMÉE 4<br/>' +
+  'EFFET : le Chirurgien peut demander le renfort d’un Anesthésiste et de 1D Aides-soignants à tout moment. ' +
+  'Les Chirurgiens spitaliers sont tenus en haute estime par les Anabaptistes, ce qui leur donne accès au Conseil des Émanations en tant qu’unique spécialité médicale. ' +
+  'De temps à autre, ils sont recrutés par les Anabaptistes en qualité de médecins privés.<br/>' +
+  'ÉQUIPEMENT : instruments chirurgicaux (niveau 1)',
+
+epigeneticistDescription: 'L’épigénétique étudie les molécules déclencheuses dans le génome humain et les molécules exactes que transforme l’Amorce. ' +
+  'Le département de recherche dirigé par le Spécialiste Dr Holtz est largement dominé par le groupe de recherche des Épigénéticiens, qui dépendent de sa technologie pour analyser les gènes et synthétiser des inhibiteurs extrêmement complexes. ' +
+  'Se former aux techniques d’antan est aussi important que de posséder les bases en génétique et en épigénétique. ' +
+  'Cependant, le développement d’inhibiteurs et de substituts épigénétiques nécessite de la part de cette branche très terre à terre qu’elle se procure des échantillons organiques d’un Psychonaute, voire la créature entière. ' +
+  'Un tel besoin en agents expérimentaux prédestine tout Épigénéticien à affronter ces créatures.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 8 ; INT+TECHNOLOGIE 6 ; INT+SCIENCE 6 ; SECRETS 3<br/>' +
+  'EFFET : gagne accès aux installations des Psychonautes. S’il dépense 2 points d’AUTORITÉ, il obtient un garde du corps famulancier. ' +
+  'Les Chroniqueurs lui donnent accès à leurs alcôves et récupèrent pour son compte les technologies médicales du peuple d’antan. ' +
+  '+3 RESSOURCES lorsqu’il acquiert des agents biologiques de combat expérimentaux.<br/>' +
+  'ÉQUIPEMENT : séquenceur ; lance-cartouches ; 2 aérosols d’Ex / cartouches d’EG 1',
+
+pharmacistDescription: 'Dans tout hôpital public ainsi que dans le Spital, les Pharmaciens ont pour mission de maintenir un approvisionnement constant en médicaments. ' +
+  'Ils disposent pour cela d’un libre accès aux pharmacies. Au Spital, le centre de leurs opérations se situe dans la salle de consultation de la gigantesque pharmacie appelée Pharmacie Communautaire. ' +
+  'Ils y prennent toutes les commandes en médicaments et y distribuent les préparations pharmaceutiques. ' +
+  'Cependant, tout cela ne représente que la partie visible de leur activité. Leur véritable tâche s’accomplit dans les cuves et les fermenteurs situés dans les fabriques pharmaceutiques, mais aussi sur le terrain, à la recherche d’échantillons afin de les cataloguer puis de les faire pousser dans les serres du Spital.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 10 ; INT+SCIENCE 8 ; RENOMMÉE 4<br/>' +
+  'EFFET : avec les Épigénéticiens, les Pharmaciens forment l’élite technologique des Spitaliers. Leur influence dans le domaine médical est liée à leur RENOMMÉE, qui à son tour dépend des résultats de leurs recherches : ' +
+  's’ils n’acquièrent pas de nouvelles connaissances pendant plusieurs mois, leur RENOMMÉE baisse de 1. Cependant, elle peut rapidement augmenter lorsqu’ils rapportent des plantes médicinales venues de régions inconnues ou de l’ichor de glandes de Psychonautes. ' +
+  'Une RENOMMÉE supérieure ou égale à 2 leur confère un libre accès aux pharmacies centrales de tous les hôpitaux (+3 RESSOURCES lorsqu’ils acquièrent des médicaments).<br/>' +
+  'ÉQUIPEMENT : Apothécarium (niveau 1)',
+
+hippocratDescription: 'Les Hippocrates représentent le Spital hors de ses murs et servent de conseillers et d’observateurs au Sénat de Justitienne. ' +
+  'Ils supervisent la coopération entre les différents groupes de recherche, mais les surveillent aussi. Ils enquêtent également sur toute plainte déposée à l’encontre d’un docteur. ' +
+  'Ils sont la conscience du Spital, sa colonne vertébrale éthique et morale.<br/><br/>' +
+  'CONDITION : PSY+DOMINATION 6 ; ALLIÉS 2 ; AUTORITÉ 4 ; SECRETS 3<br/>' +
+  'EFFET : obtient libre accès à toutes les installations, même les plus secrètes. Peut ordonner des révisions et des tests d’aptitude, et demander à des Préservistes de congédier des Spitaliers. ' +
+  'Peut fermer des unités de recherche et faire sceller leurs laboratoires. Les Hippocrates représentent le Spital auprès des autres Cultes et sont autorisés à signer des traités. ' +
+  'Ils ont un accès illimité à la Salle de Jugement de Justitienne.<br/>' +
+  'ÉQUIPEMENT : révolver ; +1D balles par mois ; la croix Ita Sit sert de passeport ; équipement d’espionnage et d’écoute',
+
+anesthesiologistDescription: 'Spécialistes des soins intensifs, les Anesthésistes envoient leurs patients dans un sommeil sans rêves et surveillent leur état tandis que les Chirurgiens sont à l’œuvre. ' +
+  'Puis, dans les jours qui suivent, ils prodiguent leurs soins au corps affaibli. Toutefois, les Anesthésistes ne se contentent pas seulement de sauver des vies, ils peuvent aussi les prendre. ' +
+  'En effet, les cartouches de gaz empoisonné qui ont anéanti un grand nombre de villages de Léperos proviennent aussi de leurs laboratoires et de leurs mains habiles.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 8 ; PHY+LUTTE 6 ; PHY+FORCE 4 ; PHY+VIGUEUR 6 ; ALLIÉS 3<br/>' +
+  'EFFET : obtient +3 RESSOURCES lorsqu’il acquiert des narcotiques et des stimulants ; peut utiliser la Brûlure en toute impunité. ' +
+  'Il obtient des ressources supplémentaires de la part des Hippocrates lorsqu’il interroge des Spitaliers drogués pour leur compte, note leurs points faibles, analyse les rêves et suscite des traumatismes.<br/>' +
+  'ÉQUIPEMENT : pistolet à injection ; 2 cartouches d’injection à bandes noires par mois',
+
+villageDoctorDescription: 'Le Spital consomme des quantités astronomiques de nourriture et d’énergie afin d’alimenter la mécanique médicale de l’Appendix. ' +
+  'Bien que les malades paient pour leurs soins, le Spital ne produit pas assez de bénéfices pour se permettre d’envoyer des expéditions en Pollen et en Franka. ' +
+  'Bien évidemment, le Protectorat de Justitienne accepterait avec joie – et pas par altruisme pur – de couvrir les besoins du Spital. Cependant, les docteurs ont toujours refusé de s’en remettre complètement aux Juges. ' +
+  'Grâce aux Médecins de Village, cela n’est pas nécessaire. Le Spital loue des docteurs à des villes et des villages étrangers en échange de nourriture, de pétrole, d’artisans et de mercenaires. ' +
+  'Toutefois, cette fonction est considérée comme une punition. Pour les Spitaliers, la simple menace de devoir pratiquer au beau milieu de vulgaires sauvages ignares devient une raison suffisante pour redoubler d’ardeur à la tâche et écraser leurs concurrents sans aucune pitié. ' +
+  'Les docteurs qui peinent dans leurs études, ou bien qui affichent des opinions douteuses, se retrouvent très rapidement dans un village perdu au milieu de nulle part, et très loin de leurs pairs.<br/><br/>' +
+  'CONDITION : Famulancier minimum ; est envoyé dans certains villages ou régions<br/>' +
+  'EFFET : une fois qu’il a pris ses fonctions à l’hôpital général, il gagne le cœur de ses patients. RÉSEAU +1. ' +
+  'Quand il aide les étrangers en situation d’urgence et que son test d’INT+MÉDECINE lui confère au moins 3 déclencheurs, sa valeur de RÉSEAU augmente de 1 de manière permanente (maximum 4). ' +
+  'Dans sa communauté natale, il a +1D à toutes les valeurs d’action de PSYCHE et CHARISME.<br/>' +
+  'ÉQUIPEMENT : trousse de terrain',
+
+registrarDescription: 'Un Registrar travaille pour plusieurs Spécialistes et supervise les docteurs dans le Spital et dans le Cor. ' +
+  'Il prête une attention toute particulière au respect du code moral et éthique. Docteur expérimenté, ses qualifications professionnelles lui permettent de prendre la place d’un Spécialiste si ce dernier venait à mourir ou à se retirer à cause de son âge. ' +
+  'Ainsi, un nouveau docteur est nommé Chef de Clinique par tous les autres Spécialistes.<br/><br/>' +
+  'CONDITION : ALLIÉS 5 ; RENOMMÉE 4 ; SECRETS 4<br/>' +
+  'EFFET : accède aux laboratoires secrets du Spital, sauf les installations des Préservistes. A accès aux Spécialistes, qui lui confèrent +1 RENOMMÉE dès qu’il atteint ce rang. ' +
+  'Un Chef de clinique représente le Spital à l’extérieur ; il est la voix des Spécialistes. Tant qu’il conserve ses fonctions, il obtient +2D NÉGOCIATION quand il s’adresse aux chefs de Culte de haut rang (Fragments, Commandants-En-Chef, Sénateurs, Consuls, etc.).<br/>' +
+  'ÉQUIPEMENT : -',
+
+consultantDescription: 'Au sommet de la hiérarchie spitalière, les huit Spécialistes sont les dirigeants incontestés du Spital. En coulisse, ils tirent les ficelles sans jamais révéler leurs véritables motivations. ' +
+  'Ils donnent des nouvelles directives et décident de l’orientation de leur organisation sans qu’aucun débat ne soit jamais permis. ' +
+  'En outre, ils possèdent les moyens nécessaires pour que leurs décisions soient mises en application. ' +
+  'Quant à leur aboutissement, à la manière dont les ordres seront appliqués et à la nature des moyens mis en œuvre, cela reste toujours un véritable mystère.<br/><br/>' +
+  'CONDITION : un Spécialiste doit quitter le Conseil ; ALLIÉS 5 ; AUTORITÉ 5 ; SECRETS 5<br/>' +
+  'EFFET : chef du Culte ; commande les Hippocrates. Le Spécialiste obtient son propre domaine de recherches.<br/>' +
+  'ÉQUIPEMENT : -',
+
+preservistDescription: 'Malgré son approche terre à terre et scientifique, l’organisation spitalière est un véritable vivier de légendes, et les Préservistes en sont un exemple vivant. ' +
+  'Montés sur des étalons noirs équipés de masque à gaz, ils mènent des pelotons de Spitaliers à la bataille contre la Sepsie. ' +
+  'Armés de leur épée Preservalis, ils saignent les rangs d’Aberrants ou détruisent les villages de Léperos à l’aide de leurs cartouches de gaz moutarde. ' +
+  'Leur visage dissimulé derrière un masque à gaz n’affiche certes aucune peur, mais leurs actes sont le symbole même de leur caractère impitoyable. ' +
+  'Ils ne connaissent plus le doute depuis longtemps. Le corps de Préservistes ne reçoit d’ordres ni des Hippocrates, ni des Spécialistes, ni des Anciens. ' +
+  'Il s’agit d’un groupe indépendant au sein de l’organisation spitalière, mais avec des liens solides avec le sommet de la hiérarchie. ' +
+  'Son quartier général est basé à Arnsberg, où les aspirants Préservistes sont affectés, entraînés, reçoivent la sanctification de l’épée, puis chevauchent au combat.<br/><br/>' +
+  'CONDITION : est nommé suite à un exploit au combat contre les ennemis du Spital ; RENOMMÉE 4 ; PHY+CORPS À CORPS 8 ; PHY+RÉSISTANCE 6 ; AGI+MOBILITÉ 6<br/>' +
+  'EFFET : accède à l’Arsenal (+3 RESSOURCES pour toutes les armes, agents biologiques de combat et stimulants), peut utiliser la Brûlure en toute impunité, mais sans en abuser. ' +
+  'Lors d’une mission, le Chef de Commando peut lui permettre de recruter 1D Famulanciers.<br/>' +
+  'ÉQUIPEMENT : épée Preservalis ; pistolet ; +1D balles par mois (valable pour tous les rangs à venir), cheval d’assaut',
+
+commandoPrimeDescription: 'Le Directeur Kranzler dirige de manière incontestée le corps de Préservistes depuis des années. À chaque tentative des Hippocrates pour le contrôler, il déjoue leurs plans comme on chasserait une vulgaire mouche. ' +
+  'À ses côtés se trouvent les Chefs de Commando, qui n’ont rien d’anges et s’approchent plutôt de démons. Kranzler ne veut pas de l’assistance de simples chiens d’attaque. ' +
+  'À la place, il préfère des individus prêts à utiliser leur propre intelligence et leur expérience afin d’infliger le plus de dégâts possible à leurs ennemis.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 10 ; AGI+NAVIGATION 6 ; RENOMMÉE 5 ; SECRETS 3 ; AUTORITÉ 4<br/>' +
+  'EFFET : accès libre et illimité à l’Arsenal. Le Chef de commando peut commander tous les autres Spitaliers. ' +
+  'Il peut recruter 1D Préservistes et 1D Spitaliers de rang 4 pour une mission. Si cette dernière échoue, il devra en répondre devant Kranzler.<br/>' +
+  'ÉQUIPEMENT : anneau de Recteur ; cheval de Newcrest noir',
+
+provostDescription: 'Officiellement, un Recteur obéit au doigt et à l’œil aux ordres des Spécialistes. Mais qu’est-ce que ces vieux schnocks connaissent réellement à la guerre ? ' +
+  'Après tout, le Directeur Kranzler a depuis longtemps échappé aux liens qui étaient censés le retenir…<br/><br/>' +
+  'CONDITION : Kranzler doit avoir laissé sa place ; le personnage est alors nommé par les Spécialistes ; RENOMMÉE 6 ; AUTORITÉ 6 ; SECRETS 5<br/>' +
+  'EFFET : il commande tous les Préservistes et emménage dans les quartiers du Recteur, à Arnsberg. Il peut opposer son veto à toutes les décisions des Spécialistes lorsqu’elles concernent la sécurité du Spital.<br/>' +
+  'ÉQUIPEMENT : -',
+
+elderDescription: 'Seul titre lié à l’âge au sein du Spital, accordé à tout Spitalier qui atteint soixante ans de dur labeur. ' +
+  'Il donne le droit de nommer un mandataire pour les tâches épuisantes et le travail de terrain. La plupart du temps, un docteur qui aspire à devenir Chef de clinique est sélectionné. ' +
+  'En effet, cinq Spécialistes sur huit sont des Anciens.<br/><br/>' +
+  'CONDITION : 60 ans minimum ; RENOMMÉE 4<br/>' +
+  'EFFET : peut déléguer les tâches qui lui sont assignées et voter contre les Spitaliers lors de proclamations de culpabilité.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Chroniclers
+    bit: 'Bit',
+    agent: 'Agent',
+    mediator: 'Mediator',
+    streamer: 'Streamer',
+    fragment: 'Fragment',
+    paradigma: 'Paradigma',
+    shutter: 'Shutter',
+    fuse: 'Fuse',
+    scalar: 'Scalar',
+    zero: 'Zero',
+    needle: 'Needle',
+
+// Chroniclers
+bitDescription: 'Nouvel arrivant au code-barres fraîchement marqué sur un front encore ensanglanté et au score virginal de zéro point. ' +
+  'D’une certaine manière, le Bit est une sorte d’intrus dans le Serveur. ' +
+  'Les premiers jours, il lui faut scruter les sensoria, trouver un mentor et le contraindre à partager ses connaissances technologiques… mais aussi à lui accorder quelques points. ' +
+  'Plusieurs semaines plus tard, le Bit passe automatiquement au rang d’Agent, et tout danger de mort imminente est écarté. Bienvenue chez les Chroniqueurs !<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : se fait tatouer un code-barre sur le front qui lui donne accès à toutes les alcôves tant que sa valeur ne tombe pas à zéro (comme les Zéros).<br/>' +
+  'ÉQUIPEMENT : robe',
+
+agentDescription: 'Les Agents effectuent les tâches quotidiennes au sein du Serveur. ' +
+  'Grâce à leurs connaissances élémentaires en électricité, ils réparent les sensoria en panne et les clés bloquées dans les terminaux sans risquer l’électrocution, pour la plupart en tout cas. ' +
+  'Ils ne sont autorisés à sortir du Serveur que très rarement, et bien souvent uniquement lorsque les détecteurs de sortie sont défectueux.<br/><br/>' +
+  'CONDITION : INT+CONNAISSANCE DES ARTEFACTS 5<br/>' +
+  'EFFET : l’Agent bénéficie d’une autorisation d’accès limitée. Ses vecteurs de mouvement doivent débuter et s’achever dans des Alcôves, ou à l’emplacement d’un artefact important.<br/>' +
+  'ÉQUIPEMENT : vocodeur ; masque de Chroniqueur ; cape',
+
+mediatorDescription: 'Les Médiateurs se déplacent constamment au sein des Serveurs. On leur confie des responsabilités dans les alcôves et sur les murs d’affichage, ce qui les mène à entrer en contact avec d’autres cultes et à voyager dans différentes enclaves : prises de contact, transmission de messages. Score ++. ' +
+  'Dans les colonies, ils effectuent l’analyse des débris qui y sont ramenés et estiment leur valeur. Les Fragments leur permettent une première visite dans le Flux statique du Serveur central, ce qui propulse leur savoir à un niveau supérieur, ainsi que leur soif de connaissance.<br/><br/>' +
+  'CONDITION : INT+CONNAISSANCE DES ARTEFACTS 7 ; INT+TECHNOLOGIE 4 ; SECRETS 1 ; RÉSEAU 2<br/>' +
+  'EFFET : le Médiateur peut se voir confier des missions (prise de contact, services de messager) et bénéficie d’autorisations quand il se trouve devant les murs d’écrans et dans les alcôves. ' +
+  'Ces dernières sont liées à des missions et donnent accès aux installations de presque tous les Cultes (sauf les Anabaptistes). Dans les serveurs, un Médiateur a accès au Flux statique (+3D à toutes les questions liées à la connaissance).<br/>' +
+  'ÉQUIPEMENT : imprimante de lettres de change ; combinaison de Chroniqueur, 1 module gratuit',
+
+streamerDescription: 'Les Diffuseurs détiennent une connaissance gigantesque du Flux, et ils ont bien conscience des jeux de pouvoir en coulisse. ' +
+  'Chacun d’entre eux possède assez d’informations pour faire vivre un enfer à une personne de haut rang à Justitienne ou dans n’importe quel culte. ' +
+  'C’est justement en refusant d’utiliser ce pouvoir qu’ils ont accédé à leur rang. La discrétion est leur mot d’ordre, raison pour laquelle le Serveur les désigne d’office comme émissaires ou conseillers.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 5 ; INT+TECHNOLOGIE 7 ; CHA+NÉGOCIATION 5 ; AUTORITÉ 1 ; SECRETS 2 ; RÉSEAU 4<br/>' +
+  'EFFET : connaît les secrets des autres Cultes (avec un malus de -2, l’historique Secrets n’est pas restreint aux Chroniqueurs, mais peut s’appliquer à tous les autres Cultes). ' +
+  'Le Diffuseur a libre accès à la partie supérieure de Justitienne et même à la Salle de Jugement.<br/>' +
+  'ÉQUIPEMENT : gant de Diffuseur ; électrocuteur ; traqueur ; 1 amélioration ou 1 module gratuit',
+
+fragmentDescription: 'On ne sait pas grand-chose des Chroniqueurs de ce rang. Ils résident principalement au centre du Serveur, et ne semblent guère enclins à entrer en contact avec leurs frères et leurs sœurs de rang inférieur. ' +
+  'Toutefois, leur capacité à accéder à toutes les bases de données du Serveur est de notoriété publique. Ils possèdent assurément un immense savoir.<br/><br/>' +
+  'CONDITION : PSY+VOLONTÉ/FOI 6 ; SECRETS 5 ; AUTORITÉ 2 ; RESSOURCES 4<br/>' +
+  'EFFET : lorsqu’un Fragment se connecte au Flux statique d’un serveur, ses compétences d’INT augmentent temporairement de 6D. ' +
+  'Le Fragment reçoit les codes miroirs du serveur. Grâce à eux, il peut se déplacer des deux côtés du Flux statique et ainsi manipuler le monde miroir des infiltrés du Dormeur. ' +
+  'Un Fragment a accès à tous les QG des autres Cultes, sauf ceux des Hellvétiques et des Anabaptistes. En général, les Cultes n’en ont pas conscience.<br/>' +
+  'ÉQUIPEMENT : raccordeur ; drone du Flux',
+
+paradigmaDescription: 'Ils se sentent trop à l’étroit dans le Serveur et désirent se rendre dans les désolations, dans les secteurs les plus turbulents. ' +
+  'Lorsque leurs condensateurs logés sous leurs épaulières se mettent à bourdonner, puis déchargent leur énergie sous la forme d’éclairs aveuglants, lorsqu’ils calibrent leur voix de l’infrason à l’audible pour ordonner à un Claniste à moitié nu de mettre genou à terre, ils tranchent avec l’image du Chroniqueur bizarre mais somme toute inoffensif. ' +
+  'Les Paradigmes sont de véritables illusionnistes et ils n’ont qu’un objectif en tête : devenir des dieux aux yeux des sauvages afin de les exploiter au profit du Serveur.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 6 ; PSY+VOLONTÉ/FOI 8 ; PSY+TROMPERIE 8 ; PSY+DOMINATION 6<br/>' +
+  'EFFET : le Paradigme peut lire les runes d’avertissement des Ferrailleurs. Ces derniers protègent les Paradigmes et agissent en tant qu’informateurs (+1 RÉSEAU là où les Ferrailleurs sont impliqués). ' +
+  'Un Paradigme défend le Culte et se détourne de ses objectifs en attisant la superstition et les peurs ainsi qu’en incitant les autres parties à se sauter à la gorge. ' +
+  'S’il souhaite provoquer un conflit entre les Cultes et les Clans, il a accès à un réseau de provocateurs (+3 RÉSEAU pour cette opération uniquement).<br/>' +
+  'ÉQUIPEMENT : raccordeur ; terminal mobile de liaison montante du réseau des Chroniqueurs',
+
+shutterDescription: 'Les Chroniqueurs du Serveur sont une race à part, dont la plupart des membres ne sauraient survivre à l’extérieur. ' +
+  'Les Agents qui comprennent cela très tôt sont différents. Parmi eux, certains décident d’emprunter une voie différente de l’ascension hiérarchique officielle. ' +
+  'Tout comme aux Diffuseurs, des responsabilités leur sont confiées dans les alcôves ou sur les murs d’affichage. Cependant, leurs objectifs diffèrent. ' +
+  'Il leur faut manier des technologies consacrées (autrement dit mortelles). S’ils acceptent, ils sont alors enregistrés comme Occulteurs et effectuent les basses œuvres de l’Ordre dans l’ombre la plus profonde.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 6 ou AGI+ARMES À PROJECTILES 6 ; PSY+RUSE 6<br/>' +
+  'EFFET : reçoit des missions consacrées en provenance du serveur. Les Occulteurs ne sont pas les bienvenus dans les alcôves.<br/>' +
+  'ÉQUIPEMENT : l’Occulteur a accès aux technologies consacrées (armes et équipement capables d’infliger des dégâts mortels, voir page 129 : Technologie consacrée)',
+
+fuseDescription: 'Les Occulteurs les plus talentueux deviennent des Fusibles, un rang « non officiel ». Le Serveur les considère comme des mesures de sécurité contre toute forme de menace qui ne veut pas entendre raison… et doit donc en subir les conséquences. ' +
+  'Un transpondeur est injecté dans chaque Fusible, qui a ensuite accès à des zones secrètes du Serveur, ainsi qu’à plusieurs planques dans les désolations. ' +
+  'Les technologies consacrées l’y attendent pour mener à bien chacune de ses missions. Les Fusibles en savent en effet beaucoup sur des sujets délicats qui impliquent effusions de sang, vol et infiltration. ' +
+  'Cependant, ils pourraient poser un véritable problème au Serveur s’ils venaient à révéler leur existence. La Catastrophe des Aiguilles est restée dans toutes les mémoires. ' +
+  'Ce qui explique peut-être pourquoi les transpondeurs ne sont pas que de simples transmetteurs…<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 8 ou AGI+ARMES À PROJECTILES 8 ; PHY+RÉSISTANCE 6 ; AGI+FURTIVITÉ 6 ; RÉSEAU 3<br/>' +
+  'EFFET : son transpondeur injecté lui donne accès aux zones cachées du serveur et aux planques d’armes dans les désolations – mais les Skalars ou les Diffuseurs peuvent le détecter à tout moment à l’aide d’un traqueur.<br/>' +
+  'ÉQUIPEMENT : technologie consacrée par niveau de ressource',
+
+scalarDescription: 'Les Occulteurs savent passer inaperçus, et le résultat de leurs missions est sauvegardé de manière éparse dans la mémoire locale. Même un Chroniqueur de haut rang serait bien incapable de retracer tous les déplacements et les activités d’un Occulteur. ' +
+  'C’est pour cela que les opérations confiées aux Occulteurs se complexifient souvent. Et les Skalars en sont la représentation parfaite. ' +
+  'Ils dirigent les Occulteurs et les Fusibles, jonglent avec les identités et coordonnent leurs opérations. Chacun reçoit une tâche à la mesure de ses capacités. ' +
+  'En retour, le Skalar recevra une partie du score et des lettres de change. Tout le monde y gagne, car un score qui grimpe rapidement ouvre l’accès à de meilleures technologies dont tout le monde profitera.<br/><br/>' +
+  'CONDITION : PHY+RUSE 8 ; PSY+TROMPERIE 10 ; SECRETS 4 ; RÉSEAU 6<br/>' +
+  'EFFET : sous couvert de fausses identités, le Skalar obtient un accès quasi illimité aux arsenaux du serveur. ' +
+  'Il reçoit +2 RESSOURCES et peut missionner des Occulteurs et des Fusibles à qui il alloue +1 RESSOURCES temporaires. ' +
+  'Grâce à ses identités virtuelles, le Skalar reçoit quotidiennement des lettres de change des Chroniqueurs qui peuvent être débitées dans les alcôves : 1D × 10 LC par jour.<br/>' +
+  'ÉQUIPEMENT : technologie consacrée par niveau de ressource',
+
+zeroDescription: 'Score de Zéro. Dès qu’un score tombe à zéro, le Chroniqueur est automatiquement expulsé du système. ' +
+  'Toutefois, comme le Serveur ne peut lui enlever ses connaissances, les Zéros servent toujours le culte comme réserves de ressources. ' +
+  'Cependant, leur simple existence représente un tel risque que des Fragments hésiteront rarement à envoyer un Occulteur les éliminer. Les Zéros mènent une vie dangereuse et bien souvent très courte.<br/><br/>' +
+  'CONDITION : Occulteur ou Médiateur minimum ; il est toujours possible d’emprunter la voie du Zéro, mais il est impossible de faire machine arrière ; SECRETS 2 ; PSY+TROMPERIE 6<br/>' +
+  'EFFET : le Zéro a piraté le système du serveur et s’est octroyé l’accès à toutes les planques secrètes de technologie consacrée, ainsi qu’à la technologie ordinaire des Chroniqueurs. ' +
+  'Son niveau de RESSOURCES augmente jusqu’à 6. Cependant, lorsque le Zéro investit des points de RESSOURCES, il court davantage de risques d’être repéré par le serveur. ' +
+  'Le serveur démarre avec 0 Perception. Chaque point de RESSOURCES utilisé ajoute +1D et engendre une confrontation contre le Zéro, qui riposte avec PSY+TROMPERIE. ' +
+  'Si le serveur gagne, un Occulteur apparaît dans l’heure. Dans le cas de 2 déclencheurs, un Fusible se charge du nettoyage. Si les déclencheurs sont encore plus nombreux, un Skalar est affecté à cette mission. ' +
+  'Après l’attaque, la Perception tombe à zéro et le jeu recommence.<br/>' +
+  'ÉQUIPEMENT : technologie consacrée et technologie des Chroniqueurs',
+
+needleDescription: 'Les Zéros qui parviennent à s’éloigner suffisamment peuvent tenter de reproduire ce que les Chroniqueurs des Aiguilles accomplirent. ' +
+  'En effet, ces Aiguilles portent bien leur nom, car elles sont exactement cela : une épine dans le flanc des Chroniqueurs. ' +
+  'Leurs adeptes les protègent de toute attaque des Fusibles, tandis qu’ils élargissent les connaissances du Flux et bâtissent un arsenal de matériel consacré et dépravé.<br/><br/>' +
+  'CONDITION : CHA+COMMANDEMENT 8 ; ALLIÉS 3 ; SECRETS 5 ; RÉSEAU 4<br/>' +
+  'EFFET : un Clan au moins vénère et protège l’Aiguille, mais il perd son accès aux arsenaux du serveur. ' +
+  'En représailles, il crée son propre arsenal grâce aux découvertes que lui rapportent les Clanistes. ' +
+  'Chaque point de RESSOURCES donne accès au Niveau technologique correspondant : une Aiguille avec 3 RESSOURCES peut utiliser des équipements technologiques de niveau 3 ; avec 6 RESSOURCES, il aurait accès aux artefacts du Pays des merveilles. ' +
+  'Si la renommée d’une Aiguille dépasse 3, les Maraudeurs le remarqueront. Seront-ils bien disposés à son égard ?<br/>' +
+  'ÉQUIPEMENT : n’importe lequel en fonction du Niveau technologique ; 1 équipement de Libre penseur',
+  
+    // Hellvetics
+    soldier: 'Soldat',
+    corporal: 'Sous-Officier',
+    sapper: 'Sapeur',
+    grenadier: 'Grenadier',
+    specialDetachement: 'Force Spéciale',
+    sentinel: 'Garde de Forteresse',
+    radioBeamUnit: 'Transmetteur',
+    medic: 'Médecin',
+    genie: 'Ingénieur',
+    forager: 'Approvisionneur',
+    spotter: 'Éclaireur',
+    subaltern: 'Subalterne',
+    fieldOfficer: 'Officier Supérieur',
+    corpsCommander: 'Commandant en Chef',
+    infiltrator: 'Infiltré',
+    p26Squad: 'Escouade P-26',
+	
+// Hellvetics
+soldierDescription: 'Les jeunes Soldats sont recrutés parmi les enfants d’autres Hellvétiques ou parmi les volontaires issus des régions territoriales. ' +
+  'À l’âge de quatorze ans, ils commencent l’entraînement qui façonnera leur corps et leur esprit. ' +
+  'Après leur première année, ils reçoivent leur défricheur, qui les accompagnera le reste de leur vie. ' +
+  'Le Soldat commence à la Deuxième Classe, puis peut montrer à la Première Classe. ' +
+  'Les Soldats de deuxième et première classe doivent faire preuve d’obéissance, effectuer leur service dans la forteresse et obtenir de bons quotas de tirs.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : doit se présenter à la Forteresse alpine tous les six mois sous peine de voir ses RESSOURCES réduites en permanence de 1 par nombre d’absences.<br/>' +
+  'ÉQUIPEMENT : défricheur ; +5 munitions par mois ; harnais ; ration de fer (équivaut à deux repas)',
+
+corporalDescription: 'Le grade de Caporal est le tout premier chez les sous-officiers, suivi de brigadier et de brigadier-chef. Avec eux démarrent les premières responsabilités de commandement. ' +
+  'Les tours de garde indépendants dans les cols et les tunnels de la périphérie, ainsi que le commandement d’unités de taille réduite font partie des déploiements habituels. ' +
+  'Des briefings intensifs en formation tactique sont obligatoires. ' +
+  'Après le grade de Brigadier-Chef, il y a le grade de Sergent et Sergent-Chef (correspondant au Rang 3). ' +
+  'Lorsqu’un sous-officier devient sergent ou sergent-chef, il doit choisir une branche dans laquelle se spécialiser.<br/><br/>' +
+  'CONDITION : PHY+FORCE 4 ; AGI+ARMES À PROJECTILES 5 ; INS+SURVIE 4 ; AUTORITÉ 2<br/>' +
+  'EFFET : dans les manufactures de la Forteresse alpine, le défricheur est adapté aux besoins du Caporal. L’arme bénéficie d’une amélioration de niveau 1 (portée, dégât, ou maniement). ' +
+  'Il reçoit l’autorisation de transporter 2 unités d’un explosif de son choix.<br/>' +
+  'ÉQUIPEMENT : +10 munitions par mois (rangs supérieurs également)',
+
+sapperDescription: 'Si jamais un tunnel s’écroule ou si l’ennemi crée une ligne de défense, faites toujours appel aux Sapeurs, les spécialistes en démolition. ' +
+  'Ils posent leur charge à un endroit et attendent que celle-ci explose, bien à l’abri derrière leur bouclier de tunnel. ' +
+  'Ces Hellvétiques habitués à creuser de gros trous à l’explosif n’utilisent leur défricheur qu’en dernier recours. ' +
+  'Ils sont entraînés à l’utilisation d’armement lourd comme des lance-grenades ou des mitrailleuses.<br/><br/>' +
+  'CONDITION : PHY+FORCE 6 ; PHY+VIGUEUR 6 ; AGI+DEXTÉRITÉ 6 ; INT+SCIENCE 4 ; AUTORITÉ 3<br/>' +
+  'EFFET : en tant qu’expert en démolition, il a un accès privilégié aux explosifs (+3 RESSOURCES pour les explosifs). ' +
+  'Contrairement aux autres soldats, il peut aller au combat avec un maximum de 4 charges d’explosifs.<br/>' +
+  'ÉQUIPEMENT : bouclier de tunnel ; lance-grenades ; mitrailleuse ; explosifs',
+
+grenadierDescription: 'Les Grenadiers représentent la branche de spécialisation à l’effectif le plus conséquent. ' +
+  'Parfaitement entraînés et équipés d’un défricheur modifié, ils touchent généralement leur cible dès le premier tir. ' +
+  'Entraînés aux techniques de survie, ils sont ainsi capables de mener leurs missions à bien hors de la forteresse. ' +
+  'Pour les Suisses, un Grenadier représente le parfait soldat.<br/><br/>' +
+  'CONDITION : AGI+ARMES À PROJECTILES 8 ; PSY+RÉACTIVITÉ 6 ; INS+SURVIE 6 ; INS+ORIENTATION 6 ; AUTORITÉ 3<br/>' +
+  'EFFET : est dispensé de faire son rapport tous les six mois. ' +
+  'Il obtient des balises pour détecter les planques d’armes sur son site d’opérations. ' +
+  'Son défricheur bénéficie d’une amélioration de niveau 2. ' +
+  'Son rang lui confère également +1D NÉGOCIATION avec les Fléaux ; les membres du Lion considèrent ceux de l’infanterie helvétique comme des héros et leurs pairs.<br/>' +
+  'ÉQUIPEMENT : +20 munitions par mois, navigateur',
+
+specialDetachementDescription: 'Le Grenadier et les Sapeurs aux prouesses extraordinaires rejoignent les rangs des Forces Spéciales. Dans le jargon hellvétique, ils sont appelés Experts. ' +
+  'Ils répondent directement aux ordres du Commandant en chef et effectuent des missions de grande importance politique. ' +
+  'Par exemple, ils peuvent être détachés à la protection d’importantes délégations d’organisations alliées envoyées en visite à la Forteresse alpine comme émissaires. ' +
+  'Ils peuvent être aussi déployés en territoire étranger. ' +
+  'Ils ont accès à une version à canon scié de leur défricheur, et peuvent transporter un grand nombre de munitions lors de missions d’infiltration.<br/><br/>' +
+  'CONDITION : PHY+LUTTE 6 ; PHY+CORPS À CORPS 6 ; AGI+ARMES À PROJECTILES 10 ; AGI+FURTIVITÉ 6 ; PSY+RÉACTIVITÉ 7 ; RENOMMÉE 3<br/>' +
+  'EFFET : les soldats des forces spéciales peuvent accéder au QG du Culte lorsqu’ils portent leurs insignes de rang sur leurs harnais.<br/>' +
+  'ÉQUIPEMENT : défricheur à canon court ; +20 munitions par mois',
+
+sentinelDescription: 'Ils connaissent tous les bunkers dotés de meurtrières donnant sur les Alpes. Ils surveillent les voies de circulation et décident qui peut passer et qui doit rebrousser chemin. ' +
+  'Ils manient les canons de la Forteresse alpine, et s’ils sortent par temps neigeux c’est uniquement pour dissimuler des charges explosives sous les plaques de neige. ' +
+  'Lorsqu’elles explosent, la montagne tremble et des avalanches dévalent les pentes en rugissant vers la vallée. Aucun assaillant ne dispose de la moindre chance de survie contre une telle force de la nature. ' +
+  'Cette méthode permet aussi d’économiser les munitions. ' +
+  'En tant que dernière ligne de défense, les Gardes de forteresse ont accès aux harnais les plus lourds. Ils sont aussi responsables de la sécurité interne au sein de la forteresse et, d’une certaine manière, ils y servent de forces de l’ordre.<br/><br/>' +
+  'CONDITION : PHY+FORCE 8 ; PHY+RÉSISTANCE 6 ; AGI+NAVIGATION 6 ; CHA+NÉGOCIATION 6 ; AUTORITÉ 4 ; RESSOURCES 3<br/>' +
+  'EFFET : accède aux explosifs (+3 RESSOURCES pour explosifs). Peut arrêter n’importe qui à l’intérieur de la Forteresse alpine et le traîner au tribunal.<br/>' +
+  'ÉQUIPEMENT : harnais ultrarésistant',
+
+radioBeamUnitDescription: 'Se déplacer à pied de la première région territoriale à la quatrième prend généralement plusieurs semaines, même en empruntant les passages souterrains en très bon état. ' +
+  'Néanmoins, il est vital de garder chaque zone sous surveillance, et il est nécessaire que le Commandant en chef soit informé en temps réel des mouvements de n’importe quel ennemi. ' +
+  'En même temps, les ordres doivent être communiqués à partir d’en haut. Le Transmetteur, ou officier des transmissions, est donc responsable des pylônes radio, des câbles et des stations-relais. ' +
+  'Sans lui, les Hellvétiques deviendraient sourds et aveugles. Ses connaissances en électronique des communications n’ont absolument rien à envier à celles des Chroniqueurs de haut rang, avec comme atout supplémentaire qu’un Transmetteur peut effectuer un appel radio pour demander de l’aide ou un renfort d’artillerie.<br/><br/>' +
+  'CONDITION : PHY+VIGUEUR 6 ; AGI+ARTISANAT 6 ; INT+TECHNOLOGIE 8 ; RESSOURCES 3<br/>' +
+  'EFFET : bénéficie d’une connexion extérieure avec un réseau radio de Chroniqueurs : un Transmetteur peut communiquer avec toutes les Alcôves sur des milliers de kilomètres, ' +
+  'et ses appels au secours atteignent même les contreforts alpins. En quelques minutes, quelques heures au pire, un peloton de Grenadiers hellvétiques arrivera pour lui prêter main-forte.<br/>' +
+  'ÉQUIPEMENT : paquetage radio ; navigateur',
+
+medicDescription: 'Aller à la guerre implique de voir le sang couler. Et s’il s’agit du vôtre, il vaut mieux qu’un Médecin soit dans les parages. ' +
+  'Les Médecins font partie du personnel combattant, et ils se tiennent aux côtés des Grenadiers. Toutefois, leur champ d’expertise consiste à soigner les blessés.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 7 ; INS+EMPATHIE 4 ; AUTORITÉ 2<br/>' +
+  'EFFET : tenu en haute estime dans les cantons. Obtient un bonus de +1D à tous les tests de PSYCHÉ et de CHARISME dans l’arrière-pays. ' +
+  'Mais son influence au sein de la Forteresse alpine augmente également : +1 AUTORITÉ.<br/>' +
+  'ÉQUIPEMENT : grenades fumigènes et étourdissantes ; trousse de terrain',
+
+genieDescription: 'Personne ne connaît mieux la Forteresse alpine que les Ingénieurs, car ce sont eux qui l’ont bâtie. ' +
+  'Expérimentés dans la construction de ponts ou de forteresses, ils assurent aussi la mobilité des Hellvétiques. ' +
+  'Ils réparent les passages et les tunnels, et ils se chargent de la maintenance des véhicules. Toute entreprise de grande envergure deviendrait impossible sans leurs talents logistiques.<br/><br/>' +
+  'CONDITION : PHY+FORCE 6 ; AGI+NAVIGATION 4 ; AGI+ARTISANAT 6 ; INT+TECHNOLOGIE 6 ; INT+SCIENCE 6 ; RESSOURCES 2<br/>' +
+  'EFFET : l’Ingénieur a l’habitude de construire des fortifications. Si ses camarades se retranchent avant de combattre et qu’il peut inspecter et améliorer les fortifications, ' +
+  'la défense (active et passive) augmente de +1D ou de +1 tant que les troupes combattent à couvert. ' +
+  'L’Ingénieur obtient +3 RESSOURCES lorsqu’il requiert des bulldozers.<br/>' +
+  'ÉQUIPEMENT : harnais ultrarésistant avec module de manipulation de charges lourdes',
+
+foragerDescription: 'Officiers de surplus et quartiers-maîtres, les Approvisionneurs gèrent la distribution de nourriture et d’équipement militaire. ' +
+  'Ils sont autorisés à accéder aux interfaces de données afin de se connecter directement à l’entrepôt central ou aux ordinateurs de section. ' +
+  'Techniciens expérimentés, les Approvisionneurs sont capables de contourner tout blocage numérique et d’ouvrir des portails condamnés.<br/><br/>' +
+  'CONDITION : INT+CONNAISSANCE DES ARTEFACTS 6 ; CHA+NÉGOCIATION 6 ; CHA+CONSIDÉRATION 4 ; RESSOURCES 3 ; RENOMMÉE 3 ; RÉSEAU 2<br/>' +
+  'EFFET : grâce à son terminal de liaison montante, l’Approvisionneur accède au stockage central et aux ordinateurs de section. ' +
+  'Pour commander des munitions ou d’autres équipements (à l’exclusion des harnais et de leurs améliorations, des défricheurs, et des véhicules), ses RESSOURCES augmentent jusqu’à 6. ' +
+  'En tant que quartier-maître et commissaire, il est proche de ses camarades. Il peut ignorer les commérages (ce qui lui confère +1 RENOMMÉE) ou les noter dans un coin de sa tête (+1 SECRETS). ' +
+  'Ce bonus est unique, mais permanent tant que l’Approvisionneur conserve son rôle.<br/>' +
+  'ÉQUIPEMENT : liaison montante d’Approvisionneur',
+
+spotterDescription: 'Les pentes abruptes des Alpes et les champs de ruine des désolations constituent le territoire des Éclaireurs. Légèrement armés, résistants et bien camouflés, ils observent et prennent des notes.<br/><br/>' +
+  'CONDITION : PHY+ATHLÉTISME 6 ; AGI+FURTIVITÉ 7 ; INT+PERCEPTION 6 ; INS+ORIENTATION 6 ; RÉSEAU 3<br/>' +
+  'EFFET : reçoit un bracelet transpondeur pour éviter d’être confondu avec un ennemi lorsqu’il est déguisé.<br/>' +
+  'ÉQUIPEMENT : harnais d’Éclaireur léger ; bracelet transpondeur ; jumelles',
+
+subalternDescription: 'Les Subalternes ayant le grade de sous-lieutenant et de premier-lieutenant doivent prouver leur valeur avant de se voir confier des unités entières constituées de plusieurs sections de combat. ' +
+  'Parmi les Subalternes, le grade le plus élevé est celui de capitaine, en charge de tous les soldats dans sa compagnie. ' +
+  'Bien qu’ils mènent une vie de militaire, les Subalternes disposent tout de même de nombreux privilèges : ils vivent dans des quartiers individuels, et un Grenadier assure leur protection chaque fois qu’ils sortent de la Forteresse alpine. ' +
+  'Ils sont les ambassadeurs d’Hellvetica et, à ce titre, sont tenus en très haute estime.<br/><br/>' +
+  'CONDITION : CHA+COMMANDEMENT 8 ; AGI+ARMES À PROJECTILES 8 ; AUTORITÉ 4<br/>' +
+  'EFFET : l’insigne d’officier sur son épaule produit ses effets : +1 AUTORITÉ en permanence. ' +
+  'Le Subalterne mène des unités au combat. Les Hellvétiques de grade inférieur doivent lui obéir sous peine d’être transférés aux Sentinelles. ' +
+  'Quand le Subalterne quitte la Forteresse, un Grenadier l’escorte. Dans le quartier de l’ambassade de Justitienne, les Hellvétiques de haut rang et le Subalterne sont particulièrement bien traités et vivent dans une demeure majestueuse. ' +
+  'Le Subalterne négocie l’expédition des ressources avec les Néolibyans et les Ferrailleurs pour que la Forteresse alpine soit toujours bien approvisionnée. ' +
+  'Grâce à la confiance qui s’est développée au fil des ans, ses ALLIÉS peuvent également s’adresser aux Néolibyans et aux Ferrailleurs.<br/>' +
+  'ÉQUIPEMENT : -',
+
+fieldOfficerDescription: 'Au-dessus du Subalterne se trouvent les grades des Officiers supérieurs : major, lieutenant-colonel et colonel. Ils assistent le Commandant en chef dans la gestion de sa région territoriale. ' +
+  'Selon la Doctrine, ils sont autorisés à instaurer la loi martiale pour tous les civils habitants les régions confédérées et à rendre justice en conséquence. Cela a provoqué de nombreuses disputes par le passé.<br/><br/>' +
+  'CONDITION : ALLIÉS 3 ; AUTORITÉ 5 ; RENOMMÉE 4<br/>' +
+  'EFFET : campé devant la carte posée sur la table, l’Officier de terrain devise avec les Commandants en chef. Il est au courant de la prochaine étape vers la restauration de la Confédération hellvétique (+1 SECRETS). ' +
+  'En territoire fédéral, il peut donner des ordres, appliquer la loi martiale aux civils et les juger : lorsqu’il s’adresse à des civils hellvétiques, il peut utiliser son AUTORITÉ sur PSY+DOMINATION. ' +
+  'Ce bonus ne s’applique pas dans des Régions qui ont tourné le dos à l’Hellvetica. Un échec au test d’action peut provoquer un soulèvement.<br/>' +
+  'ÉQUIPEMENT : -',
+
+corpsCommanderDescription: 'Il dirige une région territoriale, et avec les autres Commandants en chef, il établit les futurs plans d’action.<br/><br/>' +
+  'CONDITION : le poste doit être libre (ce qui implique qu’un des quatre Commandants en chef est mort ou qu’il a démissionné) ; ALLIÉS 5 ; AUTORITÉ 6<br/>' +
+  'EFFET : le Commandant en chef détient l’autorité suprême sur l’une des quatre Régions territoriales. Il est l’officier le plus haut gradé ; ses ordres prévalent sur la doctrine et la loi. ' +
+  'Il peut réquisitionner des unités, ordonner la construction de nouveaux ponts, fermer des galeries souterraines et exiger la conquête de l’ancien territoire de la Confédération.<br/>' +
+  'ÉQUIPEMENT : -',
+
+infiltratorDescription: 'Ils se fondent dans la masse, dissimulent leurs harnais de reconnaissance sous des vêtements locaux ou les enlèvent complètement. ' +
+  'Entraînés dans l’art de la duperie et du sabotage, ils identifient les chefs de bande et affaiblissent les défenses ennemies.<br/><br/>' +
+  'CONDITION : PSY+TROMPERIE 8 ; PSY+RUSE 8 ; PSY+RÉACTIVITÉ 6 ; RÉSEAU 4<br/>' +
+  'EFFET : connaît des passages secrets et des salles de stockage dissimulées à l’intérieur de la Forteresse alpine. Lorsqu’il cherche l’une de ces portes dérobées, il obtient +4D à INS+ORIENTATION.<br/>' +
+  'ÉQUIPEMENT : -',
+
+p26SquadDescription: 'Le Projet 26 est une organisation héritière d’un antique accord du même nom, dont le but consistait à organiser la résistance en cas de défaite de l’armée suisse. ' +
+  'Le nombre 26 se rapporte au nombre de cantons, qui devraient normalement rejoindre la Fédération hellvétique, surtout depuis les dernières insurrections. ' +
+  'Les agents du P-26 opèrent dans des cellules composées de deux à quatre Infiltrés. Grâce à des missions de propagande et de sabotage, ils influencent l’opinion au sein de chaque canton en faveur des Hellvétiques. ' +
+  'Ils tournent en ridicule tout foyer idéologique, ou l’éradiquent complètement. Chaque agissement de la part du P-26 comporte une haute visée symbolique et ne devra jamais porter préjudice au cœur même de la nation hellvétique.<br/><br/>' +
+  'CONDITION : CHA+CONSIDÉRATION 6 ; CHA+EXPRESSION 6 ; PHY+CORPS À CORPS 8 ; PSY+RUSE 10 ; RÉSEAU 5<br/>' +
+  'EFFET : en tant que membre d’une escouade, l’Hellvétique connaît entre 1 et 3 autres Infiltrés ; ils forment une cellule. ' +
+  'Il obtient un accès illimité aux arsenaux de la forteresse (RESSOURCES 6) tant qu’il utilise cet équipement pour faire avancer la réunification des cantons de la Confédération hellvétique. ' +
+  'Les membres d’une cellule s’entraident, mais ils se surveillent également.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Judges
+    vagrant: 'Vagabond',
+    cityJudge: 'Juge de Ville',
+    protector: 'Protecteur',
+    executioner: 'Exécutionneur',
+    blackJudge: 'Juge Noir',
+    advocate: 'Avocat',
+    arbiter: 'Arbitre',
+    assessor: 'Contrôleur',
+    commissioner: 'Commissaire',
+    highJudge: 'Procureur',
+    senator: 'Sénateur',
+    supremeJudge: 'Juge Suprême',
+	
+// Judges
+vagrantDescription: 'Les Juges aiment recueillir les enfants dont les parents furent victimes de crimes atroces pour en faire des Vagabonds. ' +
+  'La colère, vivace dans le cœur de ces orphelins, brûle de plus en plus ardemment au fil des ans. Ils réclament vengeance. ' +
+  'Plus tard, beaucoup rejoindront les Protecteurs et prendront leur revanche. ' +
+  'Les Vagabonds nés d’une vieille famille d’Avocats qui aspirent à succéder à leurs parents naissent du bon côté de la barrière. ' +
+  'Dès l’enfance, ils sont plongés dans une culture de débats, et le monde de violence des Protecteurs leur est complètement étranger. ' +
+  'Ils recherchent la justice, ou plus précisément la forme de loi correspondant à chaque injustice. Tout comme leurs aïeux, ils suivent les pas du Juge Suprême sans jamais sortir de la voie tracée par le Codex. ' +
+  'D’où qu’il vienne, un Vagabond apprend aux côtés d’un Juge expérimenté, par ses échanges avec la population et au travers du Codex. ' +
+  'Il ne quitte Justitienne que très rarement, bien qu’il puisse parfois chevaucher jusqu’aux villages du Protectorat les plus proches. ' +
+  'Porter les symboles du Juge, le Marteau et le Codex, lui est interdit. Pendant plusieurs années, il devra se contenter de préparer des tisanes, d’écouter avec attention et d’apprendre la nuit ses leçons transposées par écrit.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : pendant les premières années, le Vagabond restera aux côtés de son mentor (+1 ALLIÉS, bonus perdu dès que le Vagabond obtient l’examen pour devenir Juge des villes).<br/>' +
+  'ÉQUIPEMENT : les Leçons, livret incluant des exercices d’écriture et de lecture, des notes personnelles sur des délinquants et sur ses expériences, ainsi que des idées de nouvelles lois',
+
+cityJudgeDescription: 'Après plusieurs années passées aux côtés de leur mentor, les facultés physiques, mentales et intellectuelles des Vagabonds sont mises à l’épreuve. ' +
+  'S’ils réussissent, ils reçoivent leur équipement et deviennent des Juges à part entière, du moins dans le sens où le Judiciaire peut les envoyer au combat contre les clans. ' +
+  'Ils n’ont le droit d’organiser des procès et d’effectuer des jugements que pour des cas vraiment mineurs, par exemple lorsque cela concerne une poignée de lettres de change. ' +
+  'Les crimes et délits majeurs restent du domaine des Protecteurs et des Avocats. ' +
+  'Ils ressemblent en tous points à des Juges de haut rang, ce qui convient parfaitement au Judiciaire. Les Juges des Villes sont envoyés là où les tensions sont vives et ne peuvent être calmées que par leur présence.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 4 ; PHY+CORPS À CORPS 6 ; CHA+EXPRESSION 4 ; CHA+CONSIDÉRATION 4<br/>' +
+  'EFFET : le Juge des villes peut présider et juger de simples effractions ; les crimes capitaux sont réservés aux Protecteurs et aux Avocats. ' +
+  'Il sert essentiellement de garde-fou dans les zones de crise. S’il parvient à incorporer une colonie au sein du Protectorat, il peut y devenir le représentant de Justitienne et exiger des impôts. ' +
+  'Selon la taille de la colonie, ses RESSOURCES s’élèvent de +1 (camp de Ferrailleurs) à +4 (ville comptant plusieurs milliers d’habitants).<br/>' +
+  'ÉQUIPEMENT : marteau de jugement ; manteau en cuir ; chapeau ; codex (cuir de vache, impression simple)',
+
+protectorDescription: 'Ils désirent revenir au Codex des origines dont l’interprétation dépendait de leur bon sens (ou pour être précis, de leur impartialité) en cas de crime ou de délit. ' +
+  'Tout Juge se doit de devenir une autorité morale et de rester en excellente forme physique. ' +
+  'Tout Juge se doit de se battre pour la justice, de devenir un exemple flamboyant de courage prêt à tous les sacrifices pour que justice soit faite. ' +
+  'Telle une tempête, il balaiera les hors-la-loi hors du Protectorat qu’il étendra afin d’instaurer un âge d’or. ' +
+  'Les Protecteurs sont des combattants pour qui la vengeance a plus de valeur que des textes de loi. ' +
+  'Souvent, ils examinent une situation particulière et prononcent leur jugement en un battement de cil. Ils citeront le passage adéquat du Codex plus tard… ou pas du tout. ' +
+  'Quiconque désire rejoindre les Protecteurs requiert deux intercesseurs pour plaider sa requête auprès de la Chambre des Protecteurs au Sénat.<br/><br/>' +
+  'CONDITION : AGI+NAVIGATION 6 ; INT+CONCENTRATION 6 ou INS+PULSIONS 6 ; PSY+RÉACTIVITÉ 6 ; ALLIÉS 2<br/>' +
+  'EFFET : les Protecteurs forment un groupe assermenté. Ils obtiennent +2 ALLIÉS lorsqu’ils s’adressent à d’autres Juges ayant choisi la voie du Protecteur. ' +
+  'Les Protecteurs connaissent chaque recoin du Protectorat. Ils peuvent se fier à leurs relations dans les bas-fonds quand il s’agit de trouver des délinquants, des informateurs et autre menu fretin (+2 RÉSEAU lorsqu’elles sont utilisées à cet effet ; ce bonus ne s’applique pas quand ils doivent trouver des criminels influents comme les Corbeaux).<br/>' +
+  'ÉQUIPEMENT : mousquet de Juge ; +1D munitions par mois ; cheval d’allure',
+
+executionerDescription: 'Les Exécuteurs se sont taillé une réputation par le biais de leurs exécutions spectaculaires, ou bien en débusquant des nids entiers de hors-la-loi. Ils sont craints, et c’est exactement ce qu’ils veulent.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 6 ; PSY+DOMINATION 6 ou CHA+COMMANDEMENT 6 ; RENOMMÉE 3<br/>' +
+  'EFFET : les Exécuteurs sont des légendes, célèbres pour leur colère ardente et leur sens du devoir. Mieux vaut éviter de s’attirer leurs foudres (+1 RÉSEAU). ' +
+  'Au sein du Protectorat, ils mangent et dorment gratuitement. Les Exécuteurs corrompus obtiennent +2 RESSOURCES temporaires pour éviter certaines personnes ou affaires. ' +
+  'Dans ce cas, ils risquent d’être remarqués par un Commissaire ou un Juge noir. Les Exécuteurs fidèles au Codex peuvent recourir aux ALLIÉS des autres Cultes lorsqu’ils se battent contre un ennemi commun.<br/>' +
+  'ÉQUIPEMENT : cheval d’assaut ; +2D munitions par mois',
+
+blackJudgeDescription: 'Ils en ont assez. « Le Codex est une lueur d’espoir dans les ténèbres, le flambeau de la civilisation ! » Pour le Sénat, « ténèbres » est un terme éculé qui englobe la totalité des clans, mais qui exclut toute perversion et corruption au sein du culte. ' +
+  'Les Juges Noirs savent combien ces ténèbres peuvent être insondables, car ils y vivent depuis que Rutgar les a réunis. ' +
+  'Ils agissent pour lui en trouvant les esprits dérangés au sein du Judiciaire et en les éliminant. Ceux-là sont proches des hors-la-loi que fustige le Codex. Aucun procès, aucune lamentation. Pour eux, la sentence de mort est la seule. ' +
+  'Leurs identités demeurent secrètes, et personne ne connaît leur quartier général, pas même Rutgar qui leur envoie ses ordres par radio. ' +
+  'Chaque Juge Noir possède une radio portative réglée sur une fréquence individuelle. Des informateurs les fournissent en armes et en lettres de change à des endroits convenus. Message reçu. Terminé.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 8 ou AGI+ARMES À PROJECTILES 8 ; AGI+FURTIVITÉ 8 ; PSY+RUSE 6 ; AUTORITÉ 3 ; ALLIÉS 3<br/>' +
+  'EFFET : seul Rutgar connaît l’identité du Juge noir. Le Juge a quitté sa robe et travaille désormais en tant qu’assassin à la solde de Rutgar. Il découvre le monde de l’infamie (+1 SECRETS).<br/>' +
+  'ÉQUIPEMENT : radio avec fréquence présélectionnée (pour recevoir les missions de Rutgar) ; toute arme de Niveau technologique IV avec deux améliorations de niveau 1 ou une amélioration de niveau 2 ; sinon, il peut demander aux maîtres de l’acier de Justitienne d’améliorer l’une de ses armes ; +2D munitions par mois',
+
+advocateDescription: 'Pour les Avocats, justice ne peut être rendue qu’au travers de législations. Ils veulent dompter le loup en l’homme et le tenir en laisse par le biais de textes de loi. ' +
+  'Selon eux, la tâche des Juges consiste à développer un corpus de règles irréprochables, à les tester sur eux-mêmes, puis enfin à les mettre en application sur quiconque use de ses libertés pour nuire à autrui. ' +
+  'À la fois mentors cléments et pédagogues cruels, les Avocats estiment que le Judiciaire ne devrait pas être constitué de guerriers. Pour eux, une armée de mercenaires serait tout autant à même de pulvériser des têtes de hors-la-loi.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 6 ; CHA+NÉGOCIATION 6 ; INT+LÉGENDES 6 ; AUTORITÉ 2 ; RESSOURCES 2<br/>' +
+  'EFFET : peut annuler les jugements des Protecteurs ou des Exécuteurs (+2 AUTORITÉ lorsqu’il s’adresse à des Protecteurs).<br/>' +
+  'ÉQUIPEMENT : Codex (édition limitée, annotée, agrémentée d’un glossaire, confère +2D à CHA+EXPRESSION lorsqu’il prononce des jugements)',
+
+arbiterDescription: 'Fidèles au Codex, les Arbitres l’appliquent à la lettre. Les conséquences de chaque phrase sont pesées avec précaution et sont irréprochables au regard de la loi justitienne. ' +
+  'Ils sont craints à cause de leurs talents d’orateurs.<br/><br/>' +
+  'CONDITION : PSY+FOI 6 ou PSY+VOLONTÉ 6 ; CHA+EXPRESSION 8 ; AUTORITÉ 3 ; RESSOURCES 4<br/>' +
+  'EFFET : les Avocats peuvent s’opposer à un Protecteur ou à un Exécuteur, mais les Arbitres sont des montagnes de loi insurmontables. ' +
+  'Personne ne connaît mieux le Codex que ceux qui ont contribué à en écrire une partie (+3 AUTORITÉ quand il s’adresse à des Protecteurs). ' +
+  'La plupart des Arbitres, hommes ou femmes, viennent de vieilles familles d’Avocats, ou y sont entrés par mariage. ' +
+  'Tant qu’ils n’ont pas scellé un lien avec l’une de ces familles, leur AUTORITÉ parmi les cercles d’Avocats est réduite à 0. ' +
+  'Une fois l’union formée, les RESSOURCES et les ALLIÉS augmentent de 1 de manière permanente.<br/>' +
+  'ÉQUIPEMENT : -',
+
+assessorDescription: 'Là où les Protecteurs abattraient déjà leur marteau, ils rassemblent dépositions, preuves et dossiers. ' +
+  'Il existe des problèmes qui ne peuvent se résoudre ni par la violence ni par une épigramme du Codex. Ils se chargent donc de ces affaires. ' +
+  'Ils se fraient un chemin dans ces labyrinthes de mensonges et de manipulations afin de permettre au Commissaire, pour qui ils travaillent, de rendre son jugement.<br/><br/>' +
+  'CONDITION : INS+PERCEPTION 8 ; PSY+DOMINATION 6 ou CHA+NÉGOCIATION 6 ; ALLIÉS 1 ; RÉSEAU 2<br/>' +
+  'EFFET : le Contrôleur travaille sous les ordres du Commissaire et l’aide à statuer. Dans de nombreuses villes, il est sous la protection des Corbeaux… s’il se montre assez prudent.<br/>' +
+  'ÉQUIPEMENT : +1D munitions par mois',
+
+commissionerDescription: 'Il connaît parfaitement les réseaux tissés par les hors-la-loi sur plusieurs décennies, et les utilise afin de les débusquer, eux ainsi que les ennemis du Protectorat qui sont hors d’atteinte de ses collègues. ' +
+  'Pour cela, il reçoit l’assistance de Contrôleurs et d’informateurs. ' +
+  'À ce poste, un Commissaire apprend le discernement. S’il écrase les taupes dissimulées dans la foule, jamais il ne parviendra au centre du réseau. ' +
+  'D’un autre côté, toute attaque directe contre les corbeaux briserait ce réseau, mais le Commissaire deviendrait sourd et aveugle le temps que de nouvelles structures se reforment. ' +
+  'Il lui faudrait ensuite s’y infiltrer à nouveau. Il doit donc agir avec précaution afin de choisir avec soin les individus qu’il convient d’éliminer, ceux dont la malfaisance est devenue inacceptable.<br/><br/>' +
+  'CONDITION : PSY+DOMINATION 10 ou CHA+NÉGOCIATION 10 ; INS+EMPATHIE 6 ; RENOMMÉE 4 ; RÉSEAU 4 ; ALLIÉS 2<br/>' +
+  'EFFET : un Commissaire n’est rien sans ses informateurs et ses Contrôleurs. Ces derniers surveillent des suspects pour son compte et rassemblent des informations. ' +
+  'Le Commissaire n’a aucune limite : il a libre accès au Serveur et utilise les enregistrements des sensoria installés aux quatre coins de Justitienne ainsi que dans certaines villes du Protectorat.<br/>' +
+  'ÉQUIPEMENT : +2D munitions par mois',
+
+highJudgeDescription: 'Le Sénat nomme les Procureurs, et seuls ceux qui ont accompli des faits extraordinaires et dont le nom symbolise la justice et la fidélité au Codex peuvent demander à être élu. ' +
+  'Après plusieurs années d’encadrement très strict, ils seront promus Procureurs. Dès lors, plus rien ne les retient, et beaucoup se rendent dans les désolations afin d’étendre le Protectorat sur de nouvelles terres. ' +
+  'D’autres décident quant à eux de rester à Justitienne et rejoignent cette grande valse d’intrigues politiques.<br/><br/>' +
+  'CONDITION : ALLIÉS 5 ; AUTORITÉ 4 ; RESSOURCES 4<br/>' +
+  'EFFET : les Procureurs sont les Juges les plus hauts gradés qui se mêlent encore au peuple. ' +
+  'Un Procureur peut agir indépendamment des décisions des Juges, entrer et fouiller chaque maison du Protectorat, et requérir la protection temporaire d’un Exécuteur. ' +
+  'Il peut envoyer des messages aux citoyens via les enceintes installées par les Chroniqueurs à Justitienne et dans les environs de la ville. ' +
+  'L’imprimerie de Justitienne produit les mandats et la propagande approuvée par les Procureurs avant de les diffuser dans le Protectorat.<br/>' +
+  'ÉQUIPEMENT : cheval de jugement ; +3D munitions par mois',
+
+senatorDescription: 'Le Judiciaire tolère l’existence de deux sénats composés chacun de huit Procureurs. Tous furent autrefois des héros, habitués à ne jamais être interrompus ni contredits. ' +
+  'Et c’est pourtant ce qui leur arrive constamment lorsqu’ils débattent ensemble de l’avenir de Justitienne.<br/><br/>' +
+  'CONDITION : siège libre au Sénat des Protecteurs ou des Avocats, selon l’alignement ; CHA+EXPRESSION 10 ; RENOMMÉE 6 ou RESSOURCES 6<br/>' +
+  'EFFET : lorsqu’un Haut Juge devient Sénateur, il accomplit des missions de représentation au sein du Protectorat et dans les villes alliées comme Cathédrale. ' +
+  'Il examine les nouveaux projets de loi et les vote. Les familles d’Avocats soutiennent financièrement les Sénateurs, qui à leur tour élèvent des Arbitres au rang de Procureurs ou des Procureurs au rang de Sénateurs. ' +
+  'Si un Sénateur consent à cette promotion, ses RESSOURCES augmentent de 2 points. ' +
+  'Cependant, un jour, ce flot de nominations risque d’éveiller l’intérêt d’un Commissaire, ou un Juge noir peut recevoir une transmission mentionnant son nom…<br/>' +
+  'ÉQUIPEMENT : -',
+
+supremeJudgeDescription: 'Depuis plusieurs décennies à Justitienne, le nom d’Archot est synonyme de Juge Suprême. ' +
+  'Dans l’éventualité où Archot (louée soit son nom) démissionnerait, par quel moyen un Sénateur ambitieux et avide de pouvoir pourrait-il prendre la tête du Judiciaire ? ' +
+  'En fait, il n’existe plus aucune procédure pour cela aujourd’hui, Archot s’étant chargé de les faire disparaître de tous les livres. ' +
+  'Cela signifie que les Sénateurs voteraient probablement pour élire l’un d’entre eux. Mais cela n’est toutefois pas encore d’actualité : Archot est peut-être vieux, mais il est loin d’être un vieillard fatigué.<br/><br/>' +
+  'CONDITION : Archot doit laisser sa place ; RENOMMÉE 6 ou SECRETS 6<br/>' +
+  'EFFET : tous les Juges obéissent au Juge Suprême. Il est libre d’ignorer les décisions du Sénat ; il décide de la guerre et de la paix. Tout le monde cherche à lui plaire (ALLIÉS 6).<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Scrappers
+    mouse: 'Souris',
+    badger: 'Blaireaux',
+    fox: 'Renard',
+    loneWolf: 'Loup Solitaire',
+    caveBear: 'Ours des Cavernes',
+    mechanist: 'Mécanicien',
+    manufacturer: 'Artisan',
+    legend: 'Légende',
+    scavenger: 'Récupérateur',
+    alphaWolf: 'Loup Alpha',
+    cartelThug: 'Malfrat du Cartel',
+    appraiser: 'Estimateur',
+    officer: 'Officer',
+	
+	
+// Scrappers
+mouseDescription: 'La fillette se glisse à l’intérieur d’une crevasse, les pieds devant, et soulève au passage un nuage de poussière. ' +
+  'Elle perd pied, arrache par réflexe une poignée de racines mortes, puis se met à tomber. ' +
+  'Elle pousse, honteuse, un petit cri perçant, mais la corde se tend dans un claquement. Elle se balance dans l’obscurité la plus totale, se met à suffoquer. ' +
+  'Une voix en haut lui dit : « Allez va, sois une bonne petite Souris ! » ' +
+  'De nombreux Ferrailleurs débutent leur carrière ainsi, au bout d’une corde. Leur mentor les fait descendre dans les caves et les tunnels auxquels il ne peut pas accéder lui-même. ' +
+  'Les plus petits sont précieux lorsqu’il s’agit de récupérer dans les ruines des artefacts perdus. Cela ne signifie pas qu’ils soient bien traités, en particulier si c’est une Cigogne Apocalyptique qui les a apportés bébés…<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : la Souris travaille pour un Ferrailleur plus âgé. Ce dernier garde la main sur les lettres de change des Chroniqueurs, mais il s’assure qu’à la fin de la journée, la Souris obtienne un repas en échange de son dur labeur. ' +
+  'Dans le cas contraire, la Souris s’en va sur-le-champ. Elle trouvera toujours un autre employeur.<br/>' +
+  'ÉQUIPEMENT : corde ; boussole, périscope',
+
+badgerDescription: 'Lorsque la Souris devient trop grosse pour les crevasses, ou bien trop indocile, un nouveau Blaireau voit le jour. ' +
+  'Il voyage seul, rampe maladroitement à travers les ruines et tombe sur un artefact ici ou là. Seule la chance du débutant le maintient en vie.<br/><br/>' +
+  'CONDITION : INS+PERCEPTION 4 ; INS+SURVIE 6<br/>' +
+  'EFFET : un Blaireau doit survivre seul. Il a conçu une rune qui lui tient lieu de symbole personnel. ' +
+  'S’il la grave sur les murs en ruines avec des indices avertissant de la présence de dangers, sa RENOMMÉE augmente (sans jamais dépasser 3).<br/>' +
+  'ÉQUIPEMENT : fusil',
+
+foxDescription: 'Les ruines sont le territoire héréditaire du Renard rusé et rapide. ' +
+  'Il connaît toutes les crevasses qui mènent dans les profondeurs de son terrier, dans le monde englouti du peuple d’antan. ' +
+  'Il ne lui reste plus qu’à parvenir jusqu’à un village pour balancer ses trouvailles aux pieds des Chroniqueurs.<br/><br/>' +
+  'CONDITION : PSY+RUSE 6 ; INS+SURVIE 6 ; INS+ORIENTATION 6<br/>' +
+  'EFFET : les ruines lui procurent la liberté qu’il n’a pas trouvée dans les villes. Elles forment son foyer, et le Renard en connaît les moindres recoins : +2D à tous les tests pour récupérer de la ferraille. ' +
+  'Il conserve au moins un terrier dans les désolations pour y stocker des artefacts et de la ferraille. ' +
+  'Il obtient un bonus de +2D à tous les jets de défense à l’intérieur de son domaine, et sa défense passive augmente de 2.<br/>' +
+  'ÉQUIPEMENT : merveille (arme spéciale des Ferrailleurs) ; harnais de transport ; houe',
+
+loneWolfDescription: 'Ce n’est pas un récolteur mais un chasseur. Il sait où se cachent les artefacts, comment les déterrer, et il connaît leur prix. ' +
+  'Le Loup Solitaire n’est pas le genre de personne à provoquer, car les trous créés par son fusil seront bien les derniers que vous aurez l’occasion d’inspecter.<br/><br/>' +
+  'CONDITION : INT+CONNAISSANCE DES ARTEFACTS 6 ; AGI+ARTISANAT 6 ; INS+PERCEPTION 6 ; RENOMMÉE 4<br/>' +
+  'EFFET : il a passé plus de temps avec son fusil qu’avec n’importe quel humain : son nombre d’améliorations potentielles augmente de 1. ' +
+  'Le Loup solitaire a des sens aiguisés : +1D à tous les tests effectués pour récupérer de la ferraille. ' +
+  'Son territoire est vaste, et il le connaît comme personne ; s’il doit échapper au danger sur son territoire, il obtient +2D à AGI+FURTIVITÉ et PHY+ATHLÉTISME.<br/>' +
+  'ÉQUIPEMENT : -',
+
+caveBearDescription: 'Quiconque voit sa rune à côté de celle qui signifie « Déguerpissez ! » s’exécute sans poser de questions. ' +
+  'Personne ne se dresse face à un Ours des Cavernes sans une très bonne raison, en particulier sur son territoire. ' +
+  'Dangereux et distants, ces individus tiennent particulièrement à ce que leur tanière ne soit pas dérangée. ' +
+  'Celui qui ose y mettre les pieds et parvient à survivre aux pièges doit finir par affronter un être parfaitement adapté à son environnement, bouillonnant de colère et équipé d’armes qui traduiront sa fureur sous forme de blessures impressionnantes.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 8 ; INS+SURVIE 10 ; RENOMMÉE 5<br/>' +
+  'EFFET : les Ours des cavernes sont des êtres méfiants qui ne fréquentent pas souvent les alcôves des Chroniqueurs ; lorsqu’ils le font, c’est uniquement par nécessité. ' +
+  'Les Chroniqueurs s’achètent leurs bonnes grâces en payant 30 % de plus et en leur proposant un endroit où dormir au sein du Technocentre. Pas trop propre, pas trop confortable. Il ne faudrait pas que les Ours des cavernes s’imaginent que leur hospitalité cache un piège. ' +
+  'Dans les villes, l’Ours des cavernes négocie directement avec les Corbeaux et nombre d’entre elles lui doivent une faveur. ' +
+  'Sa grotte dans les désolations est un piège mortel pour les intrus qui se retrouvent face à un dédale de passages secrets, jonchés de trompe-l’œil et de pièges à loups. ' +
+  'L’ours des cavernes obtient +4D aux jets de défense et +3 à sa défense passive quand il est dans sa grotte. Il a aussi plus de temps pour s’occuper de son arme : le nombre d’améliorations possibles augmente de 1 point supplémentaire.<br/>' +
+  'ÉQUIPEMENT : -',
+
+mechanistDescription: 'Cet as de la technologie comprend le fonctionnement des engrenages et la mécanique complexe d’un moteur. Rien de mystique là-dedans : c’est une question de logique. ' +
+  'Le mécanicien ne considère pas les artefacts comme des biens à revendre, mais comme une ressource à utiliser : il récupère ce dont il a besoin pour ses propres constructions.<br/><br/>' +
+  'CONDITION : INT+TECHNOLOGIE 6 ; AGI+ARTISANAT 7 ; RESSOURCES 2<br/>' +
+  'EFFET : les individus disposant de connaissances techniques sont très demandés et s’enrichissent rapidement (+1 RESSOURCES). ' +
+  'Lorsqu’ils démantèlent des artefacts, ils obtiennent 50 % de matériaux bruts en plus.<br/>' +
+  'ÉQUIPEMENT : trousse à outils (+1D à AGI+ARTISANAT), améliorable (1-3) (correspond à la trousse à outils page 166)',
+
+manufacturerDescription: 'Bien avancé dans le domaine des secrets techniques, il possède au moins un atelier sécurisé, probablement même au sein du Technocentre. ' +
+  'Il porte autour du cou une chaîne d’où pendent des clés plus longues que la main. Chacune ouvre l’atelier d’un autre Artisan. ' +
+  'Chaque village serait fier d’abriter un homme comme lui parmi les siens.<br/><br/>' +
+  'CONDITION : atelier équipé dans l’enceinte du Technocentre ou à Syracuse ; INT+TECHNOLOGIE 10 ; RENOMMÉE 5 ; RESSOURCES 4<br/>' +
+  'EFFET : protégé par des pièges, des mécanismes de verrouillage complexes ou des gardes, l’atelier est son refuge : +4D à AGI+ARTISANAT si l’Artisan travaille dans l’atelier. ' +
+  'Il peut aussi l’ouvrir à d’autres Artisans qui, en échange, le laissent accéder aux leurs : +2D à AGI+ARTISANAT dans son atelier et ceux des autres. ' +
+  'Lorsqu’il améliore du matériel technique dans son propre atelier, l’Artisan n’a besoin que de la moitié de la ferraille normalement utilisée.<br/>' +
+  'ÉQUIPEMENT : longues clés donnant accès aux ateliers des autres Artisans, portées autour du cou le long d’une corde',
+
+legendDescription: 'Sa rune est posée partout, et si vous avez fait le trajet jusqu’à Syracuse, vous l’avez vue à coup sûr sur ses murs. ' +
+  'On raconte ses aventures dans le Technocentre et autour d’innombrables feux de camp dans les désolations. Ce Ferrailleur est devenu une légende.<br/><br/>' +
+  'CONDITION : a gravé sa rune sur les murs de runes de Syracuse ; RESSOURCES 4 ; RENOMMÉE 6<br/>' +
+  'EFFET : une Légende peut autoriser plusieurs Ferrailleurs à se joindre à elle. Même s’ils sont libres de partir à tout moment, ils s’efforceront d’exaucer les souhaits de leur idole. ' +
+  'Les Légendes bénéficient de conditions spéciales dans les établissements des Apocalyptiques : tout est à -50 %, et les Pies sont propres. ' +
+  'Dans les Alcôves, une Légende n’a pas à attendre. Les Chroniqueurs envoient même un Médiateur qui se présente auprès d’elle en tant qu’interface (contact personnel) afin d’écrire son histoire. ' +
+  'En outre, une Légende a accès aux magasins des Chroniqueurs pour se procurer jusqu’à un maximum de 4 RESSOURCES. Ceci inclut les Gants des Diffuseurs.<br/>' +
+  'ÉQUIPEMENT : -',
+
+scavengerDescription: 'Il existe un grand nombre d’objets intéressants dans la poussière, mais la plupart sont trop gros pour qu’un seul Ferrailleur puisse les ramener par lui-même jusqu’aux portes du Technocentre. ' +
+  'C’est là que les Récupérateurs interviennent. Armés d’équipements lourds comme des tracteurs à remorque ou des cisailles pneumatiques, ils seraient même capables de démanteler un autobastion. ' +
+  'Contrairement aux mange-poussière qui travaillent toujours en solitaire et considèrent cela comme une force, les Récupérateurs ne s’aventurent jamais dehors seuls. ' +
+  'Leur force réside dans leur communauté… à condition qu’elle dispose d’accumulateurs dégageant un bon paquet de newtons.<br/><br/>' +
+  'CONDITION : AUTORITÉ 2 ; ALLIÉS 2 ; RÉSEAU 2<br/>' +
+  'EFFET : les Récupérateurs mettent leur matériel en commun : +3 RESSOURCES pour obtenir des machines lourdes afin de récupérer des artefacts (systèmes d’extraction mobiles, cisailles pneumatiques). ' +
+  'Ils partagent toujours leurs abris et rompent le pain ensemble.<br/>' +
+  'ÉQUIPEMENT : broyeur',
+
+alphaWolfDescription: 'Si vous voulez gagner le respect d’un Loup Alpha, il vous faudra travailler dur. Les actes comptent bien plus que les belles paroles. ' +
+  'Un Loup Alpha a lui-même gagné le respect de tous. Il a déterré des dizaines de trésors, n’a jamais abandonné ni trahi ses collègues… ou s’il l’a fait, personne ne s’en est jamais rendu compte. ' +
+  'En outre, il dispose des contacts adéquats pour mener son équipe aux Chroniqueurs en évitant le cartel. Pour devenir riche, mieux vaut éviter les intermédiaires.<br/><br/>' +
+  'CONDITION : CHA+COMMANDEMENT 8 ; AUTORITÉ 4 ; RÉSEAU 4 ; ALLIÉS 4<br/>' +
+  'EFFET : les Récupérateurs ne partagent pas seulement leur équipement, mais aussi leur haine envers le Cartel – et un Loup Alpha sait comment en tirer profit : ' +
+  'quand il s’agit d’infliger un revers aux troupes de Bosch, ses ALLIÉS s’élèvent à 6. ' +
+  'Les Loups Alpha sont tenus en haute estime au-delà des frontières de leur Culte et peuvent disposer des RESSOURCES des Juges, des Spitaliers, des Chroniqueurs et des Hellvétiques. ' +
+  'Seules les armes et armures spécifiques à ces Cultes leur sont inaccessibles.<br/>' +
+  'ÉQUIPEMENT : -',
+
+cartelThugDescription: 'Les Ferrailleurs tracent leurs runes en pissant dans la poussière là où bon leur semble. Enfin, ils le faisaient avant que ce nain de Bosch développe son cartel. ' +
+  'Aujourd’hui, ses Estimateurs traînent autour des bureaux de change et conseillent aux Ferrailleurs de lui donner un cinquième de leurs bénéfices. ' +
+  'En échange, ils recevront de précieux conseils, et éviteront aussi de se faire rouer de coups. ' +
+  'Pour éviter ce type d’oppression, il faut rejoindre le cartel. C’est en tout cas ce qu’on raconte à tout nouveau membre. ' +
+  'Certes, il lui suffit d’acquitter une taxe de 10 %, mais il doit également accomplir quelques boulots spéciaux de temps en temps. ' +
+  'Le cartel est une grande famille heureuse, et chacun doit s’entraider, n’est-ce pas ? Il suffit de filer un petit coup de main lorsqu’un sombre crétin refuse de payer, ' +
+  'ou bien de partir en mission de reconnaissance dans des ruines inexplorées. Rien de bien méchant. Pour le moment, en tout cas.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : un Malfrat des Cartels porte le symbole du cartel tatoué sur son front. Ceci lui sert de laissez-passer auprès des Estimateurs qui le laissent (presque) tranquille : ' +
+  'il doit leur donner un dixième de ce que lui versent les Chroniqueurs. ' +
+  'Il peut chercher de la ferraille dans les champs de ruines revendiqués par le cartel sans subir d’attaques. ' +
+  'Désormais, le cartel le soutient : +2 ALLIÉS au sein du cartel.<br/>' +
+  'ÉQUIPEMENT : tablier en cuir épais',
+
+appraiserDescription: '« Cartel. Des artefacts à estimer ? » Les Estimateurs connaissent toutes les ficelles pour alléger un honnête Ferrailleur de ses lettres de change. ' +
+  '« Un petit don pour le cartel ? » Ils ne sont jamais à court d’anecdotes pour convaincre leurs « clients ». ' +
+  'Si le Ferrailleur cède, l’Estimateur l’accompagne dans le bureau de change pour l’aider à négocier son prix. ' +
+  'En retour, il prendra une commission de 20 % sur ce que les trouvailles auront rapporté, à moins qu’il n’ait affaire à un membre du cartel, qui ne lui remettra dans ce cas que 10 %. ' +
+  'La plupart des Estimateurs connaissent très bien leur métier. Certains sont doués en artefacts, d’autres en techniques d’intimidation.<br/><br/>' +
+  'CONDITION : CHA+NÉGOCIATION 7 ou PSY+DOMINATION 7 ; INT+CONNAISSANCE DES ARTEFACTS 6 ; AUTORITÉ 3 ; ALLIÉS 2<br/>' +
+  'EFFET : l’Estimateur peut négocier avec les Chroniqueurs de la part des autres Ferrailleurs et obtenir 20 % de profit en échange. ' +
+  'Les Estimateurs sont connus et redoutés pour leurs méthodes brutales. Bon nombre d’entre eux ont acheté les faveurs des Juges. Un Estimateur a accès aux Juges grâce à son historique ALLIÉS.<br/>' +
+  'ÉQUIPEMENT : révolver ou autre arme à feu lourde portative',
+
+officerDescription: 'Des dizaines d’Estimateurs obéissent à leurs ordres, et leur donnent bien évidemment un pourcentage des lettres de change qu’ils ont gagnées. ' +
+  'Ils n’apprécient que très peu les entourloupes, et le feront comprendre de manière évidente aux Estimateurs qui les escroquent sur les lettres de change ou qui leur mentent de manière éhontée.<br/><br/>' +
+  'CONDITION : CHA+NÉGOCIATION 9 ou PSY+DOMINATION 9 ; PSY+RUSE 6<br/>' +
+  'EFFET : pression ou cadeaux ? Si l’Officier décide de faire pression sur les Estimateurs qui lui sont subordonnés, ses RESSOURCES augmentent de +4. ' +
+  'Si, plutôt que d’exploiter son pouvoir, il préfère jouer avec les attentes et les espoirs de ses subordonnés, il est sûr de les voir se montrer reconnaissants et obtient +4 ALLIÉS. ' +
+  'Les Officiers doivent se présenter régulièrement à Bosch, le chef du cartel, et ce n’est pas une sinécure, car Bosch est un nain hystérique qui crache son venin dans toutes les directions. ' +
+  'Il ne se comporte pas mieux avec ses Officiers.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Neolibyans
+    apprentice: 'Apprenti',
+    scribe: 'Scribe',
+    merchant: 'Marchand',
+    seafarer: 'Navigateur',
+    cartographer: 'Cartographe',
+    greatHunter: 'Grand Chasseur',
+    magnate: 'Magnat',
+    sheikh: 'Cheik',
+    raider: 'Pillard',
+    ambassador: 'Ambassadeur',
+    waziri: 'Waziri',
+    consul: 'Consul',
+	
+	
+// Neolibyans
+apprenticeDescription: 'Depuis que ce gamin a été retiré du sein de sa mère, il n’a fait que causer des soucis. ' +
+  'Il pourrait ramener de l’eau du puits, mais il est trop fluet pour ça. ' +
+  'Il a commencé à demander ce que voulaient dire les symboles sur les flancs des autobastions. Il veut tous les apprendre. ' +
+  'Envoie-le aux Néolibyens, il devrait réussir à s’y faire ! ' +
+  'En tant qu’Apprenti, il balaiera le scriptorium pendant les quelques prochaines années et il apprendra à lire et à écrire. ' +
+  'Un peu d’arithmétique ne lui fera pas de mal non plus.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : l’Apprenti ne quitte le Scriptorium qu’à la demande de son mentor. ' +
+  'Il copie des textes, s’exerce à l’écriture et à l’arithmétique. Il fait partie de l’inventaire de l’entreprise. ' +
+  'Il mange à l’œil, reçoit de magnifiques vêtements… un investissement.<br/>' +
+  'ÉQUIPEMENT : livre de comptes (petit livre doté d’une couverture en fourrure ou en cuir contenant du papier à carreaux et un abaque ou une calculatrice électronique)',
+
+scribeDescription: 'L’apprentissage de l’écriture a fonctionné. Le jeune Afrikain n’est pas encore considéré comme un Néolibyen, ' +
+  'mais il s’élève au sein de l’entourage à force de travailler. Il transcrit les pertes et les profits d’au moins une route marchande.<br/><br/>' +
+  'CONDITION : INT+SCIENCE 4 ; CHA+EXPRESSION 4 ; AUTORITÉ 1<br/>' +
+  'EFFET : il doit noter chaque expédition et livraison pour une route commerciale donnée. ' +
+  'Quand il discute avec des fournisseurs ou des producteurs, il peut utiliser son AUTORITÉ, même si son interlocuteur n’est pas un Néolibyen.<br/>' +
+  'ÉQUIPEMENT : -',
+
+merchantDescription: 'Nous y voilà. Le commissaire-priseur a donné l’accolade au jeune Afrikain et a fait de lui un membre du culte. ' +
+  'À compter de ce jour, il vivra selon la tradition du Libyen. Il peut se séparer de son mentor et débuter sa propre entreprise ' +
+  'grâce à la richesse qu’il aura accumulée jusqu’ici. Le monde lui appartient.<br/><br/>' +
+  'CONDITION : CHA+NÉGOCIATION 6 ; PSY+RUSE 4 ; RESSOURCES 2 ; RÉSEAU 2<br/>' +
+  'EFFET : une fois officiellement nommé Marchand, l’ancien Scribe est désormais un Néolibyen à part entière. ' +
+  'S’il veut gagner de la RENOMMÉE, il doit aider son village natal. Il peut y parvenir en réduisant ses RESSOURCES mensuelles ou en investissant des dinars, en fonction de son rang. ' +
+  'Au rang 3 (Marchand), cela se traduit par 100 dinars ou -1 RESSOURCES ; au rang 4 (Navigateur, Magnat ou Ambassadeur), 1 000 dinars ou -2 RESSOURCES ; ' +
+  'au rang 5 (Cartographe, etc.) 10 000 dinars ou -3 RESSOURCES. Le Néolibyen peut opter pour une nouvelle répartition tous les mois. ' +
+  'S’il n’est pas en mesure de payer, il perd 1 point de RENOMMÉE par mois de retard. ' +
+  'Si un Marchand souhaite emprunter de l’argent auprès de la Banque du Commerce, il doit être accompagné d’un Prophète des âmes anubien. ' +
+  'Cependant, ces derniers ne se déplacent que si la RENOMMÉE du Marchand est supérieure ou égale à 2. ' +
+  'Si le Prophète des âmes confirme sa solvabilité, le Marchand obtient un prêt en points de RESSOURCES pendant une année. ' +
+  'Cela signifie qu’avec 3 en AUTORITÉ, il obtient +3 RESSOURCES. Une fois endetté auprès de la banque, il devra rembourser le prêt l’année suivante en s’acquittant du double de points de RESSOURCES.<br/>' +
+  'ÉQUIPEMENT : fusil néolibyen ; sceau des Libyens',
+
+seafarerDescription: 'Empiler les dinars peut s’avérer satisfaisant pendant un temps pour le Néolibyen, mais la soif de voyage finit par lui faire quitter le scriptorium. ' +
+  'Il se poste sur les quais, à humer les odeurs des algues et du sel, et il sait que les entrepôts et les études sont devenus trop exigus pour lui. ' +
+  'Sa place est au grand air. Le Navigateur ne reste jamais longtemps au même endroit. Il court le monde, passe son temps à explorer les côtes et les rivières, à s’enfoncer loin dans l’inconnu. ' +
+  'Ses explorations offrent un avenir au culte.<br/><br/>' +
+  'CONDITION : navire marchand ; AGI+NAVIGATION 6 ; INT+LÉGENDES 6 ; INS+ORIENTATION 8 ; RESSOURCES 3 ; AUTORITÉ 2 ; RENOMMÉE 2<br/>' +
+  'EFFET : quand le Navigateur découvre de nouvelles routes commerciales ou des villes inconnues et les signale à la Banque du Commerce, ' +
+  'il obtient un bonus temporaire de +1 RESSOURCES (pendant un an pour de grandes découvertes, pendant six mois pour des colonies jusqu’alors inconnues). ' +
+  'La RENOMMÉE détermine le nombre de Fléaux et de Ferrailleurs qui travailleront pour lui (RENOMMÉE × 1D × 10). ' +
+  'Quand sa RENOMMÉE tombe à 0, personne ne veut naviguer avec lui. ' +
+  'Il obtient +1 RESSOURCES et +1 RENOMMÉE lorsqu’il débusque des pirates et pacifie des routes commerciales.<br/>' +
+  'ÉQUIPEMENT : astrolabe',
+
+cartographerDescription: 'Le Cartographe parcourt la Terre, dessine des cartes et enregistre de nouvelles routes marchandes. ' +
+  'Sa connaissance des régions et des peuples est immense. Tout au long de sa vie, il remplira des atlas entiers, suivra les traces des cultures d’antan jusqu’à des cités oubliées et apprendra des dizaines de langues. ' +
+  'Les bateaux des Cartographes sont légendaires : les enfants tracent leur silhouette sur le sable et jouent aux explorateurs. ' +
+  'Passé un certain point, les plus grands Cartographes osent traverser l’Atlantique ou croiser par-delà la Corne de l’Afrique. ' +
+  'Aucun de ceux-là n’est encore revenu, mais aucun Afrikain ne doute que ces grands esprits aient atteint le but de leur voyage. Puissent-ils connaître une mort paisible là où ils sont arrivés.<br/><br/>' +
+  'CONDITION : au moins 6 découvertes majeures ; INS+ORIENTATION 10 ; CHA+ART 8 ; INT+LÉGENDES 8 ; RENOMMÉE 5<br/>' +
+  'EFFET : en tant que Cartographe, le Néolibyen a libre accès à la salle des cartes et aux scriptoriums adjacents à l’intérieur de la Banque du Commerce. ' +
+  'S’il organise une expédition, des Anubiens et Fléaux de haut rang se joignent à lui ; au moins un Dumisai l’escortera. La vie de Cartographe est difficile sans garde du corps. ' +
+  'Ferrailleurs et Chroniqueurs se disputent ce poste. La connaissance de passages inexplorés, de ceintures d’artefacts et de champs de ruines inexplorés est inestimable. ' +
+  'Les Chroniqueurs prendraient même le risque d’assassiner un Cartographe pour accéder à ses secrets.<br/>' +
+  'ÉQUIPEMENT : atlas (niveau 1)',
+
+greatHunterDescription: 'Celui qui a vu Tripol a vu le monde entier. Mais tous les habits chatoyants sous les auvents gonflés, tous les bijoux brillants, ' +
+  'tous les trésors qui s’affichent, toutes les conversations à propos de grandes affaires ; toutes ces choses exacerbent les sens jusqu’à les émousser. ' +
+  'Pendant ce temps, le Grand Chasseur se tient sur une butte herbeuse, dans un pays lointain, à écouter le vent. Son fusil repose au creux de son coude. ' +
+  'Il s’est échappé d’un monde si protecteur et de si mauvais goût qu’il dévorait son âme. À présent, il sent de nouveau l’animal en lui, qui arpente son esprit et rôde autour de sa raison. Il l’accepte en souriant. ' +
+  'Au milieu des bêtes des gouffres et des Biokinésistes, il n’y a pourtant pas de prédateur plus dangereux que lui ici.<br/><br/>' +
+  'CONDITION : fusil de chasse ; au moins un Psychonaute tué ; AGI+ARMES À PROJECTILES 10 ; INT+CONCENTRATION 8 ou INS+PULSIONS 8 ; INS+SURVIE 8 ; RENOMMÉE 5<br/>' +
+  'EFFET : les Grands Chasseurs appartiennent à une caste d’élite. Ils ont tous choisi l’aventure plutôt que l’argent… même s’ils n’ont pas totalement abandonné le luxe. ' +
+  'Ils se connaissent, se réunissent dans des établissements coûteux et partagent leurs histoires de chasse. ' +
+  'Si un Grand Chasseur demande l’aide d’autres chasseurs, son historique ALLIÉS augmente de 1 par Extase vaincue à cet effet. ' +
+  'Un chasseur ayant tué un Psychonaute de chaque culture obtient ainsi +5 ALLIÉS. ' +
+  'Dans la sous-culture des Grands Chasseurs, seuls deux maîtres de forge offrent leurs services aux chasseurs. Leurs fusils de chasse sont de véritables chefs-d’œuvre dotés d’une précision et d’une force d’impact à couper le souffle. ' +
+  'Leurs prix sont tout aussi époustouflants. Le Grand Chasseur a les moyens de s’offrir ces fusils d’exception. ' +
+  'Même les Spitaliers écoutent les histoires des Grands Chasseurs. Ils apprécient également les informations qu’ils leur fournissent sur les Extases et leurs modèles d’attaques : ' +
+  'quand un Grand Chasseur négocie avec des Spitaliers, toutes ses compétences de CHARISME augmentent de +2D.<br/>' +
+  'ÉQUIPEMENT : -',
+
+magnateDescription: 'Le Magnat est riche au-delà de toute raison, et n’a pas l’intention d’arrêter de sitôt d’accumuler d’autres richesses. ' +
+  'Son entourage occupe un quartier de ville entier, lui apporte les suppliques de ses concurrents appauvris, s’occupe de le servir et de transmettre ses décisions aux diverses branches de son empire grandissant.<br/><br/>' +
+  'CONDITION : CHA+CONSIDÉRATION 8 ; CHA+NÉGOCIATION 10 ; PSY+FOI 6 ou PSY+VOLONTÉ 6 ; ALLIÉS 4 ; AUTORITÉ 3 ; RESSOURCES 4<br/>' +
+  'EFFET : le Magnat s’est bâti un empire. Il a des bureaux dans de nombreuses villes afrikaines et commande des centaines de Néolibyens dans la zone de la Méditerranée. ' +
+  'Il a le droit de louer une suite avec scriptorium à la Banque du Commerce, ce qui lui coûte -1 RESSOURCES par mois ou 10 000 dinars. ' +
+  'Tant qu’il continue de payer, sa RENOMMÉE augmente de 1 par mois.<br/>' +
+  'ÉQUIPEMENT : -',
+
+sheikhDescription: 'Il lui faudrait des jours pour visiter toutes ses plantations à bord d’un kom. Il délègue les affaires au jour le jour à plusieurs Magnats, ' +
+  'qui poussent ses navires et ses caravanes sur la carte du monde, d’une route de concession à une autre. ' +
+  'Devenir riche n’est plus un défi pour lui, rien qu’une courbe de croissance sur les tableaux noirs des comptables. ' +
+  'Personne n’est plus proche du Libyen en richesse et en influence que les Cheiks. ' +
+  'Après des siècles de domination, la Banque du Commerce est devenue synonyme d’économie de l’Afrika, et les Cheiks dirigent la Banque du Commerce. ' +
+  'Ils ont le pouvoir non seulement d’influencer le développement économique du continent, mais également son développement culturel, en ignorant les Fléaux et les Anubiens. ' +
+  'Ils ont appelé les Spitaliers à Qabis et se sont portés garants de leur sûreté. La paix conclue avec les Voïvodes est de leur fait (du moins en partie). ' +
+  'Ce que les Cheiks décident trouvera un moyen de s’implanter dans la tête des Afrikains.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 10 ; PSY+FOI 8 ou PSY+VOLONTÉ 8 ; ALLIÉS 3 ; AUTORITÉ 4 ; RESSOURCES 6 ; SECRETS 4 ; RENOMMÉE 6<br/>' +
+  'EFFET : les Cheikhs ont la haute main sur la Banque du Commerce et sur le développement économique et culturel de l’Afrika. ' +
+  'Le Cheikh laisse les Magnats gérer ses affaires afin de mieux se concentrer sur les développements stratégiques et la politique. ' +
+  'Il va de ville en ville pour négocier les résultats de vote avec ses alliés et ses ennemis. Ses concurrents scrutent et interprètent ses moindres gestes. ' +
+  'Dans les cultures et pays étrangers, il est reçu comme un roi. D’un geste, il peut envoyer des centaines de bandes de Fléaux à divers endroits ou dans des zones de combat. ' +
+  'Seul Le Caire lui reste inaccessible.<br/>' +
+  'ÉQUIPEMENT : -',
+
+raiderDescription: 'Chez lui, le Néolibyen possède quelques hectares de terre et exploite peut-être une ou deux concessions, qui ne lui suffisent jamais à joindre les deux bouts. ' +
+  'Mais sa véritable richesse voyage avec lui : son navire géant chargé de koms et d’autobastions. Il s’en va avec eux conquérir la mer de débris européenne. ' +
+  'L’étalage de richesses de Tripol ne lui convient guère ; il se satisfait pleinement de vivre aux dépens du Corbeau.<br/><br/>' +
+  'CONDITION : navire marchand ; autobastion ; AGI+NAVIGATION 10 ; PSY+DOMINATION 8 ; AUTORITÉ 6 ; RESSOURCES 5<br/>' +
+  'EFFET : les Consuls de la côte européenne de la Méditerranée soutiennent le Pillard qui promet de les abreuver de richesses. ' +
+  'Lorsqu’il prépare une expédition, 1D × RENOMMÉE × 10 Ferrailleurs l’accompagnent pour 10 dinars par jour. ' +
+  'Les Chroniqueurs détestent le Pillard. Toute interaction sociale entre les Chroniqueurs et lui se révèle problématique et subit un malus de -4D. ' +
+  'Le Pillard choisit un port d’attache où il a accès à un chantier naval afin de procéder à des réparations, ainsi qu’aux baraques des Ferrailleurs et à un pavillon. ' +
+  'Au fil des années, la petite ville portuaire peut se développer en métropole et la loge en palais. Cette réussite ne manquera pas d’attiser la jalousie des Chroniqueurs, ' +
+  'qui enverront des Occulteurs s’infiltrer dans le palais et saboter les vaisseaux et les équipements. ' +
+  'Les Juges sont payés pour attiser des révoltes ; les Apocalyptiques sont encouragés à construire un nid dans la ville portuaire afin de la corrompre de l’intérieur, ce qu’apprécient beaucoup les Ferrailleurs.<br/>' +
+  'ÉQUIPEMENT : -',
+
+ambassadorDescription: 'L’Ambassadeur incarne le principe de diplomatie du Libyen. Il est le médiateur entre les rivaux, il négocie les traités et développe les accords commerciaux. ' +
+  'Aucune concession n’est assignée sans qu’un Ambassadeur ne vérifie, ne corrige et ne finisse par parapher. ' +
+  'Les Magnats prétendent que ce n’est pas une manière de devenir riche, mais l’Ambassadeur affirme le contraire, car lui-même ne mesure pas sa richesse en dinars, ' +
+  'mais au nombre de fils qui tissent son réseau, lequel, après tout, couvre et relie deux continents.<br/><br/>' +
+  'CONDITION : CHA+NÉGOCIATION 8 ; CHA+CONSIDÉRATION 10 ; INS+EMPATHIE 8 ; ALLIÉS 4 ; RENOMMÉE 4 ; RÉSEAU 3<br/>' +
+  'EFFET : l’Ambassadeur a libre accès aux ambassades de tous les Cultes. S’il demande une audience, il l’obtient, que ce soit auprès des Sénateurs de Justitienne, ' +
+  'des Baptistes de Cathédrale ou des Voïvodes. Il peut utiliser son AUTORITÉ pour négocier même lorsque son interlocuteur n’est pas Néolibyen.<br/>' +
+  'ÉQUIPEMENT : -',
+
+waziriDescription: 'Les Magnats sont comme une meute de chacals qui se disputent chaque os. Celui qui se montre capable de jauger leurs sensibilités est digne de devenir Waziri pour un groupe de Cheiks. ' +
+  'Il sera leur voix et leur conseiller, prendra part à leurs rencontres et réglera les désaccords. Il représente leurs intérêts ; leurs objectifs sont sa loi. ' +
+  'Un mot de sa bouche et des secteurs économiques entiers tremblent et se recomposent. Au sein des entreprises des Cheiks, son rôle est celui d’un chargé de pouvoir. ' +
+  'Il déplace des montagnes de dinars et peut agir à sa guise. Même si tout cet argent ne lui appartient pas, un Waziri fait partie des Néolibyens les plus influents.<br/><br/>' +
+  'CONDITION : CHA+SÉDUCTION 8 ; PSY+RUSE 8 ; INS+EMPATHIE 10 ; ALLIÉS 5 ; RENOMMÉE 6 ; AUTORITÉ 4<br/>' +
+  'EFFET : les Cheikhs nomment un Waziri pour leur servir de médiateur. Pour être éligible, il doit avoir une RENOMMÉE supérieure ou égale à 5 ; si cette valeur décroît, il est relégué au rang d’Ambassadeur. ' +
+  'Tant qu’il conserve le rang de Waziri, il obtient +2 RESSOURCES. Il exerce un grand pouvoir dans les entreprises des Cheikhs et peut affronter des Magnats.<br/>' +
+  'ÉQUIPEMENT : -',
+
+consulDescription: 'Les Magnats et les Cheiks ne peuvent pas gérer personnellement chaque cité et chaque propriété foncière. ' +
+  'Qui plus est, les enchères annuelles impliquent toujours un potentiel changement de propriété, quand bien même apprendre toutes les ficelles d’une ville demande de nombreuses lunes. ' +
+  'Les centres de commerce profitables ou les carrefours stratégiques que représentent certaines villes sont trop importants pour qu’ils soient exposés à ce genre de risque. ' +
+  'De ce fait, la Banque du Commerce les assigne à des Ambassadeurs exceptionnellement méritants, les Consuls. ' +
+  'Un Consul organise la défense d’une communauté, fait entretenir les routes et étendre les ports. ' +
+  'Il est celui qui invite les sauvages des désolations à boire le thé et leur offre de conclure la paix… ou qui fait appel aux Fléaux afin d’éliminer le danger.<br/><br/>' +
+  'CONDITION : CHA+COMMANDEMENT 10 ou PSY+DOMINATION 10 ; CHA+EXPRESSION 8 ; ALLIÉS 4 ; AUTORITÉ 5<br/>' +
+  'EFFET : le Consul gouverne une ville ou une région qui lui a été accordée par des Magnats ou des Cheikhs. ' +
+  'Il contrôle les gardes et peut abattre des bâtiments ou en construire de nouveaux. Il peut ordonner aux Fléaux de chasser les sauvages des terres avoisinantes. ' +
+  'En sa qualité de Consul, il doit apaiser les relations entre le Corbeau et le Lion. Il négocie avec les Fragments, les Baptistes et les Commandants en chef. ' +
+  'Il prend des décisions pouvant engendrer la guerre ou la paix. En tant que stratège, il a une armée d’informateurs, de mouchards et de traîtres à sa solde.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Scourgers
+    dufu: 'Dufu', 
+    hondo: 'Hondo',
+    damu: 'Damu',
+    chaga: 'Chaga',
+    simba: 'Simba',
+    moyo: 'Moyo',
+    dumisai: 'Dumisai',
+    kifo: 'Kifo',
+	
+// Scourgers
+dufuDescription: 'Il a tué un animal ou vaincu un esclave pour être intégré à la caste guerrière. Mais il a failli y laisser sa peau. ' +
+  'Ses camarades se moquent de lui, le bousculent, le traitent de Dufu, qui signifie « pet ». Ils deviennent de plus en plus agressifs, ' +
+  'jusqu’à ce qu’il finisse par craquer. Le visage rouge, le front plissé, il se jette sur eux, les frappe, les roue de coups. En vain. ' +
+  'Ils parent ses attaques, esquivent ou poussent des cris exagérés. ' +
+  'À la fin de la leçon, essoufflé, honteux, les bras pesants, il a appris qu’il n’était rien. L’épreuve d’intronisation, ce premier défi ? Un pet. ' +
+  'À partir de là, les choses s’arrangent. Il court à travers la jungle, aiguise ses sens et ses réflexes, accepte tous les défis, se surpasse. ' +
+  'Ses camarades lui offrent de multiples occasions de faire ses preuves. Il doit partir en éclaireur, jouer la chèvre qui attire le loup dans son piège ' +
+  'ou kidnapper le chef d’une tribu ennemie. Il sera toujours au front, maîtrisant sa lance et son bouclier ovale. Il est encore trop tôt pour les fusils. ' +
+  'Ce n’est que lorsqu’il aura prouvé sa valeur et sa capacité à se défendre qu’il pourra monter dans la hiérarchie. ' +
+  'S’il a fait ses preuves en combat au corps à corps, il est désormais qualifié de Hondo, guerrier ancestral. ' +
+  'S’il a vaincu son adversaire par la ruse et la feinte, il devient le stratège de la troupe, un Damu.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : le Dufu doit faire ses preuves tous les jours. Il scrute ses ennemis et chasse des animaux sauvages. ' +
+  'Sa liste de tâches est longue, et il ne peut ni se défiler ni se plaindre. Il passe son temps à se battre afin de se défendre contre sa troupe.<br/>' +
+  'ÉQUIPEMENT : lance ; bouclier ovale ; masque de Fléau ; casque ; gilet pare-balles',
+
+hondoDescription: 'Dans ses rêves, il voit huit masques aussi gros que des boucliers et sent le Warui s’échapper des contours de la bouche. ' +
+  'La vision est trop lointaine, trop petite, mais elle le touche quand même. Il doit poursuivre sur la voie du guerrier, la voie du gardien. ' +
+  'Il demande un fusil d’assaut aux Néolibyens et l’obtient. Il fait participer l’arme à ses rites, la traite comme un ami, gagne ses faveurs. ' +
+  'Quand il regarde les esclaves ou ses ennemis dans les yeux, il sait que le culte doit sa réputation de cruauté et d’invincibilité à des Fléaux comme lui.<br/><br/>' +
+  'CONDITION : PHY+LUTTE 5 ; PHY+CORPS À CORPS 6 ; PHY+VIGUEUR 6 ; AGI+MOBILITÉ 4 ; ALLIÉS 1 ; RENOMMÉE 2<br/>' +
+  'EFFET : le Hondo est à présent un combattant aguerri et peut utiliser des armes à feu. ' +
+  'Il est présenté aux Néolibyens et peut se servir dans leurs arsenaux en fonction de sa valeur de RESSOURCES. ' +
+  'En dehors de l’Afrika, le Hondo est considéré comme la griffe du Lion : il est généralement traité avec méfiance et respect. ' +
+  'Par conséquent, il obtient un bonus de +1D à toutes les interactions sociales basées sur PSYCHÉ, mais subit aussi -1D à toutes les interactions sociales basées sur CHARISME.<br/>' +
+  'ÉQUIPEMENT : fusil d’assaut ; +2D munitions par mois ; fustigateur',
+
+damuDescription: 'Le Damu sait interpréter les mouvements de l’ennemi, connaît les différentes spécificités du terrain et les caprices du ciel. ' +
+  'Il déploie les Dufu, conçoit des plans d’attaque et signale les points faibles de ses adversaires. ' +
+  'Alors que le Chaga lutte avec les ancêtres pour comprendre la signification de la bataille et mène sa troupe au combat, le Damu élabore la stratégie. ' +
+  'Si le plan d’un Damu échoue, le butin sera décevant et la troupe perdra de sa gloire. Tout comme le reste de la troupe, les ancêtres, déçus, lui tourneront le dos.<br/><br/>' +
+  'CONDITION : PHY+LUTTE 5 ; CHA+COMMANDEMENT 6 ; PSY+RUSE 5 ; INS+PERCEPTION 5 ; AUTORITÉ 3 ; ALLIÉS 1<br/>' +
+  'EFFET : comme le Hondo, le Damu s’est battu pour obtenir le droit d’utiliser des armes à feu. ' +
+  'Il explore les alentours pour sa bande, étudie les points faibles de l’ennemi et détermine les plans d’attaques. ' +
+  'Si la bande parvient à lancer une attaque-surprise grâce à ses plans, elle obtient +2D au jet d’Initiative lors du premier round de combat. ' +
+  'Si elle perd un guerrier à cause d’un plan mal conçu, le Damu perd 1 point de RENOMMÉE. En général, les Damu ont le droit de conduire des koms.<br/>' +
+  'ÉQUIPEMENT : Fusil d’assaut ; +2D munitions par mois ; fustigateur',
+
+chagaDescription: 'Le Chaga est le chef de la troupe. Les ancêtres parlent à travers lui et sa parole est la volonté de l’Afrika. Le contredire reviendrait à mettre en doute les ancêtres. ' +
+  'Seuls les Dumisai peuvent l’affronter et remettre en question ses décisions, qu’il devra alors défendre avec ses poings. ' +
+  'Le Chaga est mentalement et physiquement supérieur au reste de la troupe. C’est un soldat aguerri et un brillant tacticien. ' +
+  'Pendant que le Damu établit le plan de bataille, le Chaga mène sa troupe au combat, l’encourage et la maintient unie. ' +
+  'Si l’un de ses guerriers meurt, il devra en répondre devant sa troupe et ses ancêtres. ' +
+  'Au fil des années, un Chaga mènera sa troupe à travers d’innombrables batailles. Il ne peut devenir Dumisai qu’après avoir été défié par ce dernier et l’avoir vaincu. ' +
+  'Dans ce cas, il choisira le Hondo censé le remplacer.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 8 ou AGI+ARMES À PROJECTILES 8 ; CHA+COMMANDEMENT 8 ; INT+LÉGENDES 6 ; AUTORITÉ 4<br/>' +
+  'EFFET : la bande obéit aveuglément aux ordres du Chaga et le suit à chaque combat. ' +
+  'Seul le Dumisai peut l’affronter et remettre en cause ses décisions, ce qui engendre un duel à mains nues : le Dumisai doit gagner pour annuler l’ordre du Chaga. ' +
+  'Mais il l’affronte à ses risques et périls : si le Chaga remporte la victoire et dispose d’une AUTORITÉ et d’une RENOMMÉE suffisante, il peut prendre la place du Dumisai. ' +
+  'Le Chaga sacrifie sa vie et son autorité pour la bande. Il est responsable de la vie de ses hommes. Chaque fois qu’un guerrier meurt, il perd 1 point d’AUTORITÉ. ' +
+  'En l’absence d’Anubien, le Chaga enseigne les rites de ses ancêtres à son peuple. Son autorité s’applique à tous les Afrikains (sauf aux Anubiens).<br/>' +
+  'ÉQUIPEMENT : arme ancestrale (l’arme d’un Fléau légendaire qui était autrefois le Chaga d’une bande, +2 en défense mentale, doit être transmise au prochain Chaga en cas de changement de rang ; en général une lance) ; +3D munitions par mois pour le fusil d’assaut',
+
+simbaDescription: 'Le Simba est le lion de la troupe. Il défie l’ennemi et accomplit les plus grands exploits. ' +
+  'Lors de chaque assaut, il se jette sur l’adversaire le plus fort et n’abandonne jamais avant de l’avoir vaincu. ' +
+  'Lui fournir de l’aide diminuerait l’ampleur de son exploit, ce qui serait impardonnable. ' +
+  'Après des centaines de batailles, après avoir vaincu tous ses ennemis, il est considéré comme invincible. ' +
+  'Il n’a plus rien à prouver. Il est l’heure de donner à un autre Fléau sa chance de suivre la voie du Lion. ' +
+  'Le Chaga l’honore en le sacrant Dumisai, héros de la troupe. Il devient intouchable.<br/><br/>' +
+  'CONDITION : le rang de Simba doit être libre ; PHY+ATHLÉTISME 8 ; PHY+CORPS À CORPS 8 ; AGI+ARMES À PROJECTILES 8 ; PSY+RÉACTIVITÉ 6 ; RENOMMÉE 5 ; ALLIÉS 3<br/>' +
+  'EFFET : au sein de chaque bande, il n’y a qu’un seul Simba. Il a le droit de défier les ennemis les plus forts et d’accomplir les plus grands exploits. ' +
+  'Il doit le faire sans aide. S’il refuse de se battre ou s’il perd, sa RENOMMÉE est réduite de 1. Si sa RENOMMÉE tombe à 2, il doit quitter son poste et redevenir un Damu. ' +
+  'Un autre Fléau de la bande prendra sa place. ' +
+  'Un Simba inspire sa bande : une fois qu’il a vaincu l’ennemi le plus fort, la bande tout entière bénéficie de +2D à la défense mentale jusqu’à la fin du combat. ' +
+  'En dehors de l’Afrika, le Simba est considéré comme la Tête du Lion, un grand danger. Par conséquent, il obtient un bonus de +3D à toutes les interactions sociales basées sur PSYCHÉ, ' +
+  'mais aussi -3D à toutes celles basées sur CHARISME.<br/>' +
+  'ÉQUIPEMENT : casque de Lion ; +3D munitions par mois',
+
+moyoDescription: 'Un jour, le Chaga se rendra auprès de son Dumisai, s’assoira en face de lui sur un rocher loin de la troupe, et lui dira qu’il est temps de choisir son Moyo, son âme sœur. ' +
+  'Le Dumisai sélectionnera alors un Hondo ou un Damu dont il se sentira proche et qu’il jugera digne de cet honneur. Ensemble, ils accompliront le rite de l’union. ' +
+  'Désormais, ils ne feront qu’un, leurs âmes sont jointes. Ce qui arrivera à l’un arrivera aussi à l’autre. ' +
+  'Le Moyo donnera son masque au Chaga, qui le gardera en sécurité, et acceptera sa mission. Il devra accomplir huit exploits pour rendre hommage à son Dumisai et défendre son honneur. ' +
+  'Il quittera la troupe, livré à lui-même. Aucun Fléau n’osera l’aider. Toute influence extérieure briserait le lien avec le Dumisai, courroucerait les ancêtres et jetterait l’opprobre sur toutes les personnes impliquées. ' +
+  'Le Moyo aura deux lunes pour venir à bout des huit épreuves conformément aux traditions. S’il y parvient, le Dumisai conservera son statut. Le Moyo récupérera son masque et redeviendra Hondo ou Damu. ' +
+  'Mais s’il échoue, Moyo et Dumisai deviendront des Kifos, des sans-masques. Les ancêtres leur tourneront le dos. Leurs masques seront détruits, et, tombés en disgrâce, ils devront quitter la troupe.<br/><br/>' +
+  'CONDITION : sur ordre du Chaga, le Dumisai nomme son Moyo ; INS+EMPATHIE 8 ; PHY+VIGUEUR 8 ; RENOMMÉE 5<br/>' +
+  'EFFET : le Moyo est l’âme sœur du Dumisai. Il lui remet son masque et quitte la bande. À partir de là, il a deux mois pour surmonter les huit épreuves traditionnelles. ' +
+  'S’il réussit, il récupère son masque et son ancien rang. S’il échoue, le Moyo et son Dumisai tombent en disgrâce et doivent quitter la bande. Ils deviennent des Kifo, des sans-masque. ' +
+  'Ces tests consistent à éprouver la force (combattre des animaux sauvages ou des AMSUMO, réprimer une révolte d’esclaves), l’esprit (aider un village à résoudre un problème), ' +
+  'l’âme (mettre un terme à de vieilles querelles) et les connaissances ancestrales (rétablir l’ordre, apaiser des esprits en colère, renforcer les traditions). Les Anubiens organisent et supervisent les épreuves.<br/>' +
+  'ÉQUIPEMENT : -',
+
+dumisaiDescription: 'Le Dumisai représente tous les exploits de l’Afrika et incarne la conscience de la troupe. Il est le gardien des traditions. ' +
+  'Il doit mener sa troupe d’une manière exemplaire, aussi bien sur le plan physique que mental. ' +
+  'Son statut au sein de la troupe est incontestable. Il n’est pas le chef, mais il est le seul à pouvoir contester et défier le Chaga. ' +
+  'Si le Dumisai remporte le duel, le Chaga doit le respecter et se ranger à son opinion. Le Dumisai, quant à lui, ne peut jamais être provoqué ; c’est toujours lui qui défie les autres.<br/><br/>' +
+  'CONDITION : dépend du rang précédent : si un Chaga terrasse l’ancien Dumisai lors d’un duel rituel, il peut le remplacer ; ' +
+  'si la bande perd son Dumisai, le Chaga peut nommer le Simba comme nouveau Dumisai ; PHY+RÉSISTANCE 10 ; PHY+CORPS À CORPS 10 ; AGI+ARMES À PROJECTILES 10 ; RENOMMÉE 5 ; AUTORITÉ 5<br/>' +
+  'EFFET : les autres Fléaux ne défient jamais un Dumisai. Il est le seul à pouvoir remettre en cause la décision du Chaga, ce qui provoque un duel. ' +
+  'S’il échoue, il est banni de la bande. S’il gagne, le Chaga soutient l’opinion du Dumisai comme si c’était la sienne. ' +
+  'Un Dumisai peut pénétrer dans n’importe quel domaine afrikain. Même le coffre-fort de la Banque du Commerce s’ouvre pour lui s’il en demande l’accès. ' +
+  'Les Dumisai sont des héros et sont traités comme tels par la population afrikaine : ils obtiennent +2D à tous les tests de CHARISME et de PSYCHÉ impliquant des Afrikains. ' +
+  'Les Hellvétiques apprécient les Dumisai pour leur discipline, leur force mentale et physique. Ils peuvent dormir gratuitement dans la forteresse Alpine.<br/>' +
+  'ÉQUIPEMENT : peut demander n’importe quelles munitions',
+
+kifoDescription: 'Si un Moyo déçoit les ancêtres, son Dumisai et lui deviennent des Kifos. Le Kifo est considéré comme une âme perdue. ' +
+  'Après sa mort, il revient sous la forme d’un esprit malveillant. En attendant, tous les Fléaux l’évitent et il est banni de toutes les troupes. ' +
+  'Il lui faudra du temps pour se faire à son nouveau rôle. Certains Kifos travaillent comme assassins à la solde des Néolibyens ou comme mercenaires pour des clans. ' +
+  'D’autres ne se remettent jamais de cette trahison et changent de camp. Ainsi, de nombreux Kifos se rangent du côté des Hybrispagnols ou des Voïvodes, ' +
+  'fournissent des informations à leurs anciens ennemis et combattent en leur nom.<br/><br/>' +
+  'CONDITION : Dumisai ou Moyo déchu<br/>' +
+  'EFFET : leurs RESSOURCES désormais réduites à 0, les Kifo perdent tout accès aux RESSOURCES des Néolibyens et des Fléaux. ' +
+  'Cependant, ils peuvent conserver leurs anciennes armes et même continuer à les utiliser. Les Fléaux les ignorent comme s’ils étaient invisibles. ' +
+  'En public, les Néolibyens les évitent, mais ils aiment les utiliser comme assassins. À Bedain, tout le monde les craint ; certains Kifo dirigent des sociétés de Ferrailleurs ' +
+  'et accèdent aux domaines de ces derniers grâce à leur valeur de RESSOURCES. ' +
+  'Si le Kifo décide de quitter sa terre natale et de trouver un travail sur la terre du Corbeau, il peut espérer une rapide augmentation de ses RESSOURCES (+3) et de son RÉSEAU (+2). ' +
+  'Les Voïvodes, les Guerreros hybrispagnols, les Chroniqueurs et les Jehammétans le rémunèrent grassement pour obtenir un aperçu de l’âme afrikaine… et de ses projets. ' +
+  'En tant que garde du corps, conseiller, stratège et curiosité, un Kifo peut vivre confortablement sur la terre du Corbeau jusqu’au jour de sa mort. ' +
+  'Cependant, sa trahison en fait un hors-la-loi : des Fléaux et des Grands Chasseurs néolibyens se mettront bientôt à sa recherche.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Anubians
+    initiate: 'Initié',
+    enchanter: 'Enchanteur',
+    embalmer: 'Embaumeur',
+    soulSeer: 'Prophète des Âmes',
+    healer: 'Guérisseur',
+    hecatean: 'Hécatéen',
+    sickle: 'Faucille',
+    ammit: 'Ammout',
+    hogon: 'Hogon',
+	
+// Anubians
+initiateDescription: 'L’Embaumeur inspecte les bras de l’Initié et en effet, il y trouve la marque d’Anubis : un eczéma là où la veille le doigt d’Anubis lui a éraflé la peau. ' +
+  'L’Initié laisse son ancienne existence derrière lui et se joint à l’Embaumeur. ' +
+  'Son premier voyage l’amène au seuil de la mort. Face à face avec Anubis et Ammout, la dévoreuse des âmes, il négocie sa propre vie. ' +
+  'Il se relève de la crypte métamorphosé. Le tatouage sur son corps lui fait mal ; il compte sept cercles. ' +
+  'Il est à présent devenu un Anubien, l’âme de l’Afrika. ' +
+  'Dans les années qui suivent, il vit auprès de son Embaumeur qui lui enseigne les rites, et écoute les histoires des esprits bons et mauvais, des montagnes sacrées et des arbres maudits. ' +
+  'Il ose s’approcher en bordure des Psychovores, observe la végétation étrange, écoute le vent siffler à travers les tiges cassantes et s’émerveille des feuilles hexagonales. ' +
+  'Il a déjà vu les hommes affligés de la Vorace ; il s’est servi du khépesh pour amputer des bras ou des jambes avant que l’infection n’atteigne le cœur. ' +
+  'Son Embaumeur lui demande maintenant de s’y exposer, de se risquer à sa première catalyse. Faute de quoi, les Hogons ne reconnaîtront pas sa transformation.<br/><br/>' +
+  'CONDITION : Marque d’Anubis<br/>' +
+  'EFFET : sept cercles concentriques apparaissent sur le ventre de l’Initié. Il obtient +1D à tous les tests d’action contre la Vorace. ' +
+  'C’est un vagabond qui voyage entre les mondes et explore l’humanité, les ancêtres, la nature ainsi que la périphérie des Psychovores. ' +
+  'Aucun Afrikain ne lui refuserait à boire ou à manger. On dit que tout ce qu’un Afrikain fait pour un Initié sera récompensé au centuple par les esprits ancestraux.<br/>' +
+  'ÉQUIPEMENT : -',
+
+enchanterDescription: 'Il tient entre ses mains son premier vase canope, dont il sent le contact froid. Il en retire le couvercle à tête de chacal et boit. ' +
+  'Son Embaumeur lui dit qu’il est à présent devenu un Enchanteur. ' +
+  'En tant que tel, il communique avec la Terre afin d’apaiser la fureur des esprits et des ancêtres contre la vie en général. ' +
+  'Il enseigne les traditions aux Fléaux, leur prodigue des conseils et réconforte leur âme. ' +
+  'Aucun puits n’est creusé sans sa permission, aucun mariage célébré sans son aval. ' +
+  'Un jour, un Hogon lui demandera de choisir. Veut-il continuer de guider le destin de l’Afrika en tant que sage, veut-il entretenir l’onde en tant que guerrier sur la terre du Corbeau, ' +
+  'ou faire offrande de son corps en tant que Guérisseur ?<br/><br/>' +
+  'CONDITION : PSY+FOI 6 ou PSY+VOLONTÉ 6 ; INT+LÉGENDES 6 ; RENOMMÉE 1<br/>' +
+  'EFFET : l’Enchanteur enseigne les rites ancestraux et conseille les gens dans leurs affaires quotidiennes : ' +
+  'tous les historiques à l’exception des RESSOURCES s’appliquent également aux Néolibyens, aux Fléaux, aux Ferrailleurs afrikains et aux Clanistes. ' +
+  'Il en va de même pour tous les rangs supérieurs. ' +
+  'À chaque transformation, la résistance à la Vorace s’accroît : +2D aux tests d’action pour combattre les infections.<br/>' +
+  'ÉQUIPEMENT : masque d’Anubis ; pierres d’âmes (outils de superstition : +1D CHARISME lorsqu’il tente d’influencer un Afrikain)',
+
+embalmerDescription: 'L’Embaumeur possède la connaissance des esprits, des ancêtres et de la mort, et il sait comment l’employer. ' +
+  'Les Fléaux lui obéissent et les jeunes Anubiens le rejoignent en quête de sagesse et de transformation. ' +
+  'On dit de lui qu’il peut contacter les esprits des défunts et parler pour eux. ' +
+  'Il peut en vérité interférer avec les murmures des ancêtres : il s’ouvre aux Psychovores et les laisse emporter ses émotions. ' +
+  'Des villages, des zones entières, sont touchés par ce nouvel ancêtre. Sur la terre du Corbeau, ses pouvoirs faiblissent, ' +
+  'mais partout où les Fléaux mâchent des graines, il parvient à imposer son ancêtre sur l’Éther et sur ces Fléaux. ' +
+  'La transformation suivante lui permet de s’élever comme Prophète des âmes.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 6 ; INT+LÉGENDES 7 ; INS+EMPATHIE 7 ; RENOMMÉE 2<br/>' +
+  'EFFET : l’Anubien peut désormais interférer avec l’éther psychovore et ainsi influencer les gens autour de lui grâce aux murmures de ses ancêtres. ' +
+  'Il reste cependant l’esclave de la nature : les émotions générées sont liées à son attribut le plus élevé. ' +
+  'S’il s’agit de PHY, les Afrikains se sentent plus forts, plus sains. S’il s’agit de PSY, ils se sentent plus volontaires ; s’il s’agit d’INS, ils sentent leur nature primaire et y cèdent. ' +
+  'Les Embaumeurs recrutent des Initiés et les éduquent jusqu’au moment où ils deviennent des Enchanteurs. ' +
+  'Tous ces Initiés se sentent redevables envers leur Embaumeur jusqu’à la fin de leurs jours et comptent comme des alliés (+1 ALLIÉS).<br/>' +
+  'ÉQUIPEMENT : doigt d’Anubis (un os pointu pour écorcher la peau des Initiés)',
+
+soulSeerDescription: 'Anubis est un principe. L’Anubien l’a compris. Pour la population, il est un juge et un maître des secrets. ' +
+  'Les Psychovores reculent devant ses pensées, se flétrissent et meurent, mais à sa demande, ils activeront également leurs mécanismes de défense, ' +
+  'cracheront leurs piquants, et leurs fruits éclateront en nuages de fragments pour infliger la Vorace à ses ennemis. ' +
+  'En Europe, ce pouvoir ne lui est plus d’aucune utilité. Le Prophète des âmes se fie ici à des esprits-frères : les Spitaliers. ' +
+  'Dans des laboratoires cachés, il explore les génomes à leurs côtés, identifie les populations possédant des traits extraordinaires. ' +
+  'Il organise les expéditions du culte médical au milieu des Psychovores. C’est un chercheur qui part à la rencontre d’Anubis avec son esprit plutôt qu’avec son cœur. ' +
+  'En compagnie de Fléaux et de Néolibyens, il joue les juges et les gardiens mystiques. Peut-être ne connaîtront-ils jamais son véritable rôle. ' +
+  'Après des années de recherche, il quittera ce cercle et se transformera pour devenir un Hogon.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 10 ; INT+SCIENCE 7 ; SECRETS 3 ; RENOMMÉE 3<br/>' +
+  'EFFET : par sa simple volonté, l’Anubien crée un passage à travers les Psychovores, qui s’écartent devant lui et ses compagnons. ' +
+  'Mais pas pour ses ennemis : des pluies d’épines s’abattent ; des fruits tombent des bosquets et explosent en nuages hautement toxiques. ' +
+  'Les Psychovores attaquent avec leur Force et provoquent la Vorace. Les Psychovores dotés d’une Force supérieure ou égale à 5 résistent au Prophète des âmes. ' +
+  'L’Anubien développe une résistance supérieure contre la Vorace : +4D contre les infections. ' +
+  'La Banque du Commerce de Tripol recourt aux Prophètes des âmes pour jauger le mode de vie de ses partenaires commerciaux. ' +
+  'Avec un test d’INS+EMPATHIE (4), le Prophète des âmes sonde la vie et des actes de celui qu’il observe. ' +
+  'Sans déclencheur, il ne peut que deviner son humeur, mais plus les déclencheurs sont nombreux, plus les informations sont précises : santé, maladies latentes, calamités à venir. ' +
+  'L’Anubien met l’âme à nu jusqu’à ce qu’il en découvre la destinée. Les Prophètes des âmes sont aussi très appréciés par les Consultants du Spital ' +
+  'et ont accès par décret aux groupes de recherche.<br/>' +
+  'ÉQUIPEMENT : -',
+
+healerDescription: 'Le Guérisseur en sait beaucoup sur la terre, les herbes et les eaux puissantes. À partir d’elles, il élabore des mélanges pour calmer la douleur chez les Fléaux ' +
+  'et maintenir les Néolibyens en bonne santé. Mais les remèdes réellement puissants s’obtiennent en catalysant le fruit du Douât. ' +
+  'Au fil des années, le Guérisseur perfectionne son corps. Il sait quels ingrédients il lui faut ingérer, et en quelle quantité, pour atteindre l’effet désiré. ' +
+  'Il produit également la légendaire huile de Mardouk, qui contrecarre les senteurs envoûtantes des Phéromanciens. ' +
+  'Bientôt, les villageois affirmeront qu’il possède des pouvoirs magiques. Il est temps pour lui de se transformer en Hécatéen.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 8 ; INT+MÉDECINE 6 ; INT+CONCENTRATION 6 ou INS+PULSIONS 6 ; AUTORITÉ 2<br/>' +
+  'EFFET : le Guérisseur récupère de la terre, des herbes et de puissantes matières organiques, ainsi que les Douât des Psychovores. ' +
+  'Quand il a besoin d’un autre Anubien pour réaliser un médicament, il reçoit +2 RESSOURCES. ' +
+  'Il peut manger un Douât sans être dévoré par la Vorace. Cependant, il doit effectuer un jet de PHY+RÉSISTANCE (Difficulté = qualité du Douât) ' +
+  'pour amorcer la catalyse. Le niveau détermine également la durée pendant laquelle le Guérisseur est plongé dans le coma. ' +
+  'L’Anubien se réveille un jour plus tôt par déclencheur, mais demeure en catalyse pendant au moins une heure. ' +
+  'Résistance contre les Psychovores : +3D pour combattre les infections.<br/>' +
+  'ÉQUIPEMENT : creuset ; limon guérisseur',
+
+hecateanDescription: 'Un Hécatéen est capable de réparer le fil de vie déchiré d’une personne à l’intérieur d’un imiout de peau. Il porte la catalyse à un nouveau degré. ' +
+  'Sa peau change de couleur ou émet parfois un parfum délicieux, à moins qu’il ne décide de transmettre la Vorace par simple contact. ' +
+  'Il parvient à reconfigurer son métabolisme et à maintenir ce changement pendant plusieurs minutes, voire des heures.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 10 ; INT+CONCENTRATION 8 ou INS+PULSIONS 8 ; INT+SCIENCE 6 ; AUTORITÉ 3<br/>' +
+  'EFFET : l’Hécatéen est le seigneur de la mort. En cousant l’âme d’un homme fraîchement décédé dans la peau d’un gendo ' +
+  'et en accomplissant le rituel de l’Imiout, il peut réparer le fil de la vie (voir Remise sur pied, au chapitre 7). ' +
+  'Il peut restructurer son métabolisme et augmenter certains de ses attributs une fois par jour : pour ce faire, ' +
+  'il effectue un test d’INT+CONCENTRATION ou d’INS+PULSIONS contre la valeur de l’attribut en question. ' +
+  'Il peut utiliser les déclencheurs pour rallonger le temps et/ou la valeur : 1DC confère 1 minute ou +1 à l’Attribut.<br/>' +
+  'ÉQUIPEMENT : sang de Douât (niveau 1)',
+
+sickleDescription: 'Les Anubiens devenus des Faucilles accompagnent les Fléaux sur les terres du nord, et ils y font office de gardes et de conseillers auprès des Néolibyens. ' +
+  'Ils sentent à l’intérieur d’eux-mêmes les points faibles des Psychonautes : ils ont l’impression que le chakra correspondant se tarit. ' +
+  'Ils sentent ce vide et veulent s’en défaire. Munis d’un khépesh, ils sont l’arme parfaite contre les Aberrants. ' +
+  'En quelques coups dirigés contre le chakra singulier d’un Psychonaute, ils tranchent son fil de vie. ' +
+  'Suite à chaque combat, le respect des Fléaux grandit jusqu’à se muer en une sorte d’adoration mystique. ' +
+  'L’Anubien n’est plus considéré comme humain, mais perçu comme une incarnation d’Ammout, la dévoreuse démoniaque.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 6 ; PSY+RÉACTIVITÉ 6 ; RENOMMÉE 2 ; RÉSEAU 2<br/>' +
+  'EFFET : obtient le Potentiel Œil d’Horus au niveau 1. ' +
+  'Une bande de Fléaux accueille l’Anubien en tant que combattant, et ce dernier peut défier l’ennemi le plus fort avant le Simba. ' +
+  'Cependant, il peut aussi refuser sans perdre d’honneur. Le Simba lui en sera reconnaissant. ' +
+  'Résistance contre les Psychovores : +3D pour combattre les infections.<br/>' +
+  'ÉQUIPEMENT : Khépesh',
+
+ammitDescription: 'Debout auprès d’Anubis, Ammout dévore les cœurs jugés mauvais après avoir été pesés. ' +
+  'Les Anubiens qui suivent cette tradition se parent de ce nom comme d’une arme. ' +
+  'Ils ressentent chaque perfidie, devinent chaque mensonge, sont en phase avec les hommes, les Psychonautes et les Psychovores. ' +
+  'Ils jugent de la même manière Européens et Afrikains, et sont les ombres de la nuit, les éclairs en plein jour. ' +
+  'On prétend qu’ils ne font pas que tuer leurs ennemis, mais qu’ils sapent aussi leur âme pour finalement les dévorer.<br/><br/>' +
+  'CONDITION : PHY+ATHLÉTISME 6 ; PHY+CORPS À CORPS 10 ; PSY+FOI 6 ou PSY+VOLONTÉ 6 ; RENOMMÉE 5 ; RÉSEAU 3<br/>' +
+  'EFFET : un Ammout sonde les cœurs : dans la zone d’influence des Psychovores, il obtient +2D à toutes les interactions sociales ' +
+  '(tous les tests de CHARISME, ainsi que PSY+DOMINATION), et peut aussi utiliser sa RENOMMÉE pour les tests d’actions. ' +
+  'Il connaît les points faibles de toutes les créatures ; en plus des dégâts physiques, chaque coup porté avec une arme ' +
+  'inflige un nombre de dégâts d’ÉGO égal au nombre de déclencheurs. ' +
+  'Résistance contre les Psychovores : +4D pour combattre les infections.<br/>' +
+  'ÉQUIPEMENT : faucille d’Ammout',
+
+hogonDescription: 'Les Hogons évoluent sur le troisième cercle, le dernier que peuvent connaître les Anubiens en dehors du Caire. ' +
+  'Ils fendent comme des navires la mer des Psychovores, mais doivent pourtant faire demi-tour en atteignant la barrière autour de la Ville Interdite. ' +
+  'Dans les cryptes cachées, en bordure de cette barrière, ils trouvent les vases canopes du chacal et les rouleaux de la sagesse. ' +
+  'Leur connaissance de l’anatomie, de la biochimie et de l’esprit conscient ne cesse de s’accroître. ' +
+  'Ils se préparent pour le transit, en éprouvant déjà l’attraction des pyramides. ' +
+  'Ils mesurent également la maturité de leurs frères et sœurs, et provoquer leurs transformations fait désormais partie de leurs recherches.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 10 ; INT+SCIENCE 8 ; INS+EMPATHIE 8 ; SECRETS 5<br/>' +
+  'EFFET : le Hogon déchire le voile de la superstition et du folklore : il affronte avec +4D chaque tentative basée sur la superstition visant à l’influencer. ' +
+  'Sa résistance contre la Vorace passe à +6D. Seuls les Psychovores de la Dhoruba et tout autour du Caire continuent de lui résister. ' +
+  'Un Hogon prépare son entrée au Caire. Il connaît les cachettes des vases canopes et sélectionne de jeunes Anubiens pour la catalyse.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Apocalyptics
+    finch: 'Pinson/Pinsonne',
+    battleCrow: 'Corneille Prédatrice',
+    magpie: 'Pie',
+    vulture: 'Vautour/Vautouresse',
+    cuckoo: 'Coucou',
+    owl: 'Hibou/Chouette',
+    woodpecker: 'Pic-vert',
+    stork: 'Cigogne',
+    raven: 'Corbeau',
+    tern: 'Sterne',
+    seagull: 'Mouette',
+    pelican: 'Pélican',
+    albatross: 'Albatros',
+    hummingbird: 'Colibri',
+    marabou: 'Marabout',
+    ibis: 'Ibis',
+    toco: 'Toko',
+    buzzard: 'Busard',
+    phoenix: 'Phoenix',
+	
+// Apocalyptics
+finchDescription: 'Quel est l’intérêt d’un pinson ? Il ne fait que picorer, voler et déféquer. De temps à autre, il couine… comme lorsqu’un Juge le piétine. ' +
+  'C’est pourquoi les pinsons sont au plus bas de la hiérarchie apocalyptique. Ils n’ont rien accompli et se font bousculer par leurs frères et sœurs. ' +
+  'Seule une épreuve de courage pour prouver leur valeur au sein de la nuée peut les affranchir de cette vie pitoyable.<br/><br/>' +
+  'CONDITION : Résistance à la souffrance<br/>' +
+  'EFFET : le Pinson est harcelé par sa Nuée, soi-disant pour son bien. Parce qu’il s’attend au pire à tout moment, il obtient +1D à l’Initiative quand il est entouré de sa Nuée. ' +
+  'Ce bonus est perdu lorsqu’il change de rang.<br/>' +
+  'ÉQUIPEMENT : -',
+
+battleCrowDescription: 'Ils planent au-dessus des champs de bataille en poussant des cris effroyables, prêts à fondre sur leurs ennemis et à leur picorer les yeux. ' +
+  'Ils sont lestes et rusés. Armés de couteaux et de gants munis de serres, ils tuent les ennemis de la nuée.<br/><br/>' +
+  'CONDITION : PHY+LUTTE 6 ; PHY+RÉSISTANCE 6 ; PHY+ATHLÉTISME 4 ; AUTORITÉ 2<br/>' +
+  'EFFET : la Corneille Prédatrice fait partie des guerriers de la Nuée. En cas d’attaque, il peut utiliser son AUTORITÉ sans risque d’humiliation.<br/>' +
+  'ÉQUIPEMENT : bracelet poignard',
+
+magpieDescription: 'Une prostituée qui vole ses michetons, un revendeur de Brûlure rusé, un bandit de grand chemin… Ceux qui ont adopté les qualités de cet oiseau voleur peuvent aussi en adopter le nom. ' +
+  'Mais si une Pie vole sa propre nuée, elle risque de se retrouver avec les ailes brisées.<br/><br/>' +
+  'CONDITION : AGI+DEXTÉRITÉ 6 ; CHA+SÉDUCTION 6 ; PSY+RUSE 4 ; RENOMMÉE 2<br/>' +
+  'EFFET : une Pie entend de nombreuses confidences de la part de ses clients. Elle peut alors réagir de deux façons. ' +
+  'Soit elle décide de faire chanter ses clients ; dans ce cas, sa valeur de RÉSEAU est réduite à 1, mais ses RESSOURCES augmentent de 2 : elle vit confortablement, mais dangereusement. ' +
+  'Soit elle se tait et met ses clients en confiance : son RÉSEAU et sa RENOMMÉE augmentent de 1. Ce bonus est perdu si elle change d’attitude.<br/>' +
+  'ÉQUIPEMENT : stylet ; épingle à cheveux',
+
+vultureDescription: 'Les Vautours sont les Apocalyptiques qui affrontent les ruines avec les Ferrailleurs pour s’approprier les meilleurs morceaux, ' +
+  'mais ce sont aussi des imposteurs qui s’attaquent aux victimes d’intrigues et aux charognards. ' +
+  'Quiconque montre de la faiblesse devant un Vautour devient sa prochaine victime.<br/><br/>' +
+  'CONDITION : AGI+FURTIVITÉ 4 ; PSY+RUSE 6 ; INS+SURVIE 6 ; RÉSEAU 2<br/>' +
+  'EFFET : tout le monde déteste les Vautours. Officiellement, les Chroniqueurs leur interdisent l’accès à leurs Alcôves. ' +
+  'Cependant, les Occulteurs sont toujours à l’affût de marchandises volées par les Vautours.<br/>' +
+  'ÉQUIPEMENT : bracelet poignard',
+
+cuckooDescription: 'Un coucou est un séducteur et un escroc qui braconne sur les terres des autres cultes. ' +
+  'Il peut vivre en tant que Juge ou Spitalier avant de se lasser de ce rôle et d’en adopter un nouveau aussi facilement qu’un serpent change de peau. ' +
+  'Il est toujours sur la corde raide ; seuls ses milliers de masques l’empêchent de tomber.<br/><br/>' +
+  'CONDITION : PSY+TROMPERIE 6 ; CHA+EXPRESSION 6 ; INS+EMPATHIE 4 ; SECRETS 2<br/>' +
+  'EFFET : tout le monde pense connaître le Coucou de la Nuée. Mais tout le monde a tort. Le Coucou devient ses personnages. ' +
+  'S’il commet un crime ou s’attire des ennemis, tout est oublié lorsqu’il change de masque. Il obtient un bonus de +2D à toutes les manœuvres de tromperie.<br/>' +
+  'ÉQUIPEMENT : stylet',
+
+owlDescription: 'Elle n’attaque que la nuit, et sa précision lui confère une certaine miséricorde : les victimes ne souffrent pas, ne peuvent même pas crier. ' +
+  'Puis elle s’envole, emportant sa victime dans ses serres, et disparaît dans son nid. Les Chouettes sont des assassins et des pillards. ' +
+  'Ils tendent des embuscades, et évitent les conflits ouverts.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 8 ; AGI+FURTIVITÉ 6 ; PSY+RÉACTIVITÉ 6<br/>' +
+  'EFFET : la Chouette est un assassin et un cambrioleur de haut vol. S’il parvient à tendre une embuscade, il obtient un bonus de +4D au jet d’attaque. ' +
+  'S’il parvient à commettre un assassinat pour le solde d’un autre Culte, son RÉSEAU augmente de 1 jusqu’à un maximum de 4. S’il échoue, son RÉSEAU est réduit de 1.<br/>' +
+  'ÉQUIPEMENT : bracelet poignard',
+
+woodpeckerDescription: 'Ce sont les premiers à pénétrer en terre inconnue. Ils explorent, observent, et lancent leurs filets. Ils corrompent, bâtissent et sécurisent. ' +
+  'Aucun nid n’existe sans Pic-vert.<br/><br/>' +
+  'CONDITION : CHA+ART 4 ; CHA+COMMANDEMENT 6 ; PSY+TROMPERIE 8 ; RÉSEAU 3 ; RESSOURCES 3<br/>' +
+  'EFFET : où qu’il aille, le Pic-vert construit un nid que la Nuée peut utiliser comme planque et base pour leurs futurs cambriolages (SECRETS +1). ' +
+  'Il est responsable des RESSOURCES de la Nuée. S’il la trahit, il obtient RESSOURCES 6 pour une transaction, mais devra remporter une confrontation contre le Corbeau : ' +
+  'sa PSY+TROMPERIE contre l’INS+PERCEPTION du Corbeau. En cas d’échec, la prochaine fois qu’une Corneille Prédatrice viendra lui rendre visite, ce ne sera pas de manière amicale. ' +
+  'D’autres Cultes lui commandent de l’EX pour cacher leur consommation de Brûlure aux Spitaliers, ce qui signifie qu’il tient toujours ses clients à la gorge (+1 RÉSEAU).<br/>' +
+  'ÉQUIPEMENT : fusil de chasse ; 8 cartouches ; porte-clés',
+
+storkDescription: 'Les Cigognes volent les enfants pour les intégrer à leur propre clan ou les envoyer travailler. ' +
+  'Ce sont des manipulateurs rusés qui perçoivent chaque émotion et savent comment les utiliser dans leur propre intérêt.<br/><br/>' +
+  'CONDITION : CHA+SÉDUCTION 8 ; PSY+RUSE 6 ; CHA+ART 4 ; RÉSEAU 2<br/>' +
+  'EFFET : le personnage ayant le rang de Cigogne vole des enfants. S’il les envoie travailler, il obtient +1 RESSOURCES ; s’il joue le rôle de mentor et les intègre à la Nuée, il obtient +1 RENOMMÉE. ' +
+  'S’il change son comportement, l’ancien bonus est perdu. ' +
+  'Dans les grandes colonies, il n’est pas rare que des groupes d’enfants sèment le trouble. Souvent, le personnage Cigogne en connaît certains : il obtient un bonus temporaire de +2 RÉSEAU dans la colonie en question.<br/>' +
+  'ÉQUIPEMENT : filet ; bâton ; instrument de musique',
+
+ravenDescription: 'Les Corbeaux sont les chefs et les cartomanciens des Apocalyptiques. Il faut bien que quelqu’un s’intéresse à l’avenir. ' +
+  'Ils déterminent le destin du clan, pour le meilleur ou pour le pire.<br/><br/>' +
+  'CONDITION : PSY+FOI 10 ou PSY+VOLONTÉ 10 ; INS+SURVIE 6 ; AUTORITÉ 5 ; RENOMMÉE 3 ; ALLIÉS 3 ; SECRETS 5<br/>' +
+  'EFFET : le Corbeau se sert de son Tarot et de ses prophéties pour contrôler la Nuée : il peut user de son AUTORITÉ sans craindre de perdre un point en cas d’échec.<br/>' +
+  'ÉQUIPEMENT : tarot apocalyptique ; tout pistolet amélioré de 2 points ; +1D munitions par mois',
+
+ternDescription: 'Ce sont les Pinsons de la Méditerranée : leurs piaillements sont agaçants, et ils sont tout aussi inutiles. ' +
+  'Sur le bateau, ils font le ménage et subissent le harcèlement des Mouettes.<br/><br/>' +
+  'CONDITION : aime l’eau… ou pas<br/>' +
+  'EFFET : comme le Pinson, il obtient +1D d’Initiative tant qu’il reste parmi les siens. Ce bonus est perdu quand il change de rang.<br/>' +
+  'ÉQUIPEMENT : grappin',
+
+seagullDescription: 'Ce sont les fléaux de la mer. Sans relâche, ils fondent sur les épaves humaines et les déchiquettent. ' +
+  'Les mouettes sont des hommes fuyants que la moindre brise emportera loin du danger.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 6 ; AGI+MOBILITÉ 6 ; AGI+ARMES À PROJECTILES 4<br/>' +
+  'EFFET : lors d’une bataille navale ou de l’abordage d’un vaisseau ennemi, la Mouette ne subit aucun malus lié à une mer houleuse ou à la fumée. ' +
+  'Ses talents de navigateur lui permettent de se déplacer sans encombre (+1 RÉSEAU).<br/>' +
+  'ÉQUIPEMENT : arbalète harpon',
+
+pelicanDescription: 'Ils ont passé des années en mer et en connaissent chaque lame de fond, chaque courant. ' +
+  'D’un simple coup d’œil aux nuages, ils peuvent prédire le temps qu’il fera dans les prochains jours. ' +
+  'Ils connaissent le littoral par cœur ainsi que chacun de ses pièges. Ce sont les gouvernails du navire. ' +
+  'Sans leur expérience, il serait impossible d’accoster, et chaque tempête risquerait d’être la dernière.<br/><br/>' +
+  'CONDITION : AGI+NAVIGATION 10 ; INS+ORIENTATION 8 ; AUTORITÉ 3<br/>' +
+  'EFFET : le Pélican pilote les bateaux des oiseaux aquatiques. Il connaît tous les courants, tous les hauts-fonds : sur la Méditerranée, il obtient +2D à INS+ORIENTATION. ' +
+  'Il connaît également toutes les histoires concernant les cités côtières, ce qui lui confère +2D à INT+LÉGENDES quand elles sont concernées.<br/>' +
+  'ÉQUIPEMENT : -',
+
+albatrossDescription: 'C’est le roi des mers, et c’est ainsi que se désignent les princes des ports, les capitaines des pirates et les seigneurs des rivières.<br/><br/>' +
+  'CONDITION : navire ; PSY+DOMINATION 10 ou CHA+COMMANDEMENT 10 ; AUTORITÉ 5 ; RESSOURCES 3<br/>' +
+  'EFFET : s’il dispose d’une RENOMMÉE supérieure ou égale à 4, l’Albatros et son équipage peuvent débarquer en Corpse. ' +
+  'Les Afrikains traquent les Albatros : ils ne peuvent s’attendre à aucune pitié de leur part.<br/>' +
+  'ÉQUIPEMENT : -',
+
+hummingbirdDescription: 'Tel un colibri, un jeune Apocalyptique afrikain doit commencer par aspirer du nectar avant de s’essayer à autre chose de plus risqué. ' +
+  'Comme le Pinson ou la Sterne, le Colibri est soumis aux caprices de ses frères et sœurs. Il battra des ailes comme un forcené, essuiera les moqueries et les coups. ' +
+  'Une fois, deux fois, dix fois. Quand il parviendra enfin à parer et à riposter, le Colibri renaîtra sous une autre forme. Ébouriffé, endurci, il gagnera le nom d’un autre oiseau.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : comme le Pinson et la Sterne, le Colibri obtient +1D au jet d’Initiative quand il combat aux côtés d’Apocalyptiques de sa Nuée. Ce bonus est perdu quand il change de rang.<br/>' +
+  'ÉQUIPEMENT : dague Koummya',
+
+marabouDescription: 'Comme le Vautour européen, le Marabout est un profiteur. Il saisit les occasions qui ont échappé à ses victimes par manque de temps ou de sagacité. ' +
+  'C’est un voleur et un pillard qui peut traquer ses proies pendant des jours sans perdre patience.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 4 ; PHY+CORPS À CORPS 6 ; AGI+FURTIVITÉ 6 ; RÉSEAU 3<br/>' +
+  'EFFET : chaque fois qu’un Néolibyen a besoin de quelqu’un pour effectuer un sale boulot, il embauche un Marabout. ' +
+  'À Bedain, les Marabouts font payer les Ferrailleurs en échange de leur protection, ce qui leur confère +1 RESSOURCES.<br/>' +
+  'ÉQUIPEMENT : goupilles en acier',
+
+ibisDescription: 'L’Ibis est le gardien des secrets. Il rassemble des informations pour les présenter au Busard de la nuée. ' +
+  'Tel un comptable, il conserve les livres de chaque établissement, note toutes les dépenses et toutes les calomnies, ainsi que le nom des individus qui les ont proférées. ' +
+  'Il commande une armée d’espions et de messagers.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 8 ; ALLIÉS 3 ; AUTORITÉ 3 ; RÉSEAU 3 ; SECRETS 3<br/>' +
+  'EFFET : l’Ibis est vénéré pour sa sagesse, et redouté pour ses connaissances. Il joue le rôle de médiateur entre les Nuées afrikaines et la Banque du Commerce. ' +
+  'Il peut utiliser son AUTORITÉ sur tous les Afrikains.<br/>' +
+  'ÉQUIPEMENT : bâton d’Ibis',
+
+tocoDescription: 'Le Toko est au Lion ce que le Pic-vert est au Corbeau. Il a le chic pour se trouver au bon endroit, établir un nid et le transformer en un palais étincelant, ' +
+  'ajoutant ainsi à la gloire de son Busard.<br/><br/>' +
+  'CONDITION : CHA+CONSIDÉRATION 8 ; RESSOURCES 4 ; RÉSEAU 3<br/>' +
+  'EFFET : le Toko est l’équivalent afrikain du Pic-vert. Il possède au moins un nid, mais cela ne lui suffit pas. ' +
+  'Sa boîte de nuit a l’allure d’un palais, ce qui ajoute à la RENOMMÉE du Busard et de la Nuée : s’il investit des points de RESSOURCE dans le nid, ' +
+  'il obtient +1 RENOMMÉE par point ainsi que le revenu mensuel égal aux points de RESSOURCES dépensés × 100 dinars. Le reste est attribué à la Nuée.<br/>' +
+  'ÉQUIPEMENT : -',
+
+buzzardDescription: 'Sur leur perchoir, avec leurs serres dures comme du diamant, ils voient tout. ' +
+  'Ils dirigent de vastes groupes d’Apocalyptiques Afrikains et sont respectés autant par les Fléaux que par les Néolibyens.<br/><br/>' +
+  'CONDITION : doit vaincre l’ancien Busard lors d’une confrontation (INT+LÉGENDES) ; INT+LÉGENDES 10 ; ALLIÉS 4 ; AUTORITÉ 5<br/>' +
+  'EFFET : contrairement au Corbeau européen, le Busard contrôle sa Nuée par l’intermédiaire d’allégories, de sagas et de prophéties. ' +
+  'S’il réussit un test d’INT+LÉGENDES lors d’une confrontation contre un autre Apocalyptique, le perdant doit lui obéir sous peine d’être chassé de la Nuée. ' +
+  'Si le Busard est soutenu par un Ibis loyal, l’Ibis lance également les dés, et offre ses déclencheurs et ses succès au Busard. ' +
+  'Si les Fléaux accusent le Busard d’un crime, il peut envoyer un membre de sa Nuée se battre en duel contre un Fléau. Quelle que soit l’issue de cette confrontation, la faute est expiée par le duel.<br/>' +
+  'ÉQUIPEMENT : flissa',
+
+phoenixDescription: 'Un Phénix est un Corbeau, un Albatros ou un Busard déchu. Il avait le monde à ses pieds, mais le sort en a décidé autrement. ' +
+  'Même si ses plumes sont ébouriffées, l’esprit du Phénix brille. Il renaît de ses cendres, déploie ses ailes et tournoie de nouveau dans le ciel. Son cri résonne à travers la Terre. ' +
+  'Même si sa nuée a disparu, il est toujours vivant.<br/><br/>' +
+  'CONDITION : banni par sa Nuée, ou sa Nuée a été détruite ; PHY+RÉSISTANCE 10 ; INS+SURVIE 10 ; PSY+RUSE 8 ; PSY+FOI/VOLONTÉ 10<br/>' +
+  'EFFET : il s’est relevé de ses cendres, plus rusé et plus dangereux que jamais. Sa nouvelle Nuée n’est plus forcément constituée d’Apocalyptiques ' +
+  'mais de Kifos, de parias hellvétiques, de Préservistes déchus et de Skalars. Les Ours des cavernes construisent son nid. ' +
+  'Ses historiques tombent à 0, mais lorsqu’il les reconstitue, ils s’appliquent à n’importe quel Culte. ' +
+  'Ses RESSOURCES lui donnent accès à des défricheurs, à des fusils d’assaut, ainsi qu’à des tonnes de munitions et de Brûlure. ' +
+  'Même la Mère des Corbeaux craint son obscur royaume.<br/>' +
+  'ÉQUIPEMENT : -',
+
+    // Jehammedans
+    ismaeli: 'Ismaeli',
+    swordOfJehammed: 'Épée de Jehammed',
+    abrami: 'Abrami',
+    shepherd: 'Berger',
+    isaaki: 'Isaaki',
+    jehammedsBlessing: "Bénédiction de Jehammed",
+    iconide: 'Icônide',
+    iconess: 'Icônide',
+    prophet: 'Prophète',
+    oracle: 'Oracle',
+    hagari: 'Hagari',
+    delilah: 'Delilah',
+    voiceOfJehammed: 'Voix de Jehammed',
+    righteousOne: 'Juste',
+    saraeli: 'Saraeli',
+    prideOfJehammed: 'Pride of Jehammed',
+    maculate: 'Maculée',
+    immaculate: 'Immaculée',
+    arianoi: 'Arianoï',
+    bloodOfAries: 'Sang d\'Ariès',
+    fatum: 'Fatum',
+	
+// Jehammedans
+ismaeliDescription: 'La plupart des enfants naissent de la caste des modestes. Ces Ismaeli sont fils d’un Abrami et d’une Hagari. ' +
+  'Ils mènent au sein de leur famille une existence rude et doivent très tôt participer aux corvées : les chèvres doivent être menées aux pâtures ' +
+  'et débarrassées de leurs teignes, et c’est à eux qu’il revient d’accomplir tout le travail le plus pénible. ' +
+  'Les Ismaeli sont humiliés autant que les Isaaki sont loués. ' +
+  'Aucun Ismaeli ne peut prendre d’Hagari pour femme avant d’avoir prouvé sa valeur à Jehammet. Quel chef de famille pourrait ne jamais avoir vu de combat ? ' +
+  'Lui-même est-il un lâche, un faible ? Ce n’est qu’en devenant Glaive de Jehammet que les Ismaeli peuvent se laver de ce genre de doute.<br/><br/>' +
+  'CONDITION : rang déterminé par la naissance<br/>' +
+  'EFFET : interdiction de toucher une femme. L’Ismaeli est soumis aux humiliations quotidiennes de la tribu, mais sa foi et son humilité l’empêchent de rompre les liens communautaires.<br/>' +
+  'ÉQUIPEMENT : houlette de berger',
+
+swordOfJehammedDescription: 'Un Ismaeli ne cesse d’être rudoyé, la tribu lui fait exécuter les plus basses besognes ; seules sa foi et sa profonde humilité l’empêchent d’essayer de briser les liens de la communauté. ' +
+  'La guerre lui permet de se venger contre l’ennemi des humiliations qu’il subit chaque jour. Lâché contre lui, il taille dans les rangs adverses avec son cimeterre, et sa férocité est légendaire. ' +
+  'Même les Fléaux évitent le conflit rangé contre un groupe d’Ismaeli. Car ils sont après tout les Glaives de Jehammet, prêts à tuer chaque infidèle au nom du dernier prophète.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 6 ; INT+LÉGENDES 4 ; RENOMMÉE 1<br/>' +
+  'EFFET : devenu Glaive de Jehammet, l’Ismaeli quitte la proximité suffocante de sa tribu pour l’aventure et la guerre. ' +
+  'Quand le peuple de Jehammet et un autre Culte ont un ennemi commun dans une région secouée par la crise, le Glaive de Jehammet obtient temporairement +2 RÉSEAU grâce à ses ALLIÉS ' +
+  '(c.-à-d. via les Janites d’Osman ou les Voïvodules des Balkhans).<br/>' +
+  'ÉQUIPEMENT : cimeterre ; houe de cavalier ; armure légère',
+
+abramiDescription: 'Ce n’est qu’après avoir prouvé leur valeur, après avoir pris pour femme une Hagari venue d’une autre famille et ainsi fondé une nouvelle lignée, ' +
+  'que les Ismaeli se débarrassent enfin du joug de leur ascendance. À présent, ils peuvent se faire appeler Abrami et enfanter grâce à leur femme. ' +
+  'Les Abrami sont les piliers séculiers du culte, les bergers et les meneurs de leurs familles. À travers eux, le peuple de Dieu continue de grandir. ' +
+  'Ils aident à protéger les fermes et les cités jehammétanes. Les Abrami sont honorés comme des figures paternelles exaltées ; pas au même titre que les sages Iconides, ' +
+  'mais plutôt comme les hommes qu’ils sont, ayant eu l’expérience du monde. ' +
+  'La valeur d’un Abrami dépend du nombre de ses enfants : si aucun d’entre eux ne manque de nourriture et si ses reins sont fertiles, il est alors considéré comme un individu béni de Dieu. ' +
+  'Les Abrami de haut rang à Bucuresti et à Osman sont supposément les pères de trente fils. ' +
+  'Conjointement à son Hagari, l’Abrami se choisit une Saraeli, une épouse bénie. Elle peut être sa fille, sa sœur, ou toute autre vierge de la tribu. Seule importe sa virginité, sa pureté aux yeux de Dieu. ' +
+  'Après le mariage, l’Abrami peut partager le lit de la Saraeli une fois l’an. Si celle-ci donne naissance neuf mois plus tard à un garçon, Dieu a gratifié la famille d’un Isaaki.<br/><br/>' +
+  'CONDITION : Guerrier aguerri ; INT+LÉGENDES 6 ; PSY+FOI/VOLONTÉ 6 ; AUTORITÉ 3 ; RESSOURCES 2<br/>' +
+  'EFFET : l’Abrami fonde une nouvelle tribu avec une Hagari. Il est intouchable : quand il utilise AUTORITÉ, cette compétence ne diminue pas si on lui résiste. ' +
+  'À partir de RENOMMÉE 3, il peut épouser une Saraeli. S’il donne naissance à un Isaaki, l’Abrami obtient +1 RENOMMÉE.<br/>' +
+  'ÉQUIPEMENT : couverture en peau de chèvre (cadeau de mariage pour son Hagari)',
+
+shepherdDescription: 'Dans les paraboles de Jehammet, le berger est toujours opposé au pêcheur. Il incarne l’archétype du bien, un symbole de la vision de piété qui était celle de Jehammet. ' +
+  'Un Abrami estimé par sa tribu tout autant que par les Iconides peut être désigné comme Berger par le conseil des anciens. ' +
+  'Très peu parviennent aussi près que lui de Jehammet.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 10 ; AUTORITÉ 5 ; RENOMMÉE 6 ; ALLIÉS 3<br/>' +
+  'EFFET : un Berger n’interagit jamais avec les enfants du pêcheur et exprime toujours des points de vue radicaux. ' +
+  'Les Abrami et même les Icônides s’inclinent devant lui et écoutent ses conseils. Un nombre de Glaives de Jehammet égal à son historique ALLIÉS lui sert de gardes du corps. ' +
+  'En dehors du Culte, il est considéré comme un prêcheur fanatique : -3D aux interactions sociales basées sur CHARISME.<br/>' +
+  'ÉQUIPEMENT : enseignements de Jehammet',
+
+isaakiDescription: 'Abraham et son épouse Sara restèrent longtemps sans enfant avant que Dieu ne conclue un arrangement avec eux et ne les bénisse par l’arrivée d’un fils : ainsi naquit Isaac. ' +
+  'Mais l’amour du père pour son fils était-il plus important pour lui que sa foi en Dieu ? Pour le savoir, Dieu demanda au vieil homme d’emmener Isaac en un lieu reculé et de le lui sacrifier. ' +
+  'Le cœur d’Abraham saigna, mais il fit ce que Dieu lui avait demandé, et mena son fils afin de l’immoler. Quand Dieu vit Abraham prêt à lui obéir, il envoya un ange afin d’empêcher l’acte horrible. ' +
+  'Abraham s’était montré prêt à accomplir ce sacrifice par loyauté envers Dieu. ' +
+  'Les Jehammétans doivent chaque jour marcher sur la même voie, mais sans pouvoir compter sur l’intervention conciliatrice de la main de Dieu. ' +
+  'Ainsi envoient-ils à la mort les enfants bénis des Abrami et des Saraeli sur les champs de bataille. ' +
+  'Pour compenser cela, les Abrami dispensent tout leur amour à leurs Isaaki, les vêtent de tissus précieux et leur font apprendre les arts honorables en compagnie des scribes. ' +
+  'Aussitôt qu’un Isaaki sait marcher, il reçoit un sabre de bois pour s’entraîner à s’en servir. Quelques années plus tard, il sera déjà en selle, à galoper à travers les bois des Balkhans ' +
+  'avec ses précepteurs, en décapitant d’une main sûre les mannequins de paille suspendus aux arbres. ' +
+  'La tribu tout entière s’efforce de perfectionner l’Isaaki aussi bien dans le métier des armes qu’intellectuellement. ' +
+  'Si l’Abrami ne peut payer les précepteurs, les Ismaeli et l’Hagari devront travailler plus dur, et il est considéré comme un péché mortel de prononcer ne fût-ce qu’un seul mot à l’encontre du fils béni.<br/><br/>' +
+  'CONDITION : rang déterminé par la naissance en tant que fils d’une Saraeli<br/>' +
+  'EFFET : il peut accéder à la richesse de toute la tribu : ses RESSOURCES commencent à 6. ' +
+  'Il reçoit une excellente formation : les Bergers l’instruisent et les Glaives de Jehammet lui apprennent à manier le sabre. ' +
+  'Il combat chaque fois au front : tant qu’il est en vie, tous les combattants de son groupe obtiennent +1D à leurs attaques.<br/>' +
+  'ÉQUIPEMENT : cheval d’assaut ; sabre damascène',
+
+jehammedsBlessingDescription: 'Le brandon d’espoir est devenu un guerrier : l’Isaaki a livré des combats par centaines, en persistant à échapper chaque fois à la mort. ' +
+  'Véritablement, il ne peut qu’être béni ! Très bientôt, il deviendra un Iconide.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 10 ; PHY+CORPS À CORPS 10 ; AGI+NAVIGATION 8 ; RENOMMÉE 4 ; AUTORITÉ 4<br/>' +
+  'EFFET : c’est la dernière étape avant de devenir un Icônide. Les Glaives de Jehammet sentent son pouvoir : quand il s’adresse à eux, il obtient +2D à CHA+COMMANDEMENT.<br/>' +
+  'ÉQUIPEMENT : -',
+
+iconideDescription: 'Les Iconides sont le cœur et l’âme des Jehammétans. Ces vénérables hommes étaient autrefois des Isaaki. ' +
+  'Ils ont remporté des centaines de batailles et sont parvenus à atteindre leur trentième année. À partir de ce point, l’Isaaki adopte le rôle de chef spirituel et d’interprète des images. ' +
+  'Son travail consiste à reconnaître lorsqu’une brebis est grosse, à trouver de nouveaux points d’eau pour les troupeaux, et à déterminer parmi les filles nouveau-nées lesquelles doivent devenir des Saraeli selon la volonté de Dieu. ' +
+  'Les Iconides sont à la fois les prêtres, les juges et les bourreaux. Ils guident les masses et leur parole a force de loi.<br/><br/>' +
+  'CONDITION : Renommée 6 ; Autorité 5<br/>' +
+  'EFFET : un Icônide peut créer 1 icône par mois et la consacrer à un but (voir page 124 : Équipement des Cultes). ' +
+  'Contrairement aux Bergers, les Icônides représentent la face visible du Culte et sont considérés comme des ambassadeurs coriaces mais raisonnables. ' +
+  'Leur comportement modéré leur confère +1D à CHA+NÉGOCIATION quand ils s’adressent aux autres Cultes.<br/>' +
+  'ÉQUIPEMENT : bâton de bélier',
+
+oracleDescription: 'Dans leurs dialogues avec Dieu, ils ont créé des icônes sans pareil. Leur conseil ouvre un chemin illuminé par la contenance radieuse du Seigneur. Qu’il soit obéi à leur parole.<br/><br/>' +
+  'CONDITION : Renommée 6 ; Autorité 6 ; Secrets 4<br/>' +
+  'EFFET : personne n’est aussi proche de Jehammet qu’un Prophète (masculin) ou un Oracle (féminin). Leur parole est la loi. ' +
+  'Ils inspirent leurs adeptes radicaux. Ceux qu’ils bénissent sont baignés d’une lumière divine et résistent à toutes les hostilités pendant une journée : ils obtiennent +3D à PSY+FOI.<br/>' +
+  'ÉQUIPEMENT : Volonté de Jehammet ; chaîne ornée d’un pendentif en fer en forme de météore (symbolisant le fardeau de la connaissance)',
+
+hagariDescription: 'Les Hagari sont l’ossature du culte. Bien que leur rang soit le plus bas dans l’ordre de la famille jehammétane, tous considèrent ces femmes avec fierté. ' +
+  'Elles entretiennent l’âtre, cousent les vêtements, réparent les tentes et traient les chèvres. La richesse d’une famille dépend de leur zèle. ' +
+  'Elles cuisinent, habillent, soignent et se chargent de toutes les tâches du quotidien ; elles sont les travailleuses et les servantes, mais aussi les guerrières lorsque la force des hommes vient à manquer. ' +
+  'Les Hagari vivent pour la famille et se montrent prêtes à sacrifier leur vie si un danger la menace. ' +
+  'Dès leur plus jeune âge, on leur apprend à aimer leur père, leur mari et leurs enfants, et à les précéder dans la mort. ' +
+  'C’est un événement terrifiant quand des femmes d’apparence banale s’en vont se mêler aux Anabaptistes ou se rendent sur les marchés purgans pour se donner la mort à l’aide d’explosifs, ' +
+  'en emportant d’innombrables ennemis avec elles. Le soir venu, l’Abrami explique à ses enfants qu’ils sont sûrs d’accéder au Paradis, et il tire sur sa barbe, empli de chagrin et de fierté.<br/><br/>' +
+  'CONDITION : rang prédéterminé par la naissance<br/>' +
+  'EFFET : l’Hagari protège la tribu au péril de sa vie : elle obtient +1D au combat quand elle protège ses camarades. ' +
+  'Si elle se sacrifie, elle obtient +3D à toutes les actions physiques. Si un événement la conduit hors de sa communauté, elle obtient temporairement +3 ALLIÉS.<br/>' +
+  'ÉQUIPEMENT : -',
+
+delilahDescription: 'Elle a perdu la faveur de son Abrami et perdra bientôt celle de sa tribu. Une Dalila est une Hagari déchue. ' +
+  'Afin de payer sa dette, elle se bat aux côtés des Glaives de Jehammet. Son courage à la bataille est légendaire, car elle ne craint pas de mourir. ' +
+  'Mais les guerriers saints évitent eux aussi de se rapprocher d’elle. Aucun ne veut donner l’impression à son Abrami qu’il a été le responsable de la disgrâce de cette Dalila.<br/><br/>' +
+  'CONDITION : PSY+FOI/VOLONTÉ 10 ; PHY+CORPS À CORPS 6<br/>' +
+  'EFFET : la Dalila est une Hagari déchue. Si elle combat pour son honneur, elle ne peut pas se défendre activement, mais obtient +2D à toutes les attaques. ' +
+  'Sa renommée est réduite à 0. Elle peut quitter sa tribu et rejoindre un autre Culte.<br/>' +
+  'ÉQUIPEMENT : cimeterre',
+
+voiceOfJehammedDescription: 'La place des Hagari est au sein de la famille, comme l’a décrété Jehammet, et tout leur réconfort, toute leur grandeur doivent provenir d’elles-mêmes. ' +
+  'C’est pourquoi parmi elles, quelques rares femmes cherchent un domaine que les hommes ne pourront leur disputer. Elles le trouvent dans l’interprétation des écrits de Jehammet… ' +
+  'au grand déplaisir de leur Abrami, car une femme le confrontant aux vénérables règles de Jehammet est bien la dernière chose dont il ait besoin. ' +
+  'Le voilà soudain contraint de surveiller ce qu’il fait et ce qu’il dit. À compter de maintenant, il ferait bien de témoigner un peu de respect à son Hagari, ' +
+  'ou bien il pourrait devoir répondre de ses égarements de parole devant un Iconide.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 8 ; CHA+EXPRESSION 8 ; RENOMMÉE 3 ; AUTORITÉ 2<br/>' +
+  'EFFET : elle brandit les enseignements de Jehammet comme une arme. Au sein du Culte, elle obtient +2D à toutes les interactions sociales. ' +
+  'Les Icônides l’écoutent, elle peut accuser d’autres Jehammétans d’avoir manqué à leurs devoirs.<br/>' +
+  'ÉQUIPEMENT : copie des enseignements de Jehammet',
+
+righteousOneDescription: 'Même un Iconide ne débattra pas avec une Juste. Elle est la voix de Jehammet, après avoir passé des décennies à étudier les textes et à les apprendre par cœur. ' +
+  'Les hommes sages et progressistes viennent chercher son conseil en matière d’affaires religieuses. ' +
+  'Le savoir des Justes fait d’elles des inadaptées. Leur Abrami est considéré comme un peu trop doux, et incapable, semble-t-il, de contrôler ses femmes.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 10 ; PSY+FOI/VOLONTÉ 10 ; RENOMMÉE 4 ; AUTORITÉ 5<br/>' +
+  'EFFET : la Juste connaît toutes les écritures de Jehammet par cœur. Au sein du Culte, elle bénéficie de la même déférence que les Icônides. ' +
+  'D’autres Cultes se tournent vers la Juste pour lui proposer des marchés et des pactes et la laissent examiner leurs idées à la lumière des enseignements de Jehammet.<br/>' +
+  'ÉQUIPEMENT : pierre à cacheter',
+
+saraeliDescription: 'La vie des Saraeli est merveilleuse à dater du jour de leur naissance. Dès leur plus jeune âge, elles apprennent quelle est leur valeur : les Iconides les louent comme des saintes, ' +
+  'les Ismaeli inclinent la tête à leur passage et les Abrami exaucent leurs moindres souhaits. Selon la foi des Jehammétans, les Saraeli sont les réceptacles de Dieu, auquel, un jour, l’une d’entre elles offrira son corps. ' +
+  'Et elle apportera aux Jehammétans un chef étincelant fait de feu et de lumière des étoiles : le Messie ! ' +
+  'Afin de n’offrir à Dieu que le meilleur, les Saraeli sont choyées, aspergées des parfums les plus délicieux et parées des étoffes les plus précieuses. Nul ne les contredit de toute leur vie. ' +
+  'Bien qu’elles n’aient aucune influence sur l’interprétation des images par les Iconides, elles sont l’égale de l’Abrami au sein de la famille. ' +
+  'Leurs seuls contacts charnels se limitent au rite annuel où l’Abrami partage leur couche, et ce, uniquement pour une brève période de temps. ' +
+  'Si un enfant devait naître de cette union, il deviendrait automatiquement une Saraeli dans le cas d’une fille, et un Isaaki s’il s’agit d’un garçon.<br/><br/>' +
+  'CONDITION : rang déterminé par la naissance en tant que fille d’un Abrami et d’une Saraeli<br/>' +
+  'EFFET : personne n’ose s’opposer à elle, même si elle n’a aucune influence. Les Ismaeli l’évitent, car se rapprocher d’elle risquerait d’entraîner leur exil. ' +
+  'La Saraeli est promise à un Abrami, et le conseil des Anciens exige qu’elle respecte les traditions et partage son lit une fois par an.<br/>' +
+  'ÉQUIPEMENT : robes et bijoux précieux ; tatouages (+1D à la défense mentale)',
+
+prideOfJehammetDescription: 'Les Saraeli sont les femmes élues, mais si leur corps n’engendre pas de fils, toutes les attentions, tous les cadeaux et les dinars investis en elle auraient été mieux dépensés au marché des animaux à acheter un cheptel. ' +
+  'Toutefois, lorsqu’une Saraeli accomplit sa destinée, cela valait bien tous les sacrifices consentis, et elle devient une Fierté de Jehammet, pouvant influencer son fils, et agir ainsi sur l’avenir et le chemin du culte.<br/><br/>' +
+  'CONDITION : a donné naissance à un Isaaki pour son Abrami et sa tribu<br/>' +
+  'EFFET : elle a accompli son destin et bénéficie désormais d’une plus grande liberté de mouvement. Elle influence la tribu à travers son fils ; elle obtient +4D à toute interaction avec et à travers lui.<br/>' +
+  'ÉQUIPEMENT : étoile de Jehammet',
+
+maculateDescription: 'Ce n’est pas un Abrami qui lui a fait perdre sa virginité, ou elle s’est montrée incapable d’engendrer un fils, même après des années de tentatives. ' +
+  'Elle vit en marge de la société que forme la tribu, baignée de fausse courtoisie et d’un prétendu respect. ' +
+  'Les rares qui osent emprunter cette voie finissent tout simplement par disparaître un jour. Personne ne les regrettera ni n’essaiera de les chercher. ' +
+  'Dans les désolations, elles chercheront une nouvelle famille, connaîtront la peur et l’emprisonnement, ou au contraire l’accomplissement et la libération.<br/><br/>' +
+  'CONDITION : a été infidèle à son Abrami ou est âgée de plus de quarante ans sans enfant<br/>' +
+  'EFFET : tolérée mais reniée par sa tribu (RENOMMÉE -2), elle peut la quitter et rejoindre un autre Culte. ' +
+  'Elle est très appréciée par les Apocalyptiques car elle s’est élevée au plus haut du ciel avant de plonger dans les abysses glaciaux.<br/>' +
+  'ÉQUIPEMENT : la Marque (tatouage rouge en dents de scie qui s’étire d’une joue à l’autre et symbolise la rupture avec la tradition, +2D en défense mentale)',
+
+immaculateDescription: 'Élevée comme Saraeli depuis un très jeune âge, elle n’a jamais couché avec un Abrami ; peut-être ne s’est-elle jamais mariée, ou peut-être son Abrami est-il mort avant que l’année ne se soit écoulée. ' +
+  'Elle est à présent considérée comme une femme sainte, et le fardeau de son destin est ôté de ses épaules. Très peu de Jehammétans peuvent se prétendre libres ; les Immaculées le sont. ' +
+  'Elles ne sont plus choyées. Elles sont libres d’aller et d’explorer la vie, dans les limites de la bienséance. ' +
+  'Certaines Immaculées s’occupent des malades de la tribu et accomplissent pratiquement des miracles pour eux. ' +
+  'D’autres explorent les textes religieux avec une Voix de Jehammet ou une Juste, ou agissent comme médiatrices entre les tribus.<br/><br/>' +
+  'CONDITION : âgée de plus de 30 hivers et célibataire, ou son Abrami est mort avant d’avoir eu des relations sexuelles avec elle<br/>' +
+  'EFFET : l’Immaculée est considérée comme une sainte femme. Libérée de sa destinée, elle peut parcourir le pays à son gré. ' +
+  'De nombreuses Immaculées se sont avérées d’excellentes médiatrices entres les Cultes, et cette renommée les précède : elles obtiennent +2D à CHA+NÉGOCIATION ' +
+  'et sont placées sous la protection des Voïvodes dans les Balkhans.<br/>' +
+  'ÉQUIPEMENT : lettres de passage et cordes sigillaires (qui lui accordent libre circulation)',
+
+arianoiDescription: 'Les Arianoï se sont voués à Ariès. Ils sont allés en Crête, se sont trouvés face à face avec l’ancien, ont vu sa cape en lambeaux flotter sans aucun souffle de vent. ' +
+  'Ils ont reçu le crâne de bélier et y ont bu la potion d’Ariès au goût métallique. L’enivrement, le courage et la force ont été depuis les piliers de leur existence.<br/><br/>' +
+  'CONDITION : choisi par Ariès et voyage vers Athènes ; PHY+RÉSISTANCE 8 ; PSY+FOI/VOLONTÉ 8 ; SECRETS 3<br/>' +
+  'EFFET : le Sang d’Ariès coule dans ses veines : il guérit de 1 Blessure par heure. Il est accro au breuvage servi dans les crânes de béliers.<br/>' +
+  'ÉQUIPEMENT : Sang d’Ariès (en quantité suffisante pour 15 jours) ; toison (cape en peau de bélier)',
+
+bloodOfAriesDescription: 'Chaque gorgée avalée leur a ouvert une nouvelle porte de perception. Leurs blessures se referment à une vitesse impossible. ' +
+  'Leur esprit s’embrume lorsque les visions leur viennent. Ils ne sont plus des Arianoï, de simples suiveurs et serviteurs : ils sont devenus Ariès et font partie de son corps et de son esprit.<br/><br/>' +
+  'CONDITION : PHY+VIGUEUR 10 ; INT+LÉGENDES 8 ; INS+ORIENTATION 6 ; SECRETS 4<br/>' +
+  'EFFET : il guérit de 1 Blessure toutes les 10 minutes. La dépendance demeure. ' +
+  'Il parcourt la terre à la recherche des Anciens, les observe et les étudie. Bâtiments, visages et voix envahissent ses visions : il doit les retrouver. ' +
+  'Certains jours, Ariès en personne s’insinue dans ses pensées et lui parle. Les cicatrices sur son crâne ont disparu depuis longtemps ; seule subsiste la pression derrière ses yeux.<br/>' +
+  'ÉQUIPEMENT : casque de bélier ; la Corne ; Sang d’Ariès (en quantité suffisante pour 30 jours)',
+
+fatumDescription: 'En tant que héraut d’Ariès, le Fatum annonce le châtiment imminent des ennemis du culte. Il agit comme assassin et fait office de mauvais présage.<br/><br/>' +
+  'CONDITION : INT+LÉGENDES 10 ; INS+EMPATHIE 8 ; SECRETS 5 ; AUTORITÉ 5 ; RENOMMÉE 5<br/>' +
+  'EFFET : le Fatum est l’une des centaines d’incarnations d’Ariès. Il détruit les ennemis des Jehammétans. Ariès s’est niché dans un recoin sombre de son esprit ' +
+  'et peut à tout moment se déchaîner pour lui donner des ordres.<br/>' +
+  'ÉQUIPEMENT : toison noire ; casque de bélier noirci ; Bénédiction d’Ariès ; Sang d’Ariès (en quantité suffisante pour 60 jours)',
+
+     // Anabaptists
+     touched: 'Ravi',
+     ascetic: 'Ascétique',
+     elysian: 'Elyséen',
+     orgiastic: 'Orgiastique',
+     furor: 'Furor',
+     emissary: 'Emissaire',
+     counselor: 'Conseiller',
+     baptist: 'Baptiste',
+     sublime: 'Sublime',
+     acheron: 'Achéron',
+
+// Anabaptists
+touchedDescription: 'Ceux qui ressentent l’appel peuvent suivre les Anabaptistes pendant un moment, sans obligations. ' +
+  'Ensuite, ils ont le choix entre partir et confirmer leurs vœux à travers le baptême, le port d’anneaux dans le nez ' +
+  'et le tatouage de trois points sur le front. Ce sont désormais des Anabaptistes. ' +
+  'Le Ravî est encore un errant entre deux mondes : il a goûté à la lumière du Pneuma, mais n’a pas encore renoncé à ses anciennes chaînes. ' +
+  'Il porte déjà la marque, mais son âme reste fragile. Il doit choisir : rester ou s’abandonner totalement.<br/><br/>' +
+  'CONDITION : -<br/>' +
+  'EFFET : il obtient son tatouage à trois points sur le front (+1D en défense mentale) et un anneau à travers le nez pour enchaîner l’âme au corps.<br/>' +
+  'ÉQUIPEMENT : longue bêche ; graine (offertes par son groupe, symbolise l’expansion de son Pneuma)',
+
+asceticDescription: 'Le paradis est mort. Les Ascètes arrosent le sol poussiéreux avec leur sueur, arrachent les racines pourries et retirent les pierres. ' +
+  'Là où l’essence des Aberrants contaminait hier le paysage, du blé sain se balancera demain dans le vent. ' +
+  'Pleins de volonté et de courage, ils transforment les friches en cultures, incitent les gens à donner le meilleur d’eux-mêmes, ' +
+  'dirigent par l’exemple et n’abandonnent jamais. Ils sont les premiers à labourer la terre promise, les premiers à faire pousser la vie là où régnait la mort.<br/><br/>' +
+  'CONDITION : PHY+VIGUEUR 6 ; CHA+CONSIDÉRATION 4 ; PSY+FOI 6 ou PSY+VOLONTÉ 6<br/>' +
+  'EFFET : l’Ascète inspire les gens : quand il s’adresse aux fermiers et aux soutiens de famille, il obtient +1D à CHA+COMMANDEMENT et CHA+CONSIDÉRATION. ' +
+  'Il obtient également le Potentiel "Ascétisme" au niveau 1 gratuitement.<br/>' +
+  'ÉQUIPEMENT : semence (l’Ascète rassemble les semences des plantes les plus robustes et les enfouit dans des endroits qu’il considère comme importants et sacrés)',
+
+elysianDescription: 'Dotés d’une grande compréhension de la création, ils sont capables de pister et de détruire la Sepsie. ' +
+  'Grâce à leurs pressoirs à herbes – certaines saines, certaines mortelles –, ils produisent une huile qui transforme les Orgiastiques en combattants intrépides, ' +
+  'soulage la douleur et décuple les forces. Sur le champ de bataille, ils s’agenouillent aux côtés des blessés et bandent leurs blessures ou les oignent ' +
+  'pour leur voyage dans le Pneuma divin. Ils sont les gardiens de la pureté, les premiers à toucher la plaie avant qu’elle ne s’infecte.<br/><br/>' +
+  'CONDITION : INT+MÉDECINE 8 ; INT+LÉGENDES 6 ; INT+SCIENCE 6 ; RENOMMÉE 2 ; SECRETS 2<br/>' +
+  'EFFET : l’Élyséen purifie son esprit à travers l’ascétisme et les huiles élyséennes : en cas d’exposition à la Sepsie, il obtient +2D pour y résister. ' +
+  'L’Élyséen sait combiner les herbes et la terre pour en extraire les célèbres huiles élyséennes. S’il demande des huiles dans une enclave anabaptiste, ' +
+  'il obtient +2 RESSOURCES à cet effet. Des Famulanciers spitaliers sont parfois chargés de l’assister afin d’approfondir leur connaissance de la médecine naturelle.<br/>' +
+  'ÉQUIPEMENT : creuset et pilon ; herbes médicinales ; pierres de la mer Adriatique (la mer Adriatique est jusqu’à présent considérée comme la seule rivière édénique identifiée : +1D à PSY+FOI ; aucun effet sur PSY+VOLONTÉ)',
+
+orgiasticDescription: 'Sur le champ de bataille, les Orgiastiques abandonnent tout ce que l’humanité a produit en matière de morale. ' +
+  'Des huiles élyséennes brûlent à travers leurs veines comme le purgatoire, et leurs sens sont douloureusement aiguisés. ' +
+  'Ils hurlent leur colère face à leurs ennemis et sentent leurs instincts se déchaîner. Alors, ils attaquent. ' +
+  'Les Orgiastiques sont des jusqu’au-boutistes. Alors que les Ascètes s’efforcent de transformer leur monde en un paradis, ' +
+  'les Orgiastiques détruisent celui du Démiurge.<br/><br/>' +
+  'CONDITION : PHY+RÉSISTANCE 4 ; PHY+CORPS À CORPS 6 ; INT+CONCENTRATION 6 ou INS+PULSIONS 6<br/>' +
+  'EFFET : si l’Orgiastique voyage avec sa bande, il obtient +1D à son jet d’attaque, mais aussi -1D à sa défense active. ' +
+  'Un Orgiastique ne connaît que les extrêmes : s’il suit ce principe, il obtient +1D à PSY+FOI ou PSY+VOLONTÉ. ' +
+  'S’il en dévie et prend des décisions en demi-teinte ou relativise d’anciennes idées, ce bonus se transforme en malus de -1D. ' +
+  'Où qu’il aille, ses compagnons seront toujours sa famille (+1 ALLIÉS).<br/>' +
+  'ÉQUIPEMENT : espadon',
+
+furorDescription: 'Les Fureurs se sont distinguées par leur témérité lors d’innombrables batailles et en irradiant des émanations. ' +
+  'La force de leur foi est incontestable, ce qui leur ouvre la voie des catacombes de Cathédrale. ' +
+  'Là se trouvent les arsenaux interdits : d’innombrables rangées d’armes corrompues recouvertes d’épaisses couches de poussière. ' +
+  'Certaines ont été stockées là quand Cathédrale était encore infestée par les Chroniqueurs. ' +
+  'Les Baptistes ne permettent à personne sauf aux Fureurs de les brandir au combat. ' +
+  'La plupart d’entre eux choisissent les calcinateurs : la bouffée dévore les spores de Sepsie qui risquent de jaillir lorsqu’ils massacrent des Aberrants.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 8 ; PSY+FOI 8 ou PSY+VOLONTÉ 8 ; RENOMMÉE 4<br/>' +
+  'EFFET : le personnage Fureur a accès aux catacombes et aux arsenaux de Cathédrale, et peut y prendre tout ce dont il a besoin. ' +
+  'S’il veut une arme, il n’est plus restreint à celles du Culte et peut en choisir une dans la liste générale. ' +
+  'S’il utilise un calcinateur, il obtient un bonus de +1D au jet d’attaque. ' +
+  'Un Fureur peut rassembler un groupe d’Orgiastiques (nombre de volontaires égal à sa RENOMMÉE × 2) et partir en croisade. ' +
+  'Le groupe le suivra à travers des contrées inexplorées afin de rallier leurs habitants à Cathédrale. ' +
+  'Si la croisade est une réussite, une colonie anabaptiste voit le jour et la Fureur touche une partie des impôts. Selon la taille de l’Enclave, ses RESSOURCES augmentent de 1 à 3 points.<br/>' +
+  'ÉQUIPEMENT : calcinateur',
+
+emissaryDescription: 'Ils ont mortifié leur chair et émergent de cette torture emplis d’émanations. Leur esprit est clair ; ils voient les fils de la vie émaner de Cathédrale, ' +
+  'sentent la toile tissée par les Anabaptistes. Un jour, elle se transformera en paradis, et le divin Pneuma affranchira les gens de leur enveloppe mortelle. ' +
+  'Cependant, d’ici là, ils doivent trouver des alliés, coordonner des campagnes et créer des refuges dans les désolations. ' +
+  'Les émissaires parlent au nom de Cathédrale lors de conseils, de comités, devant les clans et dans les sénats de Justitienne. ' +
+  'Leur influence est considérable : un seul mot et une bande d’Orgiastiques se tient à leurs côtés.<br/><br/>' +
+  'CONDITION : PSY+DOMINATION 8 ou CHA+CONSIDÉRATION 8 ; CHA+NÉGOCIATION 6 ; PSY+FOI 10 ou PSY+VOLONTÉ 10 ; AUTORITÉ 4 ; RENOMMÉE 3<br/>' +
+  'EFFET : depuis que Cathédrale et le Serveur ont signé un traité de paix temporaire, les Chroniqueurs ont pour ordre de traiter les Émissaires avec courtoisie : ' +
+  'l’Émissaire obtient +2D à CHA+NÉGOCIATION quand il s’adresse à des Chroniqueurs. ' +
+  'Il est le bienvenu chez les Juges et sert de contact pour toutes les questions relatives à l’alliance. ' +
+  'Les Hellvétiques lui donnent libre accès à travers la Forteresse alpine. Si un Spitalier doit décider qui protéger lors d’un combat, l’Émissaire sera son premier choix. ' +
+  'Même les Clans le traitent avec respect.<br/>' +
+  'ÉQUIPEMENT : n’importe quelle arme de Corps à corps, améliorée de 2 points',
+
+counselorDescription: 'Quand les Baptistes illuminent les émissaires de leur félicité, ils se déplacent parmi eux, mangent avec eux et accueillent leurs paroles comme une vocation : ' +
+  'ils formeront la prochaine génération de Baptistes. En attendant, ils président le conseil des émanations et écoutent les descriptions de rêves et de prophéties. ' +
+  'Ils évaluent leur signification pour le culte et pour les Anabaptistes qui ont reçu ces bénédictions.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 10 ou PSY+RUSE 10 ; SECRETS 3 ; AUTORITÉ 5 ; RENOMMÉE 4<br/>' +
+  'EFFET : le Conseiller est considéré comme la voix et le successeur potentiel d’un Baptiste. En tant que tel, il se retrouve impliqué dans un réseau d’intrigues ou en tisse un lui-même. ' +
+  'Il juge les Émanations et choisit les individus autorisés à monter dans la hiérarchie. ' +
+  'Les flagorneurs rôdent autour de lui : s’il se retrouve impliqué avec eux, ses RESSOURCES augmentent temporairement de 2. ' +
+  'Parallèlement, il court le risque que les Baptistes se rendent compte du genre d’individu qu’ils ont accepté parmi eux.<br/>' +
+  'ÉQUIPEMENT : -',
+
+baptistDescription: 'Huit Baptistes gouvernent les Anabaptistes. Chacun commande des milliers d’Anabaptistes, envoie des messagers à travers le pays et décide de plans ' +
+  'susceptibles d’engendrer la guerre et la destruction. Néanmoins, les Baptistes ne passent pas leur vieillesse assis autour d’une carte de l’Europe à pousser des figurines ; ' +
+  'les Ascètes manient toujours la houe. Seuls quelques-uns d’entre eux s’élèvent jusqu’au Pneuma divin en mourant dans leur lit.<br/><br/>' +
+  'CONDITION : l’un des huit Baptistes doit abandonner son poste ; AUTORITÉ 6 ; RENOMMÉE 6 ; SECRETS 4<br/>' +
+  'EFFET : Anabaptiste modèle, le Baptiste continue de combattre ou de cultiver des champs. Il est entouré de Fureurs et d’Élyséens, et les huiles les plus puissantes lui sont réservées. ' +
+  'Il dirige le Culte avec les sept autres Baptistes.<br/>' +
+  'ÉQUIPEMENT : -',
+
+sublimeDescription: 'Les Anabaptistes ordinaires cherchent la connaissance en eux-mêmes. Ils laissent la graine s’enraciner et pousser afin de récolter tous ses fruits. ' +
+  'Mais certains, annoncés par des émanations et des signes, sont eux-mêmes au centre de la prophétie. ' +
+  'Les interprètes des écritures explorent les textes anciens à la recherche d’autres cas, d’indices, collectionnent des livres, dessinent des diagrammes ' +
+  'et interrogent les conseillers et les Baptistes. Mais l’Élu est au-dessus de tout cela. Protégé par les Fureurs, il attend la décision des Baptistes : ' +
+  'est-il un homme lambda ou la manifestation d’une émanation, un Sublime ? ' +
+  'Cathédrale n’a connu que quelques centaines de Sublimes à travers son histoire. Ces Élus sont comme des saints : ils sont vénérés et adorés. ' +
+  'Certains disparaissent dans les montagnes pour devenir des germes qui fleuriront dans la tête des Anabaptistes. ' +
+  'D’autres prennent d’assaut les lignes ennemies comme des forces de la nature, et brûlent dans le feu de leur passion. ' +
+  'Quand ils appellent à partir en croisade, on les suit par milliers.<br/><br/>' +
+  'CONDITION : INT+CONCENTRATION 10 ou INS+PULSIONS 10 ; ALLIÉS 4 ; RENOMMÉE 6<br/>' +
+  'EFFET : le Conseil des Émanations le considère comme la manifestation d’une Émanation telle que de nombreuses prophéties le prédisent. ' +
+  'Toutes les portes de Cathédrale lui sont ouvertes – ses RESSOURCES passent à 6 – mais ses moindres mouvements sont épiés. ' +
+  'Des émissaires le suivent et notent tout ce qu’il fait et dit tandis que le Conseil des Émanations veille à ce que son comportement reste en accord avec les traditions. ' +
+  'Un mot du Sublime suffit à mettre en mouvement des milliers d’Anabaptistes.<br/>' +
+  'ÉQUIPEMENT : -',
+
+acheronDescription: 'Les règles de ce culte ont été conçues pour des gens ordinaires, pas pour les Sublimes : ils peuvent choisir des voies que même un Baptiste n’oserait fouler. ' +
+  'L’un de ces chemins l’entraîne loin des rivières élyséennes pour le mener jusqu’aux fleuves des morts, le Styx et l’Achéron. ' +
+  'Sur leurs rives, il n’y a ni cannelle ni cardamome, juste la Sepsie et la Brûlure. Pour utiliser leurs pouvoirs, il faut ouvrir son cœur à la corruption, ' +
+  'se séparer de l’humanité afin de fondre sur ses ennemis comme une boule de feu. ' +
+  'Un Achéron est craint, son mode de vie est maudit. Néanmoins, son sacrifice est accepté. Il emplit le cœur des Anabaptistes de fierté, ' +
+  'mais leur sert aussi d’avertissement.<br/><br/>' +
+  'CONDITION : PHY+CORPS À CORPS 10 ; AGI+MOBILITÉ 10 ; ALLIÉS 5<br/>' +
+  'EFFET : l’Achéron est plus proche de l’ennemi que de ses propres amis. Sa puissance de combat légendaire n’est pas uniquement due aux courants élyséens, ' +
+  'mais aussi aux rivières des morts, l’Achéron et le Styx. Même s’il ne pourra jamais entrer au paradis, il en pavera la voie pour des dizaines de milliers d’individus. ' +
+  'Ses alliés lui fournissent les huiles interdites et font partie des rares personnes à savoir qu’il est Achéron. ' +
+  'Baptistes et Conseillers sont les donneurs d’ordres de l’Achéron. Ses missions, extrêmement confidentielles, sont conçues derrière des portes closes, ' +
+  'qu’il s’agisse de l’assassinat d’un Berger jehammétan ou du rapt d’un Fragment haut placé. ' +
+  'En dehors du Culte, un Anabaptiste n’avouera jamais sa qualité d’Achéron à moins de se retrouver dans une situation critique ou désespérée. ' +
+  'Pour ce faire, il présente deux pièces frappées de la croix anabaptiste, forçant ainsi son interlocuteur à combattre à ses côtés.<br/>' +
+  'ÉQUIPEMENT : huiles interdites (Styx ou Achéron)',
+
+     // Palers
+    specter: 'Spectre',
+    solar: 'Solaire',
+    aurora: 'Aurore',
+    reviver: 'Éveilleur',
+    redeemer: 'Rédempteur',
+    phantom: 'Fantôme',
+    cyclops: 'Cyclope',
+    aspirant: 'Aspirant',
+    demagogue: 'Démagogue',
+    halo: 'Halo',
+	
+	// Palers
+specterDescription: 'Né dans l’obscurité, avec l’humilité pour seule arme, le Spectre se soumet à la communauté et présente sa gorge au Démagogue. ' +
+  'Il n’est rien et doit prouver sa valeur à travers ses actes ou le son de sa voix. ' +
+  'Dans les couloirs froids et humides du bunker, il apprend à se fondre dans l’ombre, à écouter les murmures des murs et à survivre sans jamais attirer l’attention. ' +
+  'Le Spectre est invisible jusqu’à ce qu’il choisisse de ne plus l’être.<br/><br/>' +
+  'CONDITION : Né dans l’obscurité<br/>' +
+  'EFFET : ouïe fine : s’il dresse l’oreille ou si quelqu’un tente de l’approcher discrètement, le Spectre obtient +2D à INS+PERCEPTION. ' +
+  'En plein soleil, les Blafards subissent -1D à l’attaque et à la défense.<br/>' +
+  'ÉQUIPEMENT : soleil sinistre (talisman, +1D à la défense mentale)',
+
+solarDescription: 'Les Blafards détestent le soleil : il aveugle, brûle et dévoile le mode de vie de la communauté aux habitants de la surface. ' +
+  'Mais il donne aussi la vie, un peu à la manière des groupes électrogènes des Distributeurs, et les Blafards ont compris son utilité. ' +
+  'Les Solaires le soumettent à leurs besoins. Sous la lumière aveuglante du soleil, ils déploient les panneaux noirs du bunker qui captent l’énergie du corps céleste ' +
+  'et la transmettent au Distributeur. Celui-ci l’accueille avec joie en affichant des kyrielles de symboles sur ses écrans. ' +
+  'D’après la légende, les Solaires sont les gardiens de l’équilibre ; chaque jour, ils contraignent le soleil à regagner l’obscurité, où il reprend des forces pour revenir en forme le lendemain matin. ' +
+  'Les Solaires ne le contestent pas, mais ils se considèrent surtout comme des techniciens. Ils veillent au bon fonctionnement du système, suivent les rituels ancestraux ' +
+  'pour la maintenance de la ventilation, le renforcement des pompes, etc. Il y a beaucoup à faire. La technologie du Distributeur est modulaire ; ' +
+  'en général, il suffit de débrancher quelque chose ou de brancher autre chose à sa place. La plupart portent des disques solaires qu’ils utilisent ' +
+  'pour pénétrer dans des secteurs oubliés du bunker. Personne ou presque ne connaît les Distributeurs aussi bien qu’eux.<br/><br/>' +
+  'CONDITION : INT+TECHNOLOGIE 5 ; AGI+ARTISANAT 5 ; RESSOURCES 1 ; SECRETS 2<br/>' +
+  'EFFET : le Solaire passe beaucoup de temps sous un soleil de plomb… et finit par s’y accoutumer. Le malus à l’attaque et à la défense disparaît.<br/>' +
+  'ÉQUIPEMENT : disque solaire (Arbitre, niveau 1) ; matériel électronique',
+
+auroraDescription: 'Ils se sont immergés dans les secrets des Distributeurs et ont trouvé les interrupteurs derrière la façade. ' +
+  'Un seul ordre de leur part et un couloir s’éclaire d’une lumière éclatante ou plonge dans les ténèbres. ' +
+  'Ils mettent sous tension des panneaux de commande, des sas d’ouverture ou inondent les corridors de gaz. ' +
+  'La couche d’endoctrinement mémétique s’écroule. Leur savoir est trop grand. Après quelques manipulations, ils parviennent à accéder aux programmes de mémétique. ' +
+  'Ils n’ont pas encore les codes pour descendre dans les profondeurs interdites, pour contrôler les capsules des Dormeurs et pénétrer dans les armureries, ' +
+  'mais chaque fois qu’un éveilleur trouve l’un des quarante-quatre et rapporte les codes, le pouvoir des Aurores grandit.<br/><br/>' +
+  'CONDITION : INT+TECHNOLOGIE 8 ; AGI+ARTISANAT 8 ; RESSOURCES 3 ; SECRETS 4<br/>' +
+  'EFFET : l’Aurore contrôle les programmes de Mémétique du bunker ; ce sont ses paroles que prononce l’avatar de Getrell. ' +
+  'Elle gère les mécanismes de défense du bâtiment à partir de son Disque solaire. Cependant, elle perd quelque chose au passage : sa foi. ' +
+  'Si l’Aurore était croyante, sa Foi se transforme en Volonté : son niveau de Foi devient son nouveau niveau de Volonté.<br/>' +
+  'ÉQUIPEMENT : disque solaire (Arbitre, niveau 2)',
+
+reviverDescription: 'Ils doivent sortir. Certains parce qu’ils se sentent attirés par la nature sauvage, les forêts des Balkhans, les foules bruyantes de Justitienne. ' +
+  'D’autres parce qu’ils ont l’impression d’être des étrangers parmi leurs pairs, ou parce que le couinement de leurs voix provoque des dissonances acoustiques dans les couloirs. ' +
+  'Les Éveilleurs parcourent la surface, suivent la piste de miettes de pain semées par les dieux. Ils repèrent les vieux bâtiments, trouvent des entrées partout ' +
+  'et plongent à l’intérieur en cas de danger. Ils se fondent parmi les habitants de la surface – mais seulement en tant que parasites –, ' +
+  'et recourent à des équipements de détection et au chantage pour trouver les derniers Distributeurs cachés.<br/><br/>' +
+  'CONDITION : INS+SURVIE 4 ; PSY+RUSE 6 ; RÉSEAU 3<br/>' +
+  'EFFET : comme les Solaires, l’Éveilleur s’accoutume à la lumière du jour : le malus disparaît. ' +
+  'L’Éveilleur rassemble des indices concernant les bunkers et autres bâtiments de RG, et les Ferrailleurs le savent. ' +
+  'Leurs Récupérateurs apprécient les Éveilleurs et les aident à pénétrer dans les bunkers, dans l’espoir de récupérer une part du gâteau.<br/>' +
+  'ÉQUIPEMENT : disque solaire (Phaéton, niveau 1) ; rayon solaire ; bande dorée (valeur : 200 LC) ; pistolet mitrailleur',
+
+redeemerDescription: 'Armés de disques solaires remplis de codes, ils conquièrent les désolations. Seules quelques installations de Recombination Group résistent à leur avancée. ' +
+  'Dans les enclaves des Blafards, ils sont respectés et reçoivent l’aide d’une dizaine de Démagogues. ' +
+  'Ils découvrent des tunnels qui n’apparaissent pas sur les cartes, même les plus anciennes.<br/><br/>' +
+  'CONDITION : disque solaire (Orbital, niveau 1) ; a éveillé au moins un bunker ; INS+ORIENTATION 6 ; PSY+TROMPERIE 8 ; INT+CONNAISSANCE DES ARTEFACTS 6 ; ALLIÉS 3 ; RÉSEAU 4<br/>' +
+  'EFFET : les Blafards du bunker où le Rédempteur a pénétré adorent leur sauveur. Ils le suivent sans se faire remarquer et apparaissent dès qu’il a besoin d’aide (+2 ALLIÉS). ' +
+  'Un disque solaire peut être amélioré d’un niveau dans le bunker éveillé.<br/>' +
+  'ÉQUIPEMENT : atlas de RG',
+
+phantomDescription: 'Ils préparent l’avènement des dieux en s’attaquant de nuit à tous ceux qui s’opposent aux Blafards. ' +
+  'Pour mener ce combat, ils s’équipent de matériel issu des réserves des gardiens, et portent des mitrailleuses ainsi que des grenades.<br/><br/>' +
+  'CONDITION : INS+PERCEPTION 4 ; AGI+ARMES À PROJECTILES 6 ; AGI+FURTIVITÉ 4<br/>' +
+  'EFFET : lorsque le Fantôme accède aux arsenaux des bunkers, il dispose de +2 RESSOURCES. ' +
+  'Il s’entraîne à combattre dans de mauvaises conditions visuelles : le malus d’obscurité passe de -4D à -2D.<br/>' +
+  'ÉQUIPEMENT : pistolet mitrailleur à silencieux muni d’une baïonnette ; +1D munitions par mois ; grenade assourdissante',
+
+cyclopsDescription: 'Les Cyclopes sont les représentants légendaires de la colère divine. Ils sont les seuls à pouvoir ouvrir les arsenaux secrets des Dormeurs. ' +
+  'C’est là qu’ils récupèrent leur œil de Cyclope, à travers lequel ils voient la nuit en vert fluorescent. ' +
+  'Rien ni personne ne peut leur échapper. Ce sont les cauchemars des habitants de la surface.<br/><br/>' +
+  'CONDITION : PHY+ATHLÉTISME 6 ; AGI+ARMES À PROJECTILES 8 ; RENOMMÉE 4<br/>' +
+  'EFFET : le Cyclope a perfectionné sa perception de l’environnement et sait toujours où se trouvent les gens, ' +
+  'ce qui confère un bonus d’Initiative de +2D dans les zones voisines sombres ou peu éclairées. ' +
+  'Les Cyclopes sont d’excellents saboteurs qui préfèrent les missions visant les Chroniqueurs et les Hellvétiques. ' +
+  'Leur équipement est parfaitement adapté à ce genre d’entreprises. Aucune Alcôve, aucun avant-poste hellvétique n’est à l’abri des Cyclopes.<br/>' +
+  'ÉQUIPEMENT : +2D munitions par mois ; œil de cyclope ; disque solaire (Quantique, niveau 1) ; grenade à pulsations, Sesamite',
+
+aspirantDescription: 'Leurs esprits ont bouleversé la mémétique des bunkers et des démagogues. Ils connaissent ses mécanismes et s’y essaient eux-mêmes. ' +
+  'Ils couinent, murmurent, chantent, modulent leur voix, tirent des leçons de leurs échecs. ' +
+  'Parfois, un Fantôme recule devant eux, parfois les Solaires s’éloignent sans poser de questions. ' +
+  'Un jour, l’Aspirant atteindra son but et dominera le bunker en tant que Démagogue.<br/><br/>' +
+  'CONDITION : CHA+EXPRESSION 10 ou CHA+SÉDUCTION 10 ou PSY+DOMINATION 10 ; AUTORITÉ 5 ou RENOMMÉE 5<br/>' +
+  'EFFET : à ce stade, l’Aspirant doit choisir une forme de démagogie. La séduction ou la perturbation ? Suscite-t-il la peur ou l’humilité ? ' +
+  'Il exerce sa voix de manière à semer la confusion et sait imiter les cris des animaux. ' +
+  'Il peut imiter à merveille la voix d’une personne s’il se concentre dessus pendant au moins 5 rounds, puis obtient +2D à PSY+TROMPERIE quand il tente de tromper quelqu’un grâce à sa voix. ' +
+  'L’avatar de Getrell de son bunker confère une mise à jour de disque solaire de 1 niveau. ' +
+  'La défense mentale contre les autres Aspirants et les Démagogues augmentent de +2D.<br/>' +
+  'ÉQUIPEMENT : -',
+
+demagogueDescription: 'Enfin ils maîtrisent leur voix. Qu’elle soit puissante ou flatteuse, impérieuse ou prudente, sa puissance émotionnelle touche tous les Blafards avec une efficacité redoutable. ' +
+  'Lorsqu’un Démagogue gronde contre quelqu’un qui a commis une faute, sa voix est une arme. ' +
+  'Lorsqu’il règle des différends au sein du Distributeur, c’est un outil communautaire.<br/><br/>' +
+  'CONDITION : INT+CONCENTRATION 10 ou INS+PULSIONS 10 ; CHA+COMMANDEMENT 8 ; AUTORITÉ 6 ou RENOMMÉE 6<br/>' +
+  'EFFET : le Démagogue peut projeter l’émotion qu’il a maîtrisée sur son interlocuteur avec un bonus de +2D et utiliser son AUTORITÉ là où les Blafards sont concernés. ' +
+  'Il est lui-même immunisé contre les suggestions des autres Démagogues. ' +
+  'Il a poussé ses cordes vocales jusqu’à leurs limites. Il peut imiter n’importe quel son, parler avec les voix de plusieurs personnes présentes et les projeter dans une pièce. ' +
+  'Il peut produire des sons gutturaux et archaïques, ou créer une véritable cacophonie pour troubler ses ennemis. ' +
+  'S’il utilise sa voix, il obtient +3D à PSY+TROMPERIE, PSY+DOMINATION et CHA+ART (Chant), ainsi que +3D à PSY+RUSE dans l’obscurité.<br/>' +
+  'ÉQUIPEMENT : -',
+
+haloDescription: 'Ils ont abandonné le bunker et leur ancienne vie. À présent, ils suivent l’un des prophètes Dormeurs : Daimondal, Trice, Helios, Uriz et Enceph, ' +
+  'qui prêchent l’abandon des vieilles méthodes et se préparent au crépuscule des dieux. ' +
+  'Les Halos sont les paladins des prophètes. Ils examinent les fortifications des futurs champs de bataille et explorent la ville sacrée d’Exalt, dont ils prennent peu à peu le contrôle. ' +
+  'Les concepts de « libre penseur » et de « Tannhäuser » ne leur sont pas inconnus.<br/><br/>' +
+  'CONDITION : Rang 3 ; preuve qu’il s’est détourné des faux dieux et qu’il a trouvé un Prophète dormeur<br/>' +
+  'EFFET : le Blafard a choisi un prophète, l’a trouvé et lui a juré fidélité. Voici les cinq prophètes dormeurs et ce qu’ils ont à offrir à un Blafard :<br/>' +
+  '• DAIMONDAL : explore les bas-fonds d’Exalt. Ses disciples obtiennent +2D à INT+TECHNOLOGIE et accèdent à la technologie Libre penseur.<br/>' +
+  '• TRICE : l’humble Trice porte des haillons et se fait passer pour une mendiante dans les colonies. Si on lui offre quelque chose, elle marque le donateur de manière électronique. ' +
+  'Ses disciples suivent celui-ci, l’observent et apprennent de lui. Ils l’aident lorsqu’il se retrouve en difficulté. ' +
+  'Les motivations de Trice demeurent inconnues et semblent pour le moins confuses, même pour les Halos de plus haut rang. ' +
+  'Elle semble chercher le bon côté des gens afin de le renforcer. Ses Blafards sont le contraire des Blafards ordinaires : ils obtiennent un bonus de +2D à INS+EMPATHIE.<br/>' +
+  '• HELIOS : également connu sous le nom du brûlé, probablement à cause de sa peau noire. Dirige des sensoria volants et rampants à l’affût des Dormeurs. ' +
+  'Ceux qui le suivent obtiennent un disque solaire orbital de niveau 3 modifié qui récupère les informations des sensoria lorsqu’ils sont en mouvement : +4D à INS+ORIENTATION.<br/>' +
+  '• URIZ : le secret. Principalement actif dans les Balkhans, il contrôle plusieurs Voïvodules et colonies par le biais de renseignements et de dinars. ' +
+  'Uriz ne choisit que quelques Blafards comme Halos et ne les autorise pas à se connaître. ' +
+  'Les Blafards communiquent à travers un réseau d’informateurs et transmettent les souhaits de leur Prophète dormeur. ' +
+  'En échange, ils obtiennent RESSOURCES 5 pour tous les Cultes grâce à des membres soudoyés. ' +
+  'Si un Halo se retrouve en difficulté dans une colonie influencée par Uriz, il est fort probable qu’un informateur avertisse la garnison locale du statut spécial du Blafard et que les charges soient abandonnées.<br/>' +
+  '• ENCEPH : l’Élue. Sous ses airs d’ange bienveillant et rayonnant, elle a l’intention de reconfigurer le code mémétique de Getrell afin d’opposer les Blafards aux Dormeurs. ' +
+  'Ses Halos apprécient la froideur de son âme : grâce à des disques solaires arbitres modifiés, ils contaminent les systèmes des bunkers de RG ' +
+  'et pénètrent dans les chambres de cryostase, libèrent le reste des dormeurs fossilisés par les nanites, et fabriquent des armes à partir de leurs os (ossements divins). ' +
+  'Les motivations d’Enceph ne sont pas claires.<br/>' +
+  'ÉQUIPEMENT : -',
+  },
+  en: {
+    // Spitalians
+    recruit: 'Recruit',
+    orderly: 'Orderly',
+    famulancer: 'Famulancer',
+    hygienist: 'Hygienist',
+    fieldMedic: 'Field Medic',
+    surgeon: 'Surgeon',
+    epigeneticist: 'Epigeneticist',
+    pharmacist: 'Pharmacist',
+    hippocrat: 'Hippocrat',
+    anesthesiologist: 'Anesthesiologist',
+    villageDoctor: 'Village Doctor',
+    registrar: 'Registrar',
+    consultant: 'Consultant',
+    preservist: 'Preservist',
+    commandoPrime: 'Commando Prime',
+    provost: 'Provost',
+    elder: 'Elder',
+
+    // Chroniclers
+    bit: 'Bit',
+    agent: 'Agent',
+    mediator: 'Mediator',
+    streamer: 'Streamer',
+    fragment: 'Fragment',
+    paradigma: 'Paradigma',
+    shutter: 'Shutter',
+    fuse: 'Fuse',
+    scalar: 'Scalar',
+    zero: 'Zero',
+    needle: 'Needle',
+
+    // Hellvetics
+    soldier: 'Soldier',
+    corporal: 'Corporal',
+    sapper: 'Sapper',
+    grenadier: 'Grenadier',
+    specialDetachement: 'Special Detachement',
+    sentinel: 'Sentinel',
+    radioBeamUnit: 'Radio Beam Unit',
+    medic: 'Medic',
+    genie: 'Genie',
+    forager: 'Forager',
+    spotter: 'Spotter',
+    subaltern: 'Subaltern',
+    fieldOfficer: 'Field Officer',
+    corpsCommander: 'Corps Commander',
+    infiltrator: 'Infiltrator',
+    p26Squad: 'P-26 Squad',
+
+    // Judges
+    vagrant: 'Vagrant',
+    cityJudge: 'City Judge',
+    protector: 'Protector',
+    executioner: 'Executioner',
+    blackJudge: 'Black Judge',
+    advocate: 'Advocate',
+    arbiter: 'Arbiter',
+    assessor: 'Assessor',
+    commissioner: 'Commissioner',
+    highJudge: 'High Judge',
+    senator: 'Senator',
+    supremeJudge: 'Supreme Judge',
+
+    // Scrappers
+    mouse: 'Mouse',
+    badger: 'Badger',
+    fox: 'Fox',
+    loneWolf: 'Lone Wolf',
+    caveBear: 'Cave Bear',
+    mechanist: 'Mechanist',
+    manufacturer: 'Manufacturer',
+    legend: 'Legend',
+    scavenger: 'Scavenger',
+    alphaWolf: 'Alpha Wolf',
+    cartelThug: 'Cartel Thug',
+    appraiser: 'Appraiser',
+    officer: 'Officer',
+
+    // Neolibyans
+    apprentice: 'Apprentice',
+    scribe: 'Scribe',
+    merchant: 'Merchant',
+    seafarer: 'Seafarer',
+    cartographer: 'Cartographer',
+    greatHunter: 'GreatHunter',
+    magnate: 'Magnate',
+    sheikh: 'Sheikh',
+    raider: 'Raider',
+    ambassador: 'Ambassador',
+    waziri: 'Waziri',
+    consul: 'Consul',
+
+    // Scourgers
+    dufu: 'Dufu', 
+    hondo: 'Hondo',
+    damu: 'Damu',
+    chaga: 'Chaga',
+    simba: 'Simba',
+    moyo: 'Moyo',
+    dumisai: 'Dumisai',
+    kifo: 'Kifo',
+
+    // Anubians
+    initiate: 'Initiate',
+    enchanter: 'Enchanter',
+    embalmer: 'Embalmer',
+    soulSeer: 'Soul Seer',
+    healer: 'Healer',
+    hecatean: 'Hecatean',
+    sickle: 'Sickle',
+    ammit: 'Ammit',
+    hogon: 'Hogon',
+
+    // Apocalyptics
+    finch: 'Finch',
+    battleCrow: 'Battle Crow',
+    magpie: 'Magpie',
+    vulture: 'Vulture',
+    cuckoo: 'Cuckoo',
+    owl: 'Owl',
+    woodpecker: 'Woodpecker',
+    stork: 'Stork',
+    raven: 'Raven',
+    tern: 'Tern',
+    seagull: 'Seagull',
+    pelican: 'Pelican',
+    albatross: 'Albatross',
+    hummingbird: 'Hummingbird',
+    marabou: 'Marabou',
+    ibis: 'Ibis',
+    toco: 'Toco',
+    buzzard: 'Buzzard',
+    phoenix: 'Phoenix',
+
+    // Jehammedans
+    ismaeli: 'Ismaeli',
+    swordOfJehammed: 'Sword of Jehammed',
+    abrami: 'Abrami',
+    shepherd: 'Shepherd',
+    isaaki: 'Isaaki',
+    jehammedsBlessing: "Jehammed's Blessing",
+    iconide: 'Iconide',
+    iconess: 'Iconess',
+    prophet: 'Prophet',
+    oracle: 'Oracle',
+    hagari: 'Hagari',
+    delilah: 'Delilah',
+    voiceOfJehammed: 'Voice of Jehammed',
+    righteousOne: 'Righteous One',
+    saraeli: 'Saraeli',
+    prideOfJehammed: 'Pride of Jehammed',
+    maculate: 'Maculate',
+    immaculate: 'Immaculate',
+    arianoi: 'Arianoi',
+    bloodOfAries: 'Blood of Aries',
+    fatum: 'Fatum',
+
+     // Anabaptists
+     touched: 'Touched',
+     ascetic: 'Ascetic',
+     elysian: 'Elysian',
+     orgiastic: 'Orgiastic',
+     furor: 'Furor',
+     emissary: 'Emissary',
+     counselor: 'Counselor',
+     baptist: 'Baptist',
+     sublime: 'Sublime',
+     acheron: 'Acheron',
+
+     touchedDescription: 'Touched description',
+     asceticDescription: 'CONDITION : PHY+Vigueur 6, CHA+Considération 4, PSY+Foi 6 ou PSY+Volonté 6 <br><br> EFFET : l’Ascète inspire les gens : il obtient +1D à ses interactions sociales. Il obtient également le Potentiel "Ascétisme" au niveau 1 gratuitement. <br><br>ÉQUIPEMENT : semence (l’Ascète rassemble les semences des plantes les plus robustes et les enfouit dans des endroits qu’il considère comme importants et sacrés) <hr style="border-color: grey; margin: 10px 0;"> Le paradis est mort. Les Ascètes arrosent le sol poussiéreux avec leur sueur, arrachent les racines pourries et retirent les pierres. Là où l’essence des Aberrants contaminait hier le paysage, du blé sain se balancera demain dans le vent. Pleins de volonté et de courage, ils transforment les friches en cultures, incitent les gens à donner le meilleur d’eux-mêmes, dirigent par l’exemple et n’abandonnent jamais.',
+     elysianDescription: 'Elysian description',
+     orgiasticDescription: 'Orgiastic description',
+     furorDescription: 'Furor description',
+     emissaryDescription: 'Emissary description',
+     counselorDescription: 'Counselor description',
+     baptistDescription: 'Baptist description',
+     sublimeDescription: 'Sublime description',
+     acheronDescription: 'Acheron description',
+
+     // Palers
+    specter: 'Specter',
+    solar: 'Solar',
+    aurora: 'Aurora',
+    reviver: 'Reviver',
+    redeemer: 'Redeemer',
+    phantom: 'Phantom',
+    cyclops: 'Cyclops',
+    aspirant: 'Aspirant',
+    demagogue: 'Demagogue',
+    halo: 'Halo',
+  }
+}

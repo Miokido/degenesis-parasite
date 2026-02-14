@@ -1,0 +1,45 @@
+export const clanNames = {
+  de: {
+    hunterGatherers: 'Jäger und Sammler',
+    touloni: 'Touloni',
+    sanglier: 'Sanglier',
+    bordenoir: 'Bordenoir',
+    resistance: 'Resistance',
+    pneumancers: 'Pneumanten',
+    exalters: 'Exalter',
+  },
+  en: {
+    hunterGatherers: 'Hunter Gatherers',
+    touloni: 'Touloni',
+    sanglier: 'Sanglier',
+    bordenoir: 'Bordenoir',
+    resistance: 'Resistance',
+    pneumancers: 'Pneumancers',
+    exalters: 'Exalters',
+    
+    hunterGatherersDescription: 'Hunter Gatherers description',
+    touloniDescription: 'Touloni description',
+    sanglierDescription: 'Sanglier description',
+    bordenoirDescription: 'Bordenoir description',
+    resistanceDescription: 'Resistance description',
+    pneumancersDescription: 'Pneumancers description',
+    exaltersDescription: 'Exalters description',
+  },
+  fr: {
+    hunterGatherers: 'Chasseurs Cueilleurs',
+    touloni: 'Touloni',
+    sanglier: 'Sanglier',
+    bordenoir: 'Bordenoir',
+    resistance: 'Résistance',
+    pneumancers: 'Pneumanciens',
+    exalters: 'Exaltiens',
+    
+    hunterGatherersDescription: 'Chasseurs Cueilleurs description',
+    touloniDescription: 'Touloni description',
+    sanglierDescription: 'Sanglier description',
+    bordenoirDescription: 'Bordenoir description',
+    resistanceDescription: 'Résistance description',
+    pneumancersDescription: 'Pneumanciens description',
+    exaltersDescription: 'Exaltiens description',
+  }
+}
