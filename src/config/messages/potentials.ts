@@ -1428,7 +1428,7 @@ blackSheepDescription:
   'EFFET : Les moutons noirs sont un ferment de discorde pour leur communauté. Là où ils passent, de mauvais présages s\'accumulent et la zizanie prospère.<br/>' +
   'RÈGLES : Les Delilah semblent imperméables à l\'endoctrinement. Elles ajoutent (1) déclencheur par niveau de Potentiel aux jets de Défense mentale et peuvent transmettre ce bonus à leurs alliés en échange de (1) point d\'Égo par camarade. Avec 3 points d\'Égo et un jet INS+Empathie (4) réussi, elles peuvent soigner (1) point de PSY perdu.',
 
-wealAndWoe: 'Pour le Meilleur et pour le Pire',
+wealAndWoe: 'Fataliste',
 wealAndWoeDescription:
   'CONDITION : Jehammétan, Foi<br/>' +
   'EFFET : Les bénédictions ont un prix. Le Jehammétan qui remet son sort entre les mains de Dieu pour survivre un jour de plus doit lui en rendre une part de lui-même.<br/>' +

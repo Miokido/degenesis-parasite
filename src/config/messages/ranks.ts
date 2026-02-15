@@ -1632,7 +1632,7 @@ saraeliDescription: 'La vie des Saraeli est merveilleuse à dater du jour de leu
   'La Saraeli est promise à un Abrami, et le conseil des Anciens exige qu’elle respecte les traditions et partage son lit une fois par an.<br/>' +
   'ÉQUIPEMENT : robes et bijoux précieux ; tatouages (+1D à la défense mentale)',
 
-prideOfJehammetDescription: 'Les Saraeli sont les femmes élues, mais si leur corps n’engendre pas de fils, toutes les attentions, tous les cadeaux et les dinars investis en elle auraient été mieux dépensés au marché des animaux à acheter un cheptel. ' +
+prideOfJehammedDescription: 'Les Saraeli sont les femmes élues, mais si leur corps n’engendre pas de fils, toutes les attentions, tous les cadeaux et les dinars investis en elle auraient été mieux dépensés au marché des animaux à acheter un cheptel. ' +
   'Toutefois, lorsqu’une Saraeli accomplit sa destinée, cela valait bien tous les sacrifices consentis, et elle devient une Fierté de Jehammet, pouvant influencer son fils, et agir ainsi sur l’avenir et le chemin du culte.<br/><br/>' +
   'CONDITION : a donné naissance à un Isaaki pour son Abrami et sa tribu<br/>' +
   'EFFET : elle a accompli son destin et bénéficie désormais d’une plus grande liberté de mouvement. Elle influence la tribu à travers son fils ; elle obtient +4D à toute interaction avec et à travers lui.<br/>' +
