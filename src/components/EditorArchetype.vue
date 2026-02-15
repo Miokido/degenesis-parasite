@@ -1,5 +1,5 @@
 <template>
-  <v-tooltip location="end" max-width="400">
+  <v-tooltip location="end" max-width="400" open-delay="500">
     <span v-html="description"></span>
     <template v-slot:activator="{ props }">
       <div v-bind="props" class="d-flex flex-column align-center">
@@ -29,7 +29,7 @@ export interface Props {
   smallLabel?: boolean
   inverted?: boolean
   item?: any,
-  description: string
+  description?: string
 }
 withDefaults(defineProps<Props>(), {
   showType: true,

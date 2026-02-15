@@ -1,5 +1,5 @@
 <template>
-  <v-tooltip location="end"  max-width="300">
+  <v-tooltip location="end"  max-width="300" open-delay="500">
     <span v-html="$t(`${props.type}.${props.name}Description`)"></span>
     <template v-slot:activator="{ props: tooltipProps }">
       <div v-bind="tooltipProps" class="valueSelector">

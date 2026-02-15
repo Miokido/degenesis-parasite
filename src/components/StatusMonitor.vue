@@ -16,6 +16,7 @@
       location="top"
       activator="parent"
       scroll-strategy="close"
+      open-delay="500"
     >
     </v-tooltip>
   </div>

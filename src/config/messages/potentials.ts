@@ -1643,8 +1643,8 @@ masterplanDescription:
 
 // Potentiels Communs
 
-ascetism: 'Ascétisme',
-ascetismDescription:
+asceticism: 'Ascétisme',
+asceticismDescription:
   'CONDITION : Commun<br/>' +
   'EFFET : le personnage survit en se nourrissant de lichen et d\'insectes pendant des jours, mâche des lanières de cuir et lèche la rosée sur les pierres. La faim et la soif sont des sensations familières qu\'il endure sans fléchir. Quand il trouve quelque chose à manger, il ne fait pas le difficile, et son estomac s\'est montré bien plus accommodant depuis longtemps.<br/>' +
   'RÈGLES : le personnage peut subsister de longues périodes sans nourriture ni eau : il peut sauter (1) repas par niveau de Potentiel sans subir de malus.',
