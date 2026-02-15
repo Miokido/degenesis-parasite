@@ -45,4 +45,4 @@ Translation by Katsu.
 
 [degenesis]: https://degenesis.com
 [smv]: https://www.sixmorevodka.com
-[diskordanz]: https://github.com/diskordanz
+[diskordanz]: https://gitlab.com/diskordanz
