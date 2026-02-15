@@ -144,14 +144,14 @@ export const properties = {
   },
 fr: {
   attributes: {
-    body: 'Corps',
+    body: 'Physique',
     agility: 'Agilité',
     charisma: 'Charisme',
     intellect: 'Intellect',
     psyche: 'Psyché',
     instinct: 'Instinct',
-    bodyDescription: 'Le Corps représente la force, la ténacité et l’endurance. ' +
-      'Les personnages dotés d’une valeur élevée en Corps s’épuisent moins vite et récupèrent plus rapidement. ' +
+    bodyDescription: 'Le Physique représente la force, la ténacité et l’endurance. ' +
+      'Les personnages dotés d’une valeur élevée en Physique s’épuisent moins vite et récupèrent plus rapidement. ' +
       'Leur carrure impressionne leurs ennemis. ' +
       'Ceux qui s’entretiennent physiquement ont de larges épaules capables de supporter de lourdes charges. ' +
       'Cet attribut leur permet de survivre plus longtemps, de résister à la douleur et d’utiliser leur corps comme une arme.',
