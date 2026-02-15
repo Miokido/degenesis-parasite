@@ -477,20 +477,13 @@ export const useCharacterStore = defineStore('character', {
           }
         }
       }
-      if (
-        potential.isAttainable(
-          this.cult,
-          this.attributeValues,
-          this.skillValues,
-          this.originValues,
-          this.rank,
-          this.mentalPowerSkill,
-          this.mentalResistanceSkill,
-          this.clan
-        )
-      ) {
-        this.potentials.set(potential, newValue())
+      
+      // In HardLimits mode, only allow eligible potentials
+      if (this.editorMode === EditorMode.HardLimits && !this.eligiblePotentials.has(potential)) {
+        return
       }
+      
+      this.potentials.set(potential, newValue())
     },
     setLegacy(legacy: Legacy, value: number) {
       const newValue = () => {
@@ -503,12 +496,16 @@ export const useCharacterStore = defineStore('character', {
             return value
         }
       }
-      if (this.eligibleLegacies.has(legacy)) {
-        if (newValue() <= 0) {
-          this.legacies.delete(legacy)
-        } else {
-          this.legacies.set(legacy, newValue())
-        }
+      
+      // In HardLimits mode, only allow eligible legacies
+      if (this.editorMode === EditorMode.HardLimits && !this.eligibleLegacies.has(legacy)) {
+        return
+      }
+      
+      if (newValue() <= 0) {
+        this.legacies.delete(legacy)
+      } else {
+        this.legacies.set(legacy, newValue())
       }
     },
     setCharacterName(name: string) {

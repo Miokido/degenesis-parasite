@@ -38,6 +38,7 @@ export interface Props {
   inverted?: boolean
   interactive?: boolean
   displayMax?: boolean
+  ineligible?: boolean
 }
 
 const props = withDefaults(defineProps<Props>(), {
@@ -48,7 +49,8 @@ const props = withDefaults(defineProps<Props>(), {
   active: true,
   inverted: false,
   interactive: true,
-  displayMax: true
+  displayMax: true,
+  ineligible: false
 })
 const emit = defineEmits<{
   (e: 'change', value: number): void
@@ -83,6 +85,13 @@ const handleMouseLeave = () => {
 const hovered = ref(-1)
 
 function boxColors(field: number) {
+  // If ineligible and selected, show red
+  if (props.ineligible && field <= props.value) {
+    return {
+      'bg-red': true
+    }
+  }
+
   if (props.inverted && !props.interactive) {
     return {
       'bg-grey-lighten-1': field > props.value

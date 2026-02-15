@@ -12,7 +12,7 @@
           }"
         >
           <div class="wrap" v-if="type == 'potentials' || type == 'legacies'">
-            <span :class="{mainLabel: props.altLabel, 'text-decoration-line-through': !active}" :style="{fontSize: type == 'potentials' ? 'small' : 'inherit'}">{{ props.altLabel ? props.altLabel : props.label }}</span>
+            <span :class="{mainLabel: props.altLabel, 'text-decoration-line-through': !active || ineligible}" :style="{fontSize: type == 'potentials' ? 'small' : 'inherit'}">{{ props.altLabel ? props.altLabel : props.label }}</span>
             <span v-if="props.label != ''" class="altLabel text-grey-darken-1 text-caption">{{ props.label }}</span>
           </div>
           <div class="wrap" v-else>
@@ -28,6 +28,7 @@
           :max="props.max"
           :displayMax="props.displayMax"
           :value="props.value"
+          :ineligible="props.ineligible"
           v-on:change="selectionChanged"
         />
       </div>
@@ -49,7 +50,8 @@ export interface Props {
   highlighted?: boolean
   displayMax?: boolean
   description?: string,
-  type?: string
+  type?: string,
+  ineligible?: boolean
 }
 const props = withDefaults(defineProps<Props>(), {
   altLabel: '',
@@ -59,7 +61,8 @@ const props = withDefaults(defineProps<Props>(), {
   min: 0,
   active: true,
   highlighted: false,
-  displayMax: true
+  displayMax: true,
+  ineligible: false
 })
 const emit = defineEmits<{
   (e: 'change', value: number): void

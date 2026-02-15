@@ -1575,6 +1575,15 @@ iconideDescription: 'Les Iconides sont le cœur et l’âme des Jehammétans. Ce
   'Contrairement aux Bergers, les Icônides représentent la face visible du Culte et sont considérés comme des ambassadeurs coriaces mais raisonnables. ' +
   'Leur comportement modéré leur confère +1D à CHA+NÉGOCIATION quand ils s’adressent aux autres Cultes.<br/>' +
   'ÉQUIPEMENT : bâton de bélier',
+iconessDescription: 'Les Iconides sont le cœur et l’âme des Jehammétans. Ces vénérables hommes étaient autrefois des Isaaki. ' +
+  'Ils ont remporté des centaines de batailles et sont parvenus à atteindre leur trentième année. À partir de ce point, l’Isaaki adopte le rôle de chef spirituel et d’interprète des images. ' +
+  'Son travail consiste à reconnaître lorsqu’une brebis est grosse, à trouver de nouveaux points d’eau pour les troupeaux, et à déterminer parmi les filles nouveau-nées lesquelles doivent devenir des Saraeli selon la volonté de Dieu. ' +
+  'Les Iconides sont à la fois les prêtres, les juges et les bourreaux. Ils guident les masses et leur parole a force de loi.<br/><br/>' +
+  'CONDITION : Renommée 6 ; Autorité 5<br/>' +
+  'EFFET : un Icônide peut créer 1 icône par mois et la consacrer à un but (voir page 124 : Équipement des Cultes). ' +
+  'Contrairement aux Bergers, les Icônides représentent la face visible du Culte et sont considérés comme des ambassadeurs coriaces mais raisonnables. ' +
+  'Leur comportement modéré leur confère +1D à CHA+NÉGOCIATION quand ils s’adressent aux autres Cultes.<br/>' +
+  'ÉQUIPEMENT : bâton de bélier',
 
 oracleDescription: 'Dans leurs dialogues avec Dieu, ils ont créé des icônes sans pareil. Leur conseil ouvre un chemin illuminé par la contenance radieuse du Seigneur. Qu’il soit obéi à leur parole.<br/><br/>' +
   'CONDITION : Renommée 6 ; Autorité 6 ; Secrets 4<br/>' +
